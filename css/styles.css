@@ -1,24 +1,159 @@
-/* Large Devices, Wide Screens */
- @media only screen and (max-width : 1200px) {
+ /* Desktops */
+ @media only screen and (min-width: 1024px) and (max-device-width : 1600px) {
+   h1 {
+     font-family: "Raleway", sans-serif;
+     font-weight: 900;
+     text-transform: uppercase;
+     font-size: 70px;
+     line-height: 72px;
+   }
+   h2 {
+     font-family: "Raleway", sans-serif;
+     font-weight: 900;
+     text-transform: uppercase;
+     font-size: 48px;
+     line-height: 50px;
+   }
+   h3 {
+     font-family: "Raleway", sans-serif;
+     font-weight: 900;
+     text-transform: uppercase;
+     font-size: 34px;
+     line-height: 38px;
+   }
+   h4 {
+     font-family: "Raleway", sans-serif;
+     font-weight: 500;
+     text-transform: uppercase;
+     font-size: 30px;
+     line-height: 32px;
+   }
+   h5 {
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     text-transform: uppercase;
+     font-size: 28px;
+     line-height: 30px;
+   }
+   h6 {
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     text-transform: uppercase;
+     font-size: 24px;
+     line-height: 26px;
+   }
+   p {
+     font-family: "Roboto", sans-serif;
+     font-weight: 300;
+     font-size: 24px;
+     line-height: 26px;
+   }
 
  }
 
- /* Medium Devices, Desktops */
- @media only screen and (max-width : 992px) {
+ /* Tablets */
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+   h1 {
+     font-family: "Raleway", sans-serif;
+     font-weight: 900;
+     text-transform: uppercase;
+     font-size: 52px;
+     line-height: 56px;
+   }
+   h2 {
+     font-family: "Raleway", sans-serif;
+     font-weight: 900;
+     text-transform: uppercase;
+     font-size: 34px;
+     line-height: 38px;
+   }
+   h3 {
+     font-family: "Raleway", sans-serif;
+     font-weight: 900;
+     text-transform: uppercase;
+     font-size: 32px;
+     line-height: 36px;
+   }
+   h4 {
+     font-family: "Raleway", sans-serif;
+     font-weight: 500;
+     text-transform: uppercase;
+     font-size: 28px;
+     line-height: 32px;
+   }
+   h5 {
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     text-transform: uppercase;
+     font-size: 24px;
+     line-height: 26px;
+   }
+   h6 {
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     text-transform: uppercase;
+     font-size: 20px;
+     line-height: 24px;
+   }
+   p {
+     font-family: "Roboto", sans-serif;
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 24px;
+   }
+
 
  }
 
- /* Small Devices, Tablets */
- @media only screen and (max-width : 768px) {
-
- }
-
- /* Extra Small Devices, Phones */
- @media only screen and (max-width : 480px) {
-
- }
-
- /* Custom, iPhone Retina */
- @media only screen and (max-width : 320px) {
+ /* Phones */
+ @media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+   h1 {
+     font-family: "Raleway", sans-serif;
+     font-weight: 900;
+     text-transform: uppercase;
+     font-size: 32px;
+     line-height: 37px;
+   }
+   h2 {
+     font-family: "Raleway", sans-serif;
+     font-weight: 900;
+     text-transform: uppercase;
+     font-size: 30px;
+     line-height: 35px;
+   }
+   h3 {
+     font-family: "Raleway", sans-serif;
+     font-weight: 900;
+     text-transform: uppercase;
+     font-size: 24px;
+     line-height: 27px;
+   }
+   h4 {
+     font-family: "Raleway", sans-serif;
+     font-weight: 500;
+     text-transform: uppercase;
+     font-size: 22px;
+     line-height: 25px;
+   }
+   h5 {
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     text-transform: uppercase;
+     font-size: 20px;
+     line-height: 24px;
+   }
+   h6 {
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     text-transform: uppercase;
+     font-size: 18px;
+     line-height: 20px;
+   }
+   p {
+     font-family: "Roboto", sans-serif;
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 24px;
+   }
 
  }
