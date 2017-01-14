@@ -1,159 +1,290 @@
- /* Desktops */
- @media only screen and (min-width: 1024px) and (max-device-width : 1600px) {
-   h1 {
-     font-family: "Raleway", sans-serif;
-     font-weight: 900;
-     text-transform: uppercase;
-     font-size: 70px;
-     line-height: 72px;
-   }
-   h2 {
-     font-family: "Raleway", sans-serif;
-     font-weight: 900;
-     text-transform: uppercase;
-     font-size: 48px;
-     line-height: 50px;
-   }
-   h3 {
-     font-family: "Raleway", sans-serif;
-     font-weight: 900;
-     text-transform: uppercase;
-     font-size: 34px;
-     line-height: 38px;
-   }
-   h4 {
-     font-family: "Raleway", sans-serif;
-     font-weight: 500;
-     text-transform: uppercase;
-     font-size: 30px;
-     line-height: 32px;
-   }
-   h5 {
-     font-family: "Roboto", sans-serif;
-     font-weight: 500;
-     text-transform: uppercase;
-     font-size: 28px;
-     line-height: 30px;
-   }
-   h6 {
-     font-family: "Roboto", sans-serif;
-     font-weight: 500;
-     text-transform: uppercase;
-     font-size: 24px;
-     line-height: 26px;
-   }
-   p {
-     font-family: "Roboto", sans-serif;
-     font-weight: 300;
-     font-size: 24px;
-     line-height: 26px;
-   }
+html{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+body{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
 
- }
+.color-blue{
+  position: relative;
+  background: #0088A0;
+}
+.color-red{
+  position: relative;
+  background: #FA4949;
+}
+.color-yellow{
+  position: relative;
+  background: #D5AB55;
+}
+.cover {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: .3;
+}
+.txt-white {
+  color: #fff;
+}
+.container{
+  height: 65%
+}
+.content-box{
+  cursor: pointer;
+}
+.content-box-title{
+  position: absolute;
+  bottom: 10px;
+}
+.logo{
+  position: absolute;
+  padding: 15px;
+  width: 20%;
+  z-index: 1;
+}
 
- /* Tablets */
- @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
-   h1 {
-     font-family: "Raleway", sans-serif;
-     font-weight: 900;
-     text-transform: uppercase;
-     font-size: 52px;
-     line-height: 56px;
-   }
-   h2 {
-     font-family: "Raleway", sans-serif;
-     font-weight: 900;
-     text-transform: uppercase;
-     font-size: 34px;
-     line-height: 38px;
-   }
-   h3 {
-     font-family: "Raleway", sans-serif;
-     font-weight: 900;
-     text-transform: uppercase;
-     font-size: 32px;
-     line-height: 36px;
-   }
-   h4 {
-     font-family: "Raleway", sans-serif;
-     font-weight: 500;
-     text-transform: uppercase;
-     font-size: 28px;
-     line-height: 32px;
-   }
-   h5 {
-     font-family: "Roboto", sans-serif;
-     font-weight: 500;
-     text-transform: uppercase;
-     font-size: 24px;
-     line-height: 26px;
-   }
-   h6 {
-     font-family: "Roboto", sans-serif;
-     font-weight: 500;
-     text-transform: uppercase;
-     font-size: 20px;
-     line-height: 24px;
-   }
-   p {
-     font-family: "Roboto", sans-serif;
-     font-weight: 300;
-     font-size: 16px;
-     line-height: 24px;
-   }
+/* Small */
+@media(max-width:767px){
+  h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    padding: 7px 0;
+    margin: 0;
+  }
+  h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    padding: 7px 0;
+    margin: 0;
+  }
+  h3 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  h4 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+  }
+  h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+  }
+  h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+  }
 
+  .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1{
+    width: 100%;
+    float: left;
+  }
+  .salto-col-1{
+    padding-left: 8.33333333%;
+  }
+  .height100, .height50{
+    height: 100%;
+  }
+  .logo{
+    position: absolute;
+    padding: 15px;
+    width: 50%;
+    z-index: 1;
+  }
+}
 
- }
+/* Medium */
+@media(min-width:768px) and (max-width:991px){
+  h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 40px;
+    padding: 7px 0;
+    margin: 0;
+  }
+  h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 32px;
+    padding: 7px 0;
+    margin: 0;
+  }
+  h3 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+  }
+  h4 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+  }
+  h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+  }
+  h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+  }
 
- /* Phones */
- @media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
-   h1 {
-     font-family: "Raleway", sans-serif;
-     font-weight: 900;
-     text-transform: uppercase;
-     font-size: 32px;
-     line-height: 37px;
-   }
-   h2 {
-     font-family: "Raleway", sans-serif;
-     font-weight: 900;
-     text-transform: uppercase;
-     font-size: 30px;
-     line-height: 35px;
-   }
-   h3 {
-     font-family: "Raleway", sans-serif;
-     font-weight: 900;
-     text-transform: uppercase;
-     font-size: 24px;
-     line-height: 27px;
-   }
-   h4 {
-     font-family: "Raleway", sans-serif;
-     font-weight: 500;
-     text-transform: uppercase;
-     font-size: 22px;
-     line-height: 25px;
-   }
-   h5 {
-     font-family: "Roboto", sans-serif;
-     font-weight: 500;
-     text-transform: uppercase;
-     font-size: 20px;
-     line-height: 24px;
-   }
-   h6 {
-     font-family: "Roboto", sans-serif;
-     font-weight: 500;
-     text-transform: uppercase;
-     font-size: 18px;
-     line-height: 20px;
-   }
-   p {
-     font-family: "Roboto", sans-serif;
-     font-weight: 300;
-     font-size: 16px;
-     line-height: 24px;
-   }
+  .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1{
+    width: 100%;
+    float: left;
+  }
+  .height100, .height50{
+    height: 100%;
+  }
+  .salto-col-1{
+    padding-left: 8.33333333%;
+  }
+  .logo{
+    position: absolute;
+    padding: 15px;
+    width: 40%;
+    z-index: 1;
+  }
+}
 
- }
+/* Large */
+@media(min-width:992px){
+  h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 40px;
+    padding: 7px 0;
+    margin: 0;
+  }
+  h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 32px;
+    padding: 7px 0;
+    margin: 0;
+  }
+  h3 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+  }
+  h4 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+  }
+  h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+  }
+  h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1{
+    float: left;
+  }
+  .col-12{
+    width: 100%;
+    }
+  .col-11{
+    width: 91.66666667%;
+    }
+  .col-10{
+    width: 83.33333333%;
+    }
+  .col-9{
+    width: 75%;
+    }
+  .col-8{
+    width: 66.66666667%;
+    }
+  .col-7{
+    width: 58.33333333%;
+    }
+  .col-6{
+    width: 50%;
+    }
+  .col-5{
+    width: 41.66666667%;
+    }
+  .col-4{
+    width: 33.33333333%;
+    }
+  .col-3{
+    width: 25%;
+    }
+  .col-2{
+    width: 16.66666667%;
+    }
+  .col-1{
+    width: 8.33333333%;
+  }
+  .salto-col-1{
+    margin-left: 8.33333333%;
+  }
+  .height50{
+    height: 50%;
+  }
+  .height100{
+    height: 100%;
+  }
+  .logo{
+    position: absolute;
+    padding: 15px;
+    width: 20%;
+    z-index: 1;
+  }
+}
