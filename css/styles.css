@@ -65,6 +65,8 @@ ul li{
 }
 .content-box{
   padding: 10px;
+  display: inline-block;
+  margin: 0 60px;
 }
 .content-box-header{
   cursor: pointer;
@@ -100,7 +102,21 @@ ul li{
 }
 
 .img-sobremacba {
-  height: 300px;
+  height: 400px;
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+.parr-right {
+  padding: 0 10px 0 1px;
+}
+.parr-left {
+  padding: 0 5px 0 2px;
+}
+
+.border-box {
+  display: inline-block;
+  border-bottom: 1px solid #000;
+  padding: 30px 0;
 }
 
 .footer {
@@ -159,6 +175,7 @@ ul li{
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 5px;
+    padding: 5px 0;
   }
   h4 {
     font-family: "Raleway", sans-serif;
@@ -184,6 +201,7 @@ ul li{
     font-weight: 300;
     font-size: 16px;
     line-height: 20px;
+    margin-top: 0;
   }
 
   .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1{
@@ -206,6 +224,14 @@ ul li{
     padding: 15px;
     z-index: 1;
     width: 95px;
+  }
+  .img-sobremacba {
+    height: 300px;
+    padding: 10px 0;
+  }
+  .border-box {
+    display: inline-block;
+    border-bottom: 0;
   }
 }
 
@@ -233,6 +259,7 @@ ul li{
     font-size: 26px;
     line-height: 30px;
     margin-bottom: 5px;
+    padding: 5px 0;
   }
   h4 {
     font-family: "Raleway", sans-serif;
@@ -311,6 +338,7 @@ ul li{
     font-size: 26px;
     line-height: 30px;
     margin-bottom: 5px;
+    padding: 5px 0;
   }
   h4 {
     font-family: "Raleway", sans-serif;
