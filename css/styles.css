@@ -61,6 +61,7 @@ ul li{
 }
 .container{
   width: 100%;
+  display: inline-block;
 }
 .content-box{
   padding: 10px;
@@ -104,12 +105,34 @@ ul li{
 
 .footer {
   background-color: #000;
-  text-align: center;
   padding: 5px;
+  float: left;
 }
-.footer p{
-  font-size: 13px;
+
+.footer ul {
+  width: 100%;
+  text-align: center;
+  margin:0;
+}
+
+.footer li {
+  list-style-type: none;
+  line-height: 34px;
+  padding: 10px 0;
+}
+
+.footer li a {
   color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer li a:visited {
+  text-decoration: none
+}
+
+.footer li a:hover {
+  text-decoration: underline
 }
 
 /* Small */
