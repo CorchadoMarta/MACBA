@@ -325,6 +325,16 @@ ul li{
     z-index: 1;
     width: 150px;
   }
+  .img-sobremacba-right {
+    padding: 0 30px 0 1px;
+    margin-bottom: 10px;
+    height: auto;
+  }
+  .img-sobremacba-left {
+    padding: 0 2px 0 30px;
+    margin-bottom: 10px;
+    height: auto;
+  }
 }
 
 /* Large */
