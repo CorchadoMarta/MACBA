@@ -92,6 +92,10 @@ ul li{
   display: inline-block;
 }
 
+.img-sobremacba{
+  height: 300px;
+}
+
 .footer {
   background-color: #000;
   text-align: center;
