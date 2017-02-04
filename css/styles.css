@@ -18,7 +18,7 @@ ul li{
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 34px;
 }
 
 #mapa {
@@ -74,10 +74,8 @@ ul li{
   bottom: 10px;
 }
 .logo{
-  position: absolute;
   padding: 15px;
   width: 20%;
-  z-index: 1;
 }
 .img-macba-recomend{
   height: 225px;
@@ -202,9 +200,7 @@ ul li{
     display: none;
   }
   .logo-small{
-    position: absolute;
     padding: 15px;
-    z-index: 1;
     width: 95px;
   }
 }
@@ -280,9 +276,7 @@ ul li{
     display: none;
   }
   .logo-small{
-    position: absolute;
     padding: 25px;
-    z-index: 1;
     width: 150px;
   }
 }
@@ -384,10 +378,8 @@ ul li{
     height: 100%;
   }
   .logo{
-    position: absolute;
     padding: 25px;
     width: 280px;
-    z-index: 1;
   }
   .logo-small{
   display: none;
