@@ -1,8 +1,36 @@
 body{
   margin: 0;
   line-height: 24px;
+  -webkit-animation: bugfix infinite 1s;
+  /* needed for checkbox hack */
+  background: #fff;
 }
 *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Menu */
+.navbar{
+  display: flex;
+  margin: 30px 0;
+  padding: 0 20px;
+  color: #000;
+  flex-direction: row;
+  justify-content: space-between;;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+.navbar ul li {
+  padding: 0 25px;
+  color: #000;
+}
+.navbar ul li :hover{
+  border-bottom: 3px solid #000;
+}
+
+/* FIN Menu */
 
 hr {
   background-color: #000;
@@ -64,9 +92,8 @@ ul li{
   display: inline-block;
 }
 .content-box{
-  padding: 10px;
+  padding: 0 122px;
   display: inline-block;
-  margin: 0 60px;
 }
 .content-box-header{
   cursor: pointer;
@@ -76,8 +103,7 @@ ul li{
   bottom: 10px;
 }
 .logo{
-  padding: 15px;
-  width: 20%;
+  float: left;
 }
 .img-macba-recomend{
   height: 225px;
@@ -153,6 +179,8 @@ ul li{
 
 /* Small */
 @media(max-width:767px){
+
+
   h1 {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -223,7 +251,6 @@ ul li{
     display: none;
   }
   .logo-small{
-    padding: 15px;
     width: 95px;
   }
   .img-sobremacba {
@@ -238,6 +265,7 @@ ul li{
 
 /* Medium */
 @media(min-width:768px) and (max-width:991px){
+
   h1 {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -312,7 +340,6 @@ ul li{
     display: none;
   }
   .logo-small{
-    padding: 25px;
     width: 150px;
   }
 }
@@ -418,7 +445,6 @@ ul li{
     height: 100%;
   }
   .logo{
-    padding: 25px;
     width: 280px;
   }
   .logo-small{
