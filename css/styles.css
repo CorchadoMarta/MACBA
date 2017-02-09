@@ -36,7 +36,10 @@ hr {
   background-color: #000;
   height: 6px;
   width: 100%;
+<<<<<<< HEAD
   margin-bottom: 20px;
+=======
+>>>>>>> ec20d5373c216dfbf9bca5b5aae25f67c217173b
 }
 
 a {
@@ -47,7 +50,12 @@ ul li{
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 16px;
-  line-height: 34px;
+  line-height: 20px;
+}
+
+.background-grey{
+  display: inline-block;
+  background-color: #ccc;
 }
 
 #mapa {
@@ -104,7 +112,14 @@ ul li{
   bottom: 10px;
 }
 .logo{
+<<<<<<< HEAD
   float: left;
+=======
+  position: absolute;
+  padding: 15px;
+  width: 20%;
+  z-index: 1;
+>>>>>>> ec20d5373c216dfbf9bca5b5aae25f67c217173b
 }
 .img-macba-recomend{
   height: 225px;
@@ -125,17 +140,19 @@ ul li{
 .mas-info img {
   display: inline-block;
 }
-
-.img-sobremacba {
-  height: 400px;
-  padding: 0 20px;
-  margin-bottom: 10px;
-}
 .parr-right {
-  padding: 0 20px 0 1px;
+  padding: 0 10px 0 1px;
 }
 .parr-left {
   padding: 0 5px 0 2px;
+}
+.img-sobremacba-right {
+  padding: 0 30px 0 1px;x
+  height: 400px;
+}
+.img-sobremacba-left {
+  padding: 0 2px 0 30px;
+  height: 400px;
 }
 
 .border-box {
@@ -258,11 +275,24 @@ ul li{
     display: none;
   }
   .logo-small{
+<<<<<<< HEAD
+=======
+    position: absolute;
+    padding: 15px;
+    z-index: 1;
+>>>>>>> ec20d5373c216dfbf9bca5b5aae25f67c217173b
     width: 95px;
   }
-  .img-sobremacba {
-    height: 300px;
-    padding: 10px 0;
+  .img-sobremacba-right {
+    padding: 0 30px 0 1px;
+    margin-bottom: 20px;
+    height: 400px;
+  }
+  .img-sobremacba-left {
+    padding: 0 2px 0 30px;
+    margin-bottom: 20px;
+
+    height: 400px;
   }
   .border-box {
     display: inline-block;
@@ -353,7 +383,21 @@ ul li{
     display: none;
   }
   .logo-small{
+<<<<<<< HEAD
+=======
+    position: absolute;
+    padding: 25px;
+    z-index: 1;
+>>>>>>> ec20d5373c216dfbf9bca5b5aae25f67c217173b
     width: 150px;
+  }
+  .img-sobremacba-right {
+    padding: 0 30px 0 1px;
+    height: auto;
+  }
+  .img-sobremacba-left {
+    padding: 0 2px 0 30px;
+    height: auto;
   }
 }
 
@@ -461,7 +505,13 @@ ul li{
     height: 100%;
   }
   .logo{
+<<<<<<< HEAD
+=======
+    position: absolute;
+    padding: 25px;
+>>>>>>> ec20d5373c216dfbf9bca5b5aae25f67c217173b
     width: 280px;
+    z-index: 1;
   }
   .logo-small{
   display: none;
