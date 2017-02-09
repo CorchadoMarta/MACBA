@@ -35,7 +35,8 @@ body{
 hr {
   background-color: #000;
   height: 6px;
-  width: 60%;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 a {
@@ -235,8 +236,14 @@ ul li{
     width: 100%;
   }
 
-  .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1{
+  .col-12, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1{
     width: 100%;
+  }
+  .col-11{
+    width: 91.66666667%;
+    }
+  .col-icono {
+    width: 8.33333333%;
   }
   .salto-col-1{
     padding-left:5%;
@@ -324,7 +331,7 @@ ul li{
     width: 100%;
   }
 
-  .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1{
+  .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1{
     width: 50%;
   }
   .height100{
@@ -332,6 +339,12 @@ ul li{
     }
   .height50{
     height: 50%;
+  }
+  .col-11{
+    width: 91.66666667%;
+    }
+  .col-icono {
+    width: 8.33333333%;
   }
   .salto-col-1{
     padding-left: 5%;
@@ -433,6 +446,9 @@ ul li{
     width: 16.66666667%;
     }
   .col-1{
+    width: 8.33333333%;
+  }
+  .col-icono {
     width: 8.33333333%;
   }
   .salto-col-1{
