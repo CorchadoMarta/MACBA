@@ -30,7 +30,12 @@ body{
   border-bottom: 3px solid #000;
 }
 
-
+.navbar a {
+  color: #000;
+}
+.hambur {
+  display: none;
+}
 /* FIN Menu */
 
 hr {
@@ -267,7 +272,7 @@ ul li{
   }
   .logo-small{
     z-index: 1;
-    width: 95px;
+    width: 75px;
   }
   .img-sobremacba-right {
     padding: 0 30px 0 1px;
@@ -287,6 +292,27 @@ ul li{
   .content-box{
     padding: 0 10px;
   }
+  /* Menu */
+  .navbar{
+    display: flex;
+    margin: 30px 0;
+    padding: 0 20px;
+    color: #000;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar ul li {
+    padding: 25px 10px;
+    color: #000;
+  }
+  /* FIN Menu */
 }
 
 /* Medium */
@@ -385,6 +411,36 @@ ul li{
   .content-box{
     padding: 0 20px;
   }
+
+  /* Menu */
+  .navbar{
+    display: flex;
+    margin: 30px 0;
+    padding: 0 20px;
+    color: #000;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar ul li {
+    padding: 25px 10px;
+    color: #000;
+  }
+  .hambur {
+    display: block;
+    float: right;
+    background: none;
+    border: 0;
+    font-size: 50px;
+  }
+  /* FIN Menu */
+
 }
 
 /* Large */
