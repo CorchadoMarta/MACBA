@@ -53,11 +53,15 @@ a {
   text-decoration: none;
 }
 
+ul {
+  display: inline-block;
+}
+
 ul li{
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .maps iframe{
