@@ -1,8 +1,18 @@
 $(document).ready(function(){
-  $("#menu").hide();
-  $(".hambur").click(function() {
-    $("#menu").slideToggle( "slow", function() {
-    $(".hambur").hide();
+
+    $("#navToggle").click(function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        $(".navbar ul").slideToggle( "slow");
+        $(this).hide();
     });
-  });
+
+    $('.maps').click(function () {
+    $('.maps iframe').css("pointer-events", "auto");
+    });
+
+    $( ".maps" ).mouseleave(function() {
+      $('.maps iframe').css("pointer-events", "none");
+    });
 });

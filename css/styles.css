@@ -33,8 +33,13 @@ body{
 .navbar a {
   color: #000;
 }
+
 .hambur {
   display: none;
+  float: right;
+  background: none;
+  border: 0;
+  font-size: 50px;
 }
 /* FIN Menu */
 
@@ -53,6 +58,10 @@ ul li{
   font-weight: 300;
   font-size: 16px;
   line-height: 20px;
+}
+
+.maps iframe{
+    pointer-events: none;
 }
 
 .background-grey{
@@ -312,6 +321,13 @@ ul li{
     padding: 25px 10px;
     color: #000;
   }
+
+  .hambur {
+    display: block;
+  }
+  .navbar ul{
+      display: none;
+  }
   /* FIN Menu */
 }
 
@@ -432,15 +448,11 @@ ul li{
     padding: 25px 10px;
     color: #000;
   }
-  .hambur {
-    display: block;
-    float: right;
-    background: none;
-    border: 0;
-    font-size: 50px;
+
+  .navbar ul{
+      display: block;
   }
   /* FIN Menu */
-
 }
 
 /* Large */
