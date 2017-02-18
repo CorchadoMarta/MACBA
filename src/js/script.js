@@ -3,9 +3,7 @@ $(document).ready(function(){
     $("#navToggle").click(function(e) {
         e.preventDefault();
         e.stopPropagation();
-
         $(".navbar ul").slideToggle( "slow");
-        $(this).hide();
     });
 
     $('.maps').click(function () {
