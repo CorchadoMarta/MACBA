@@ -1,22 +1,48 @@
 
 .fotorecomienda {
-  height: 300px;
+  height: 450px;
   background:url('../img/exposiciones/exporecomendadad.jpg');
   background-size: cover;
+  background-position:bottom;
   display: flex;
   align-items: flex-end;
+  position: relative;
+  justify-content: space-between;
+
+div {
+  padding: 10px 15px;
+}
 
   .fotorecomienda-text {
-    width:300px;
-    height:500px;
+    width:356px;
     color:#fff;
+    left: 500px;
+    height: 100%;
     background-color:rgba(0,136,160,.85);
     background-position: left top;
-
-
-    }
   }
+}
 
+.recomienda{
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  color:#fff;
+  height: 100%;
+  background-color:rgba(0,136,160,.85);
+  background-position: center;
+  display:flex;
+  justify-content: center;
+  padding:.5em 1em;
+  float: left;
+}
+
+.fecha {
+  position: absolute;
+padding-right: 20;
+  bottom: 0;
+  z-index: 100;
+
+<<<<<<< HEAD
   .recomienda{
     width:50px;
     height:300px;
@@ -30,3 +56,38 @@
     padding:.5em 1em;
     float: left;
   }
+=======
+
+}
+
+.mes{
+  color:#fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 90px;
+  margin: 0;
+
+
+}
+
+.numero {
+  color:#000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 94px;
+
+  margin: 0;
+
+}
+
+.numero2 {
+  color:#000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 94px;
+  line-height: 24px;
+  margin: 0;
+
+}
+>>>>>>> 466ecb266ed6a662500108a3c7aa4cb7fb004e72
