@@ -6,11 +6,59 @@
     display: flex;
     align-items: flex-end;
 
-    div {
+    .fotoWidth100-text-lila {
         width:100%;
         color:#fff;
         background-color:rgba(127,23,134,.85);
         padding:.5em 1em;
         text-align: left;
     }
+}
+
+.fotoWidth100-alquiler {
+    height: 300px;
+    background:url('../img/alquiler/alquiler-macba-fuera.jpg') no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    .fotoWidth100-text-lila {
+        width:100%;
+        color:#fff;
+        background-color:rgba(127,23,134,.85);
+        padding:.5em 1em;
+        text-align: left;
+    }
+
+}
+
+.fotoWidth100-expo4 {
+    height: 300px;
+    background:url('../img/exposiciones/expos-coleccion.jpg') no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    .fotoWidth100-text-azul {
+        width:100%;
+        color:#fff;
+        background-color:rgba(0,136,160,.85);
+        padding:.5em 1em;
+        text-align: left;
+    }
+
+}
+
+.fotoWidth100-expo {
+    height: 300px;
+    background:url('../img/alquiler/alquiler-macba-fuera.jpg') no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    .fotoWidth100-text-azul {
+        width:100%;
+        color:#fff;
+        background-color:rgba(0,136,160,.85);
+        padding:.5em 1em;
+        text-align: left;
+    }
+
 }
