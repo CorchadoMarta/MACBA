@@ -21,6 +21,7 @@
     background-size: cover;
     display: flex;
     align-items: flex-end;
+
     .fotoWidth100-text-lila {
         width:100%;
         color:#fff;
@@ -37,12 +38,14 @@
     background-size: cover;
     display: flex;
     align-items: flex-end;
+
     .fotoWidth100-text-azul {
         width:100%;
         color:#fff;
         background-color:rgba(0,136,160,.85);
         padding:.5em 1em;
         text-align: left;
+        background-position: left top;
     }
 
 }
