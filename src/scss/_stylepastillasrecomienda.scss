@@ -1,0 +1,34 @@
+
+.fotorecomienda {
+  height: 300px;
+  background:url('../img/exposiciones/exporecomendadad.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+
+  .fotorecomienda-text {
+    width:300px;
+    height:500px;
+    color:#fff;
+    background-color:rgba(0,136,160,.85);
+    background-position: left top;
+
+
+    }
+  }
+
+  .recomienda{
+    width:50px;
+    height:300px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color:#fff;
+    background-color:rgba(0,136,160,.85);
+    background-position: left top;
+    display:flex;
+    justify-content: flex-end;
+    padding:.5em 1em;
+    float: left;
+  }
+
+}
