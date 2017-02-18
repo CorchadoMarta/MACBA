@@ -1,27 +1,55 @@
+.alquiler{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* Medium */
+    @media(min-width:768px) and (max-width:991px){
+        flex-direction: row;
+    }
+    /* Small */
+    @media(max-width:767px){
+        flex-direction: column;
+    }
+}
+
 .foto{
-    width:31%;
+    width:100%;
     position:relative;
-    margin:1px;
+    margin-right:1px;
     display:inline-block;
     float: left;
+    /* Small */
+    @media(max-width:767px){
+        margin: 0;
+    }
+    img {
+        width:100%;
+        display: flex;
+    }
+    span {
+        position:absolute;
+        bottom:0;
+        width:100%;
+        color:#fff;
+        background-color:rgba(127,23,134,.85);
+        padding:.5em 1em;
+        text-align: left;
+    }
 }
 
-.foto img{
-    width:100%;
-}
-.foto span{
-    position:absolute;
-    bottom:2px;
-    width:100%;
-    text-align:center;
-    color:#fff;
-    background-color:#7F1786;
-    padding:.5em 0;
-    background-blend-mode: multiply;
-}
 
+.fotoWidth100 {
+    height: 300px;
+    background:url('../img/alquiler/aula2.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
 
-.foto-background {
-    background: url('/img/alquiler/Auditorio.png');
-    background-blend-mode: multiply;
+    div {
+        width:100%;
+        color:#fff;
+        background-color:rgba(127,23,134,.85);
+        padding:.5em 1em;
+        text-align: left;
+    }
 }
