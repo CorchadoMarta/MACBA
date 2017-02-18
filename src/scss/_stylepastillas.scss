@@ -14,8 +14,14 @@
     bottom:2px;
     width:100%;
     text-align:center;
-    color:rgba(255,255,255,1);
-    background-color:rgba(127,24,134,1);
+    color:#fff;
+    background-color:#7F1786;
     padding:.5em 0;
-    background-blend-mode:multiply;
+    background-blend-mode: multiply;
+}
+
+
+.foto-background {
+    background-image: url(img/alquiler/Auditorio.png);
+     background-blend-mode: multiply;
 }
