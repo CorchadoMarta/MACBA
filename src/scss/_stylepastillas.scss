@@ -1,0 +1,21 @@
+.foto{
+    width:31%;
+    position:relative;
+    margin:1px;
+    display:inline-block;
+    float: left;
+}
+
+.foto img{
+    width:100%;
+}
+.foto span{
+    position:absolute;
+    bottom:2px;
+    width:100%;
+    text-align:center;
+    color:rgba(255,255,255,1);
+    background-color:rgba(127,24,134,1);
+    padding:.5em 0;
+    background-blend-mode:multiply;
+}
