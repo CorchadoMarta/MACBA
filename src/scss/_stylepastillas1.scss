@@ -1,0 +1,16 @@
+
+.fotoWidth100 {
+    height: 300px;
+    background:url('../img/alquiler/aula2.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+
+    div {
+        width:100%;
+        color:#fff;
+        background-color:rgba(127,23,134,.85);
+        padding:.5em 1em;
+        text-align: left;
+    }
+}
