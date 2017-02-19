@@ -1,4 +1,4 @@
-.containerflex{
+.alquiler{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,21 +26,12 @@
         width:100%;
         display: flex;
     }
-    .spanlila {
+    span {
         position:absolute;
         bottom:0;
         width:100%;
         color:#fff;
         background-color:rgba(127,23,134,.85);
-        padding:.5em 1em;
-        text-align: left;
-    }
-    .spanazul {
-        position:absolute;
-        bottom:0;
-        width:100%;
-        color:#fff;
-        background-color:rgba(0,136,160,.85);
         padding:.5em 1em;
         text-align: left;
     }
