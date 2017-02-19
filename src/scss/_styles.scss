@@ -47,6 +47,10 @@ body{
 }
 .cover {
   object-fit: cover;
+  /* Small */
+  @media(max-width:767px){
+      height: 250px;
+  }
 }
 .opacity{
   opacity: .3;
