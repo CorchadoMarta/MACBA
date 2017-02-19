@@ -65,3 +65,20 @@
     }
 
 }
+
+.fotoWidth100-actividades {
+    height: 400px;
+    background:url('../img/actividades/hab1418-luxury-apartments.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+
+    .fotoWidth100-text-negro {
+        width:100%;
+        color:#fff;
+        background-color:rgba(40,40,40,.85);
+        padding:.5em 1em;
+        text-align: left;
+    }
+}
