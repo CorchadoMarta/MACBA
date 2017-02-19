@@ -54,4 +54,23 @@
       padding:.5em 1em;
       text-align: left;
     }
+    .spanamarillo {
+        position:absolute;
+        bottom:0;
+        width:100%;
+        color:#fff;
+        background-color:rgba(186,144,58,.85);
+        padding:.5em 1em;
+        text-align: left;
+        /* Medium */
+        @media(min-width:768px) and (max-width:991px){
+            height: 350px;
+        }
+    }
+}
+/* Medium */
+@media(min-width:768px) and (max-width:991px){
+    .foto-sobre-el-macba {
+        height: 600px
+    }
 }
