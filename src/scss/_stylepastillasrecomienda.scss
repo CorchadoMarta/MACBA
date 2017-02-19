@@ -9,9 +9,9 @@
   position: relative;
   justify-content: space-between;
 
-div {
-  padding: 10px 15px;
-}
+  div {
+    padding: 10px 15px;
+  }
 
   .fotorecomienda-text {
     width:356px;
@@ -38,25 +38,9 @@ div {
 
 .fecha {
   position: absolute;
-padding-right: 20;
+  padding-right: 20;
   bottom: 0;
   z-index: 100;
-
-<<<<<<< HEAD
-  .recomienda{
-    width:50px;
-    height:300px;
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    color:#fff;
-    background-color:rgba(0,136,160,.85);
-    background-position: left top;
-    display:flex;
-    justify-content: flex-end;
-    padding:.5em 1em;
-    float: left;
-  }
-=======
 
 }
 
@@ -90,4 +74,3 @@ padding-right: 20;
   margin: 0;
 
 }
->>>>>>> 466ecb266ed6a662500108a3c7aa4cb7fb004e72
