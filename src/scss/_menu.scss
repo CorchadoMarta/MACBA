@@ -10,7 +10,7 @@
 
 .logo{
     float: left;
-    width: 280px;
+    width: 200px;
     z-index: 1;
     /* Small */
     @media(max-width:991px){
@@ -34,10 +34,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    margin: 15px 0;
     a {
         color: #000;
         text-align: right;
-        margin: 30px 0;
     }
     ul {
         list-style: none;
