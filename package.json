@@ -14,7 +14,7 @@
     "watch:css": "onchange src/scss/*.scss -- npm run build:css",
     "watch:html": "onchange src/**/*.html -- npm run build:html",
     "watch:img": "onchange src/img/**{/*.,.}{jpg,png} -- npm run build:img",
-    "watch:img": "onchange src/js/*.js -- npm run build:js",
+    "watch:js": "onchange src/js/*.js -- npm run build:js",
     "watch": "parallelshell 'npm run watch:css' 'npm run watch:html' 'npm run watch:img' 'npm run watch:js'",
     "serve": "browser-sync start --server dist --files dist",
     "dev": "npm run build && parallelshell 'npm run watch' 'npm run serve'",
