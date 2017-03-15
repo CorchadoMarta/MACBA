@@ -1,7 +1,7 @@
 
 .fotoWidth100 {
     height: 300px;
-    background:url('../img/alquiler/aula2.jpg');
+    background:url('/Users/macbook/Desktop/MACBA/src/img/Sobre el museo/GRUP DE LECTURA (2).png');
     background-size: cover;
     display: flex;
     align-items: flex-end;
@@ -78,6 +78,44 @@
         width:100%;
         color:#fff;
         background-color:rgba(40,40,40,.85);
+        padding:.5em 1em;
+        text-align: left;
+    }
+}
+
+
+  <!-- Tercera Release -->
+.fotoWidth100-tickets {
+    height: 400px;
+    background:url('../img/Tickets/shutterstock_321515534 (1).jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+
+    .fotoWidth100-text-negro {
+        width:100%;
+        height: 150px;
+        color:#fff;
+        background-color:rgba(40,40,40,.85);
+        padding:.5em 1em;
+        text-align: left;
+    }
+}
+
+
+.fotoWidth100-sem {
+    height: 400px;
+    background:url('../img/Sobre el museo/Sobre el museo tamaño.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+
+    .fotoWidth100-text-lila {
+        width:100%;
+        height: 150px;
+        color:#fff;
+        background-color:rgba(127,23,134,.85);
         padding:.5em 1em;
         text-align: left;
     }
