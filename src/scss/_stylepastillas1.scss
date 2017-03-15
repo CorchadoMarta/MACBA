@@ -20,8 +20,9 @@
 
 .fotoWidth100-sem {
     height: 400px;
-    background:url('../img/SEM/Sobre el museo tamaño.jpg');
+    background:url('../img/SEM/GDL.png');
     background-size: cover;
+    background-position: center;
     display: flex;
     align-items: flex-end;
 
@@ -30,6 +31,58 @@
         height: 150px;
         color:#fff;
         background-color:rgba(127,23,134,.85);
+        padding:.5em 1em;
+        text-align: left;
+    }
+}
+
+.fotoWidth100-expos {
+    height: 400px;
+    background:url('../img/Exposiciones/Sobre el museo tamaño.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+
+    .fotoWidth100-text-azul {
+        width:100%;
+        height: 150px;
+        color:#fff;
+        background-color:rgba(36,152,172,.85);
+        padding:.5em 1em;
+        text-align: left;
+    }
+}
+
+.fotoWidth100-alquiler {
+    height: 400px;
+    background:url('../img/Alquiler/Alquiler Tamaño.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+
+    .fotoWidth100-text-rojo {
+        width:100%;
+        height: 150px;
+        color:#fff;
+        background-color:rgba(255,24,50,.85);
+        padding:.5em 1em;
+        text-align: left;
+    }
+}
+
+.fotoWidth100-actividades {
+    height: 400px;
+    background:url('../img/Actividades/Actividades Tamaño.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+
+    .fotoWidth100-text-amarillo {
+        width:100%;
+        height: 150px;
+        color:#fff;
+        background-color:rgba(213,171,85,.85);
         padding:.5em 1em;
         text-align: left;
     }
