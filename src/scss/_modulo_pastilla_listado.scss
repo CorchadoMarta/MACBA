@@ -1,0 +1,86 @@
+.containerflex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 97px 0;
+  align-items: center;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    flex-direction: row;
+  }
+  /* Small */
+  @media(max-width:767px){
+    flex-direction: column;
+  }
+  .content-box-listado{
+    display: inline-block;
+    padding: 30px 20px;
+  }
+}
+
+.box-foto{
+  width:100%;
+  position:relative;
+  margin-right:1px;
+  display:inline-block;
+  float: left;
+  /* Small */
+  @media(max-width:767px){
+    margin: 0;
+  }
+  img {
+    width:100%;
+    display: flex;
+  }
+  .spanamarillo {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    color:#fff;
+    background-color:rgba(186,144,58,.85);
+    padding:.5em 1em;
+    text-align: left;
+    margin: 0;
+    /* Medium */
+    @media(min-width:768px) and (max-width:991px){
+      height: 350px;
+    }
+    img{
+      width: auto;
+    }
+  }
+}
+
+.box-text {
+  position: relative;
+  display: inline-block;
+  background-color: #F5F3F3;
+  .box-edad {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    background-color: #AFAFAF;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+    margin: 0 20px;
+  }
+  .box-info{
+    margin: 0;
+    padding: 30px;
+    width: 75%;
+  }
+}
+.box-button{
+  border: none;
+  background-color: #D5AB55;
+  color: #fff;
+  padding: 13px;
+  width: 100%;
+}
+/* Medium */
+@media(min-width:768px) and (max-width:991px){
+  .foto-sobre-el-macba {
+    height: 600px
+  }
+}
