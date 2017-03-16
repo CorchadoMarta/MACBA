@@ -183,9 +183,10 @@
     padding:.5em 1em;
     text-align: left;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     align-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding-left: 160px;
+    align-items: baseline;
   }
 }
