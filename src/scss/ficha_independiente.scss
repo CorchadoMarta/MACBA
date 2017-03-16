@@ -1,9 +1,7 @@
 
-
-
 .leftside {
   margin-left: 160px;
-  width: 60%;
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
@@ -36,19 +34,32 @@ align-items: center;
   display: block;
 
   .imagenL {
-    width: 50%;
+    width: 60%;
   }
 
   .imagenM {
     width: 25%;
     display: flex;
     flex-direction: row;
-  }
-
-  .imagenS {
-    width: 25%;
-    display: flex;
-    flex-direction: row;
-  }
+    }
 }
+
+.fotoWidth100-alquileri {
+  height: 400px;
+  background:url('../img/Alquiler/Auditori2_770x607.jpg');
+  background-size: cover;
+  background-position:center;
+  display: flex;
+  align-items: flex-end;
+
+  .fotoWidth100-text-rojo {
+    width:100%;
+    height: 150px;
+    color:#fff;
+    background-color:rgba(255,24,50,.85);
+    padding:.5em 1em;
+    display: inline-block;
+    padding-left: 160px;
+
+  }
 }
