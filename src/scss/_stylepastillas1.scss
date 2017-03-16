@@ -1,74 +1,7 @@
 
-.fotoWidth100 {
-    height: 300px;
-    background:url('../img/alquiler/aula2.jpg');
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-
-    .fotoWidth100-text-lila {
-        width:100%;
-        color:#fff;
-        background-color:rgba(127,23,134,.85);
-        padding:.5em 1em;
-        text-align: left;
-    }
-}
-
-.fotoWidth100-alquiler {
+.fotoWidth100-tickets {
     height: 400px;
-    background:url('../img/alquiler/alquiler-macba-fuera.jpg') no-repeat center;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-
-    .fotoWidth100-text-lila {
-        width:100%;
-        color:#fff;
-        background-color:rgba(127,23,134,.85);
-        padding:.5em 1em;
-        text-align: left;
-    }
-
-}
-
-.fotoWidth100-expo4 {
-    height: 400px;
-    background:url('../img/exposiciones/expos-coleccion.jpg') no-repeat center;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-
-    .fotoWidth100-text-azul {
-        width:100%;
-        color:#fff;
-        background-color:rgba(0,136,160,.85);
-        padding:.5em 1em;
-        text-align: left;
-        background-position: left top;
-    }
-
-}
-
-.fotoWidth100-expo {
-    height: 300px;
-    background:url('../img/alquiler/alquiler-macba-fuera.jpg') no-repeat center;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    .fotoWidth100-text-azul {
-        width:100%;
-        color:#fff;
-        background-color:rgba(0,136,160,.85);
-        padding:.5em 1em;
-        text-align: left;
-    }
-
-}
-
-.fotoWidth100-actividades {
-    height: 400px;
-    background:url('../img/actividades/hab1418-luxury-apartments.jpg');
+    background:url('../img/Tickets/shutterstock_321515534 (1).jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -76,9 +9,125 @@
 
     .fotoWidth100-text-negro {
         width:100%;
+        height: 150px;
         color:#fff;
         background-color:rgba(40,40,40,.85);
         padding:.5em 1em;
         text-align: left;
+    }
+}
+
+
+.fotoWidth100-sem {
+    height: 400px;
+    background:url('../img/SEM/GDL.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+
+    .fotoWidth100-text-lila {
+        width:100%;
+        height: 150px;
+        color:#fff;
+        background-color:rgba(127,23,134,.85);
+        padding:.5em 1em;
+        text-align: left;
+    }
+}
+
+.fotoWidth100-expos {
+    height: 400px;
+    background:url('../img/Exposiciones/Exposiciones tamaño.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+
+    .fotoWidth100-text-azul {
+        width:100%;
+        height: 150px;
+        color:#fff;
+        background-color:rgba(36,152,172,.85);
+        padding:.5em 1em;
+        text-align: left;
+    }
+}
+
+.fotoWidth100-alquiler {
+    height: 400px;
+    background:url('../img/Alquiler/Alquiler Tamaño.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+
+    .fotoWidth100-text-rojo {
+        width:100%;
+        height: 150px;
+        color:#fff;
+        background-color:rgba(255,24,50,.85);
+        padding:.5em 1em;
+        text-align: left;
+    }
+}
+
+.fotoWidth100-actividades {
+    height: 400px;
+    background:url('../img/Actividades/shutterstock_159444323.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+
+    .fotoWidth100-text-amarillo {
+        width:100%;
+        height: 150px;
+        color:#fff;
+        background-color:rgba(213,171,85,.85);
+        padding:.5em 1em;
+        text-align: left;
+    }
+}
+
+
+.fotoWidth100-contacto {
+    height: 400px;
+    background:url('../img/Contacto/shutterstock_432861646.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+
+    .fotoWidth100-text-negro {
+        width:100%;
+        height: 150px;
+        color:#fff;
+        background-color:rgba(40,40,40,.85);
+        padding:.5em 1em;
+        text-align: left;
+    }
+}
+
+
+.fotoWidth100-exposf {
+    height: 400px;
+    background:url('../img/Exposiciones/EFA_HR.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+
+    .fotoWidth100-text-azul {
+        width:100%;
+        height: 150px;
+        color:#fff;
+        background-color:rgba(36,152,172,.85);
+        padding:.5em 1em;
+        text-align: left;
+
+    .fecha{
+      text-align: right;
+      display: inline;
+    }
     }
 }

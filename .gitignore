@@ -9,6 +9,7 @@ __MACOSX
 .settings
 .classpath
 .sass-cache/
+npm-debug.log
 
 # OS generated files #
 ######################
