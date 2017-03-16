@@ -1,0 +1,28 @@
+.ladoizquierdo{
+  width:720px;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-right: 10px;
+
+  .imagenL {
+    width: 637px;
+  }
+
+  .imagenM {
+    width: 394px;
+    display: block;
+  }
+
+  .imagenS {
+    width: 230px;
+    display: block;
+  }
+}
+
+.infoheader{
+  display: inline;
+ justify-content: rigth;
+ align-content: right;
+ flex-direction: column;
+ color: white;
+}
