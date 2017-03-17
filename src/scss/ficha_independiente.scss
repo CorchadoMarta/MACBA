@@ -47,6 +47,25 @@
 }
 
 .share{
-  display: flex;
-  flex-direction: row;
+float: left;
+padding-top: 30px;
+}
+
+
+.buttoncontainer{
+display:flex;
+align-items: flex-end;
+
+
+  .botontop{
+    width: 240px;
+    height: 60px;
+    color:white;
+    background-color: black;
+    border: none;
+    border-style: none;
+    margin-left: 900px;
+    margin-top: 20px;
+    }
+
 }
