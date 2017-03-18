@@ -2,9 +2,14 @@
   width: 50%;
   padding: 30px 20px;
   float: left;
+  /* Medium */
+@media(min-width:768px) and (max-width:991px){
+  width: 100%;
+  padding-bottom: 0;
+  }
   /* Small */
   @media(max-width:767px){
-width: 100%;
+  width: 100%;
   }
 }
 
@@ -12,10 +17,15 @@ width: 100%;
   width: 30%;
   padding: 30px 20px;
   float: left;
+  /* Medium */
+@media(min-width:768px) and (max-width:991px){
+  width: 100%;
+
+}
   /* Small */
   @media(max-width:767px){
-width: 100%;
-  float: none;
+  width: 100%;
+
   }
 
 }
@@ -140,8 +150,8 @@ display:none;
           background-color: black;
           border: none;
           border-style: none;
-          margin-top: 20px;
-          }
+          margin-bottom: 20px;
+              }
 
    }
 }
