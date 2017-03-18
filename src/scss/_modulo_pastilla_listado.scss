@@ -1,20 +1,18 @@
-.containerflex{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0 97px 0;
-  align-items: center;
-  /* Medium */
-  @media(min-width:768px) and (max-width:991px){
-    flex-direction: row;
-  }
-  /* Small */
-  @media(max-width:767px){
-    flex-direction: column;
-  }
+.container-adapt{
+  display: inline-block;
   .content-box-listado{
-    display: inline-block;
+    width: 30%;
+    margin: 0 auto;
     padding: 30px 20px;
+    float: left;
+    /* Medium */
+    @media(min-width:768px) and (max-width:991px){
+      width: 50%;
+    }
+    /* Small */
+    @media(max-width:767px){
+      width: 100%;
+    }
   }
 }
 
@@ -24,14 +22,16 @@
   margin-right:1px;
   display:inline-block;
   float: left;
+  height: 275px;
   /* Small */
   @media(max-width:767px){
     margin: 0;
   }
-  img {
+  .img-pastilla {
     width:100%;
-    display: flex;
-  }
+    height: 275px;
+    object-fit: cover;
+   }
   .spanamarillo {
     position:absolute;
     bottom:0;
@@ -43,7 +43,7 @@
     margin: 0;
     /* Medium */
     @media(min-width:768px) and (max-width:991px){
-      height: 350px;
+
     }
     img{
       width: auto;
@@ -55,6 +55,11 @@
   position: relative;
   display: inline-block;
   background-color: #F5F3F3;
+  height: 300px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    height: 300px;
+  }
   .box-edad {
     position: absolute;
     top: 0;
