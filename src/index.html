@@ -1,99 +1,120 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 
-<html>
-<head>
-  <meta charset="UTF-8">
+  <html>
+  <head>
+    <meta charset="UTF-8">
 
-  <title>MACBA</title>
-  <meta name="description" content="Museo de Arte Contemporaneo de Barcelona">
-  <meta name="keywords" content="Museo,arte,contemporaneo,Barcelona">
+    <title>MACBA</title>
+    <meta name="description" content="Museo de Arte Contemporaneo de Barcelona">
+    <meta name="keywords" content="Museo,arte,contemporaneo,Barcelona">
 
-  <link rel="stylesheet" href="css/main.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:500,700|Roboto:300,500" rel="stylesheet">
-  <link rel="icon" type="image/jpg" href="img/favicon.jpg" >
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500,700|Roboto:300,500" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="img/favicon.jpg" >
 
-</head>
+  </head>
 
-<body>
-  <nav class="navbar">
-    <img src="img/logo-invertido-desktop.png" class="logo">
-    <img src="img/logo-invertido.png" class="logo-small">
-  </nav>
-  <div class="container-header">
-    <div class="content-box-header col-7 color-blue height100">
-      <a href="#">
-        <img src="img/home/expos.jpg"  class="cover opacity">
-        <div class="content-box-title salto-col-1 col-5">
-          <h1 class="txt-white">Exposicionesjojij</h1>
-          <h2 class="txt-white">Información sobre nuestras exposiciones actuales</h2>
+  <body>
+    <!-- Menu -->
+    <nav class="navbar">
+        <a href="#">
+            <img src="img/logo-desktop.png" class="logo">
+            <img src="img/logo.png" class="logo-small">
+        </a>
+        <div>
+            <a href="" id="navToggle" class="hambur">&#9776;</a>
+            <ul>
+                <li><a href="tickets.html">Tickets</a></li>
+                <li><a href="exposiciones.html">Exposiciones</a></li>
+                <li><a href="actividades.html" id="active-actividades">Actividades</a></li>
+                <li><a href="alquiler_espacios.html">Alquiler de espacios</a></li>
+                <li><a href="sobre_el_macba.html">Sobre el Museo</a></li>
+            </ul>
         </div>
-        <div class="mas-info"> <p><img src="img/mas.png">info</p></div>
+    </nav>
+    <!-- Fin Menu -->
+
+
+    <div class="container-header">
+      <a href="exposiciones.html">
+      <div class="col-7 fleft height100 content-box-expos">
+          <div class="salto-col-1 col-5">
+            <h1 class="txt-white">Exposiciones</h1>
+            <h2 class="txt-white">Información sobre nuestras exposiciones</h2>
+          </div>
+          <button></button>
+          <button></button>
+          <button></button>
+      </div>
+  </a>
+
+    <a href="#">
+      <div class="col-5 fleft height50 content-box-actividades">
+          <div class="content-box-title salto-col-1">
+            <h1 class="txt-white">Actividades</h1>
+            <h2 class="txt-white">Información sobre la programación permanente de talleres</h2>
+          </div>
+      </div>
+      </a>
+      <a href="#">
+      <div class="col-5 fleft height50 content-box-alquiler">
+          <div class="content-box-title salto-col-1">
+            <h1 class="txt-white">Alquiler de espacios</h1>
+            <h2 class="txt-white">Utiliza nuestras instalaciones para realizar eventos</h2>
+          </div>
+      </div>
       </a>
     </div>
-    <div class="content-box-header col-5 color-yellow height50">
+
+    <div class="container">
       <a href="#">
-        <img src="img/home/museo.jpg"  class="cover opacity">
-        <div class="content-box-title salto-col-1">
-          <h1 class="txt-white">Sobre el museo</h1>
-          <h2 class="txt-white">Cómo llegar, horarios, accesibilidad, mapa, alquiler</h2>
-        </div>
+      <div class="col-7 fright height100 content-box-museo">
+          <div class="content-box-title salto-col-1">
+            <h1 class="txt-white">Sobre el museo</h1>
+            <h2 class="txt-white">Cómo llegar, horarios, accesibilidad, mapa, alquiler</h2>
+          </div>
+      </div>
       </a>
-    </div>
-    <div class="content-box-header col-5 color-red height50">
-      <a href="#">
-        <img src="img/home/tickets.jpg"  class="cover opacity">
-        <div class="content-box-title salto-col-1">
-          <h1 class="txt-white">Tickets</h1>
-          <h2 class="txt-white">Venta de tickets, paquetes y descuentos especiales</h2>
+      <div class="fleft col-5">
+        <div class="col-12">
+          <div class="col-1">
+            <img src="img/Contacto/reloj.png" class="img-icon">
+          </div>
+          <div class="salto-col-1 col-10">
+            <h3 class="">HORARIO</h3>
+            <p>Lunes - Viernes 11 a 19.30 h<br>
+              Sábados 10 a 21 h<br>
+              Domingo - festivos 10 a 15 h</p>
+          </div>
         </div>
-      </a>
-    </div>
-  </div>
-  <div class="container">
-    <div class="content-box col-6">
-      <div class="salto-col-1">
-        <h3 class="">MACBA RECOMIENDA</h3>
-        <hr align="left">
-        <div class="col-5">
-          <img src="img/home/gelatina_dura.jpg" class="cover img-macba-recomend">
+        <div class="col-12">
+          <div class="col-1">
+            <img src="img/Contacto/ico_loc.png" class="img-icon">
+          </div>
+          <div class="salto-col-1 col-10">
+            <h3 class="">DIRECCIÓN</h3>
+            <p>Plaça dels Àngels, 1, 08001 Barcelona</p>
+          </div>
         </div>
-        <div class="col-7 content-box">
-          <h4>Gelatina Dura</h4>
-          <p><strong>04</strong> ene. 2017 al <strong>19</strong> mar. 2017</p>
-          <p>Historias escamoteadas de los 80, desde el periódico El País.</p>
-        </div>
-      </div>
-    </div>
-    <div class="content-box col-6">
-      <div class="col-12 height50">
-        <div class="col-1">
-          <img src="img/home/reloj.png" class="img-icon">
-        </div>
-        <div class="salto-col-1 col-10">
-          <h3 class="">HORARIO</h3>
-          <hr align="left">
-          <p>Lunes - Viernes 11 a 19.30 h<br>
-            Sábados 10 a 21 h<br>
-            Domingo - festivos 10 a 15 h</p>
+        <div class="col-12">
+          <div class="col-1">
+            <img src="img/home/ico_tel.png" class="img-icon">
+          </div>
+          <div class="salto-col-1 col-10">
+            <h3 class="">TELÉFONO</h3>
+            <p>+ 34 93 481 33 68 </p>
+          </div>
         </div>
       </div>
-      <div class="col-12">
-        <div class="col-1">
-          <img src="img/home/localizacion.png" class="img-icon">
-        </div>
-        <div class="salto-col-1 col-10">
-          <h3 class="">DIRECCIÓN</h3>
-          <hr align="left">
-          <p>Plaça dels Àngels, 1, 08001 Barcelona</p>
-        </div>
-      </div>
+
     </div>
-  </div>
-  <div class="footer col-12">
-      <a href="#"><p class="col-4">Contacto</p></a>
-      <a href="#"><p class="col-4">Aviso Legal y Política de Privacidad</p></a>
-      <a href="#"><p class="col-4">Copyright ® 2017 MACBA</p></a>
-  </div>
-</body>
-</html>
+
+
+    <div class="footer col-12">
+        <a href="#"><p class="col-4">Contacto</p></a>
+        <a href="#"><p class="col-4">Aviso Legal y Política de Privacidad</p></a>
+        <a href="#"><p class="col-4">Copyright ® 2017 MACBA</p></a>
+    </div>
+  </body>
+  </html>
