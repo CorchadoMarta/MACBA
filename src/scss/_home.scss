@@ -1,0 +1,61 @@
+.content-box-expos{
+  background-image: url(../img/home/expos.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #0088A0;
+  background-blend-mode: multiply;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.content-box-actividades{
+  background-image: url(../img/home/museo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #D5AB55;
+  background-blend-mode: multiply;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.content-box-alquiler{
+  background-image: url(../img/home/auditorio.png);
+  background-position: center;
+  background-size: cover;
+  background-color: #666666;
+  background-blend-mode: multiply;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.content-box-museo{
+  background-image: url(../img/home/grup_lectura.png);
+  background-position: center;
+  background-size: cover;
+  background-color: #7F1786;
+  background-blend-mode: multiply;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.btn-black{
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 25px;
+  width: 220px;
+  text-align: left;
+  margin: 5px 0;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
