@@ -32,6 +32,11 @@ body{
 .fcenter {
   text-align: center;
   color: #fff;
+  /* Small */
+  @media(max-width:767px){
+    text-align: left;
+    padding-left: 10px;
+  }
 }
 
 .fright{
