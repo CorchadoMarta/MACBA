@@ -4,15 +4,67 @@
   margin-top: 20px;
 }
 .field{
-	position: relative;
+  position: relative;
   border-color: #979797;
 }
 
 .dropdown{
-    border-color: #777;
+  border-color: #777;
   position: relative;
-background-color: #000;
-padding: 12px 16px;
+  background-color: #fff;
+  padding: 12px 16px;
+  width: 100%;
+  color: #a9a9a9;
+}
+
+.buttoncontacto{
+  display: block;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  width: 100%;
+}
+
+form{
+  width: 100%;
+  margin: 0 auto;
+}
+
+input, textarea, .dropdown{
+  position: relative;
+  -webkit-apprearance:none;
+  -moz-apprearance:none;
+  appearance:none;
+  margin: 0;
+  padding:10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  width: 100%;
+  border:1px solid #C7C7C7;
+  background-color: white;
+  -webkit-transition:background-color .3s, border-color .4s;
+  -moz-transition:background-color .3s, border-color .4s;
+  transition:background-color .3s, border-color .4s;
+}
+textarea{
+  height: 100px;
+  resize:none;
+}
+
+input:focus, textarea:focus, input:hover, textarea:hover{
+  outline:none;
+  border-color: #777;
 }
 
 .buttoncontacto{
@@ -33,133 +85,96 @@ padding: 12px 16px;
   cursor: pointer;
 }
 
-form{
-	width: 100%;
-	margin: 0 auto;
-}
-
-input, textarea{
-	position: relative;
-	-webkit-apprearance:none;
-	-moz-apprearance:none;
-	appearance:none;
-	margin: 0;
-	padding:10px;
-	font-size: 14px;
-	margin-bottom: 10px;
-	width: 100%;
-	border:1px solid #C7C7C7;
-	background-color: white;
-	-webkit-transition:background-color .3s, border-color .4s;
-	-moz-transition:background-color .3s, border-color .4s;
-	transition:background-color .3s, border-color .4s;
-}
-textarea{
-	height: 100px;
-	resize:none;
-}
-
-input:focus, textarea:focus, input:hover, textarea:hover{
-	outline:none;
-	border-color: #777;
-}
-
-.buttoncontacto{
-	display: block;
-	border: none;
-	background-color: #000;
-	color: #fff;
-	position: relative;
-	height: 50px;
-	line-height: 50px;
-	padding: 0;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-	-webkit-transform-style: preserve-3d;
-	-moz-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-	cursor: pointer;
-}
-
 .buttoncontacto:hover{
-	background-color: #555;
+  background-color: #555;
 }
 .buttoncontacto:before,
 .buttoncontacto:after{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0;
-	line-height: 50px;
-	cursor: default;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  line-height: 50px;
+  cursor: default;
 }
 
 .buttoncontacto:after{
-	top:-100%;
-	content:attr(data-success);
-	background: #7aca7c;
-	color: #358337;
-	-webkit-transform-origin: 0% 100%;
-	-webkit-transform: rotateX(90deg);
-	-moz-transform-origin: 0% 100%;
-	-moz-transform: rotateX(90deg);
-	-ms-transform-origin: 0% 100%;
-	-ms-transform: rotateX(90deg);
-	transform-origin: 0% 100%;
-	transform: rotateX(90deg);
+  top:-100%;
+  content:attr(data-success);
+  background: #7aca7c;
+  color: #358337;
+  -webkit-transform-origin: 0% 100%;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform-origin: 0% 100%;
+  -moz-transform: rotateX(90deg);
+  -ms-transform-origin: 0% 100%;
+  -ms-transform: rotateX(90deg);
+  transform-origin: 0% 100%;
+  transform: rotateX(90deg);
 }
 .buttoncontacto:before{
-	top:100%;
-	background: #e96a6a;
-	color: #a33a3a;
-	content:attr(data-error);
-	-webkit-transform-origin: 0% 0%;
-	-webkit-transform: rotateX(-90deg);
-	-moz-transform-origin: 0% 0%;
-	-moz-transform: rotateX(-90deg);
-	-ms-transform-origin: 0% 0%;
-	-ms-transform: rotateX(-90deg);
-	transform-origin: 0% 0%;
-	transform: rotateX(-90deg);
+  top:100%;
+  background: #e96a6a;
+  color: #a33a3a;
+  content:attr(data-error);
+  -webkit-transform-origin: 0% 0%;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform-origin: 0% 0%;
+  -moz-transform: rotateX(-90deg);
+  -ms-transform-origin: 0% 0%;
+  -ms-transform: rotateX(-90deg);
+  transform-origin: 0% 0%;
+  transform: rotateX(-90deg);
 }
 
 .buttoncontacto.submit-success {
-	background: #aaa;
-	-webkit-transform-origin: 50% 100%;
-	-webkit-transform: rotateX(-90deg) translateY(100%);
-	-moz-transform-origin: 50% 100%;
-	-moz-transform: rotateX(-90deg) translateY(100%);
-	-ms-transform-origin: 50% 100%;
-	-ms-transform: rotateX(-90deg) translateY(100%);
-	transform-origin: 50% 100%;
-	transform: rotateX(-90deg) translateY(100%);
+  background: #aaa;
+  -webkit-transform-origin: 50% 100%;
+  -webkit-transform: rotateX(-90deg) translateY(100%);
+  -moz-transform-origin: 50% 100%;
+  -moz-transform: rotateX(-90deg) translateY(100%);
+  -ms-transform-origin: 50% 100%;
+  -ms-transform: rotateX(-90deg) translateY(100%);
+  transform-origin: 50% 100%;
+  transform: rotateX(-90deg) translateY(100%);
 }
 
 .buttoncontacto.submit-error  {
-	background: #aaa;
-	-webkit-transform-origin: 50% 0%;
-	-webkit-transform: rotateX(90deg) translateY(-100%);
-	-moz-transform-origin: 50% 0%;
-	-moz-transform: rotateX(90deg) translateY(-100%);
-	-ms-transform-origin: 50% 0%;
-	-ms-transform: rotateX(90deg) translateY(-100%);
-	transform-origin: 50% 0%;
-	transform: rotateX(90deg) translateY(-100%);
+  background: #aaa;
+  -webkit-transform-origin: 50% 0%;
+  -webkit-transform: rotateX(90deg) translateY(-100%);
+  -moz-transform-origin: 50% 0%;
+  -moz-transform: rotateX(90deg) translateY(-100%);
+  -ms-transform-origin: 50% 0%;
+  -ms-transform: rotateX(90deg) translateY(-100%);
+  transform-origin: 50% 0%;
+  transform: rotateX(90deg) translateY(-100%);
 }
 
 /* ---------- Estilos Validación ------------ */
 .success{
-	border-color: #3EC83D;
+  border-color: #3EC83D;
 }
 .success+i{
-	color: #3EC83D;
-	display: block;
+  color: #3EC83D;
+  display: block;
 }
 .error+i{
-	color: #B82020;
-	display: block;
+  color: #B82020;
+  display: block;
 }
 .error{
-	border-color: #B82020;
+  border-color: #B82020;
+}
+
+select{
+  background-color: white;
+  border-color: #fff;
+  width: 100%;
+  color: #a9a9a9;
+}
+
+.sinsalto{
+  margin-top: 0;
+  margin-bottom: 10px;
 }
