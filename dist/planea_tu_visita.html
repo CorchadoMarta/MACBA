@@ -17,6 +17,33 @@
 <body>
   <!-- Menu -->
   <div class="menu">
+    <div class="nav-btn">
+      <a href="#" class="btn-blck" > Visita a la Carta <img src="img/mas-blck.png" ></a>
+      <a href="tickets.html" class="btn-red" > Tickets <img src="img/ticket.png" ></a>
+    </div>
+    <nav class="navbar">
+      <a href="index.html">
+        <img src="img/logo-desktop.png" class="logo">
+        <img src="img/logo.png" class="logo-small">
+      </a>
+      <div>
+        <div class="nav-btn-mobile">
+          <a href="planea_tu_visita.html" class="btn-blck" > Visita a la Carta <img src="img/mas-blck.png" ></a>
+          <a href="tickets.html" class="btn-red" id="red" > Tickets <img src="img/ticket.png" ></a>
+          <a href="#" id="navToggle" class="hambur">&#9776;</a>
+        </div>
+        <ul>
+          <li><a href="exposiciones.html">Exposiciones</a></li>
+          <li><a href="actividades.html">Actividades</a></li>
+          <li><a href="alquiler_espacios.html">Alquiler de espacios</a></li>
+          <li><a href="sobre_el_macba.html">Sobre el Museo</a></li>
+        </ul>
+      </div>
+    </nav>
+    <form id="buscador" action="/action_page.php">
+      <button type="submit" class="btn-buscar"><img src="img/lupa_white.png" alt="busca" /></button>
+      <input id="buscar" type="text" name="Buscar" placeholder="Busca">
+    </form>
   <div class="nav-btn">
     <a href="planea_tu_visita.html" class="btn-blck" > Visita a la Carta <img src="img/mas-blck.png" ></a>
     <a href="tickets.html" class="btn-red" > Tickets <img src="img/ticket.png" ></a>
@@ -48,7 +75,7 @@
   <!-- Fin Menu -->
   <!-- Header -->
   <section class="fotoWidth100-planea">
-    <div class="fotoWidth100-text-negro">
+    <div class="fotoWidth100-text-rojo">
       <span>
         <h1>Visita a la carta</h1>
         <p>Puedes programar una visita guiada, privada o en grupo, durante tus vacaciones por Barcelona y saber si estará disponible en tu idioma.</p>
@@ -56,23 +83,112 @@
     </div>
   </section>
   <!-- Fin Header -->
-
+  <!-- Columna Izquierda -->
+  <section class="container-adapt">
+    <div class="content-box-listado">
+      <div class="box-foto">
+        <img class="img-pastilla" src="img/Tickets/shutterstock_332587841 (1).jpg" alt="Entrada general">
+        <p class="spanamarojo">Entrada General
+          <img src="img/mas.png" alt="mas info" class="mas-info">
+        </p>
           <!-- Footer -->
           <div class="footer col-12">
             <ul>
               <li class="col-4-footer fleft"><a href="contacto.html"> Contacto </a></li>
               <li class="col-4-footer fleft txt-white">Síguenos:<a href="https://www.instagram.com/macba_barcelona/"><img src="img/Contacto/ico_instragrm-01.png"><a href="https://www.facebook.com/MACBA.Barcelona"><img src="img/Contacto/ico_facebook-01.png"><a href="https://twitter.com/MACBA_Barcelona"><img src="img/Contacto/ico_twitter-01.png"></a></li>
-
-              <li class="col-4-footer fleft"><a href="aviso_legal.html">Política de Privacidad</a></li>
-            </ul>
+      </div>
+      <div class="box-text">
+        <p class="box-info">Permite acceder a todas las exposiciones en curso y a las actividades del programa MACBA se vive. La entrada tiene validez durante un mes.</p>
+        <p class="box-edad"><strong>10€</strong></p>
+      </div>
+      <button class="box-button-rojo">Disponible en taquilla
+      </button>
+    </div>
+    <!-- Fin Columna Izquierda -->
+    <!-- Columna Derecha -->
+    <div class="col-8 fright">
+      <div class="formplanea">
+        <div class="cabeceraplanea">
+          <h6>Planea tu visita</h6>
+        </div>
+                  <div class="col-11c">
+            <div class="formplanea">
+<form class=formulario>
+      <h6 class="sinsalto">Fecha</h6>
+      <input type="date" name="fecha">
+  <h6 class="sinsalto">Idiomas</h6>
+    <div class="dropdown">
+      <label for="cantidad">
+        <select name="cantidad" tabindex="5">
+          <option value="general">Selecciona un idioma</option>
+          <option value="general">Inglés</option>
+          <option value="general">Francés</option>
+          <option value="general">Italiano</option>
+          <option value="general">Aleman</option>
+          <option value="general">Chino</option>
+          <option value="general">Ruso</option>
+          <option value="general">Japónes</option>
+        </select>
+      </label>
+    </div>
+              <h6 class="sinsalto">¿Cuantos váis a ser?</h6>
+                <div class="dropdown">
+                  <label for="cantidad">
+                    <select name="cantidad" tabindex="5">
+                      <option value="general">Número de visitantes</option>
+                      <option value="general">1</option>
+                      <option value="general">2</option>
+                      <option value="general">3</option>
+                      <option value="general">4</option>
+                      <option value="general">5</option>
+                      <option value="general">6</option>
+                      <option value="general">7</option>
+                      <option value="general">8</option>
+                      <option value="general">9</option>
+                      <option value="general">10</option>
+                    </select>
+                  </label>
+                </div>
+                <h6 class="sinsalto">Comentarios Adicionales</h6>
+                <div>
+                  <textarea id='msg' placeholder="Escríbenos cualquier duda…"></textarea>
+                  <button class="buttoncontacto" data-error="Oops!, tu mensaje no ha sido enviado. Intenta de nuevo." data-success='Tu mensaje ha sido enviado. Nos pondremos en contacto pronto.'>Enviar</button>
+                </form>
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
 
-          <div class="footer col-12">
-            <p class="fcenter">Copyright ® 2017 MACBA </p>
-          </div>
 
-              <!-- FIN Footer -->
-              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-              <script type="text/javascript" src="js/script.js"></script>
-            </body>
-            </html>
+      </form>
+    </div>
+
+    <div class="col-xs-12 col-sm-3">
+      <p style="padding:20px;"></p>
+    </div>
+
+  </div>
+</div>
+</div>
+</section>
+<!-- Fin Columna Derecha -->
+<!-- Footer -->
+<div class="footer col-12">
+  <ul>
+    <li class="col-4-footer fleft"><a href="contacto.html"> Contacto </a></li>
+    <li class="col-4-footer fleft txt-white">Síguenos:<a href="https://www.instagram.com/macba_barcelona/"><img src="img/Contacto/ico_instragrm-01.png"><a href="https://www.facebook.com/MACBA.Barcelona"><img src="img/Contacto/ico_facebook-01.png"><a href="https://twitter.com/MACBA_Barcelona"><img src="img/Contacto/ico_twitter-01.png"></a></li>
+
+    <li class="col-4-footer fleft"><a href="aviso_legal.html">Política de Privacidad</a></li>
+  </ul>
+</div>
+
+<div class="footer col-12">
+  <p class="fcenter">Copyright ® 2017 MACBA </p>
+</div>
+
+<!-- FIN Footer -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
