@@ -1,10 +1,18 @@
+.menu{
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+}
+
 .hambur {
     display: none;
     /* Small */
     @media(max-width:991px){
         display: block;
         font-size: 4em;
-        padding: 20px 0;
+        padding: 10px 0;
     }
 }
 
@@ -73,6 +81,27 @@
 .nav-btn{
   margin: 20px 20px 0;
   float: right;
+  width: 100%;
+  position: relative;
+  text-align: right;
+  /* Small */
+  @media(max-width:991px){
+    display: none;
+  }
+}
+  .nav-btn-mobile {
+    display: none;
+    /* Small */
+    @media(max-width:991px){
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      position: relative;
+      text-align: right;
+      margin: 15px 0;
+    }
+  }
   .btn-red {
     margin: 5px;
     color: #FA4949;
@@ -81,6 +110,9 @@
     text-decoration: none;
     img {
       width: 11px;
+    }
+    @media(max-width:991px){
+      padding: 9px 15px;
     }
   }
 
@@ -93,8 +125,18 @@
     img {
       width: 11px;
     }
+    @media(max-width:991px){
+      padding: 9px 15px;
+    }
+    /* Small */
+    @media(max-width:767px){
+      display: none;
+    }
   }
-}
+
+  #red{
+    color:#FA4949;
+    }
 
 
 #active-expos {

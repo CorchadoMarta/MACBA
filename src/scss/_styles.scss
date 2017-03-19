@@ -68,6 +68,10 @@ body{
 
 .container-header{
   height: 650px;
+  margin-top: 183px;
+  @media(max-width:991px){
+    margin-top: 169px;
+  }
 }
 .container{
   height: 400px;
