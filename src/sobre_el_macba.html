@@ -16,24 +16,37 @@
 </head>
 
 <body>
-    <!-- Menu -->
-    <nav class="navbar">
-        <a href="index.html">
-            <img src="img/logo-desktop.png" class="logo">
-            <img src="img/logo.png" class="logo-small">
-        </a>
-        <div>
-            <a href="" id="navToggle" class="hambur">&#9776;</a>
-            <ul>
-                <li><a href="tickets.html">Tickets</a></li>
-                <li><a href="exposiciones.html">Exposiciones</a></li>
-                <li><a href="actividades.html">Actividades</a></li>
-                <li><a href="alquiler_espacios.html">Alquiler de espacios</a></li>
-                <li><a href="sobre_el_macba.html" id="active-sobre-el-museo">Sobre el Museo</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!-- Fin Menu -->
+  <!-- Menu -->
+  <div class="menu">
+  <div class="nav-btn">
+    <a href="#" class="btn-blck" > Visita a la Carta <img src="img/mas-blck.png" ></a>
+    <a href="tickets.html" class="btn-red" > Tickets <img src="img/ticket.png" ></a>
+  </div>
+  <nav class="navbar">
+    <a href="index.html">
+      <img src="img/logo-desktop.png" class="logo">
+      <img src="img/logo.png" class="logo-small">
+    </a>
+    <div>
+      <div class="nav-btn-mobile">
+        <a href="#" class="btn-blck" > Visita a la Carta <img src="img/mas-blck.png" ></a>
+        <a href="tickets.html" class="btn-red" id="red" > Tickets <img src="img/ticket.png" ></a>
+        <a href="#" id="navToggle" class="hambur">&#9776;</a>
+      </div>
+      <ul>
+        <li><a href="exposiciones.html">Exposiciones</a></li>
+        <li><a href="actividades.html">Actividades</a></li>
+        <li><a href="alquiler_espacios.html">Alquiler de espacios</a></li>
+        <li><a href="sobre_el_macba.html">Sobre el Museo</a></li>
+      </ul>
+    </div>
+  </nav>
+  <form id="buscador" action="/action_page.php">
+    <button type="submit" class="btn-buscar"><img src="img/lupa_white.png" alt="busca" /></button>
+    <input id="buscar" type="text" name="Buscar" placeholder="Busca">
+  </form>
+  </div>
+  <!-- Fin Menu -->
 
     <!-- Header -->
     <section class="fotoWidth100-sem">
