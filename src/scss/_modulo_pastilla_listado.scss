@@ -76,14 +76,10 @@
     height: 300px;
   }
   .box-edad {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 20px;
-    background-color: #AFAFAF;
-    color: #fff;
-    border-radius: 0 0 10px 10px;
-    margin: 0 20px;
+    position: relative;
+    display: inline-block;
+    color: #343232;
+
   }
   .box-info{
     margin: 0;
