@@ -50,7 +50,7 @@
 
 .fotoWidth100-expos {
   height: 400px;
-  background:url('../img/Exposiciones/Exposiciones tamaño.jpg');
+  background:url('../img/Exposiciones/La_bestia_i_el_sobira.2.4.png');
   background-size: cover;
   display: flex;
   align-items: flex-end;
@@ -60,15 +60,14 @@
   }
   .fotoWidth100-text-azul {
     width:100%;
-    height: 150px;
+    height: 240px;
     color:#fff;
     background-color:rgba(36,152,172,.85);
     padding:.5em 1em;
     text-align: left;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
+    display: inline-block;
+    position: relative;
+    float: left;
   }
 }
 
