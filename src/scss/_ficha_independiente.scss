@@ -15,12 +15,16 @@
 
 .breadcrumb{
   float: left;
-  padding: 15px;
+  padding: 10px 20px;
+}
+
+.breadcrumb-text{
+  color: black;
 }
 
 .centerside {
   width: 100%;
-  padding: 30px 20px;
+  padding-left: 20px;
   float: left;
   /* Medium */
 @media(min-width:768px) and (max-width:991px){
@@ -32,6 +36,7 @@
   width: 100%;
   }
 }
+
 
 .rightside {
   width: 30%;

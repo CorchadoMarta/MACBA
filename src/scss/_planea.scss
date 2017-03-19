@@ -1,0 +1,30 @@
+.formplanea {
+  width: 95%;
+  background-color: #F5f3f3;
+  color: #000;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: baseline;
+
+}
+
+.formulario{
+  width: 95%;
+  margin: 0 auto;
+}
+.cabeceraplanea {
+  width: 100%;
+  background-color: rgba(255,24,50,.85);
+  color: #fff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding-left: 1em;
+
+  h6{
+    margin: 0;
+  }
+}
