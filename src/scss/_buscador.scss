@@ -4,6 +4,10 @@
     padding: 10px 20px;
     float: right;
     height: 55px;
+    /* Small */
+    @media(max-width:991px){
+      padding: 10px;    
+    }
     #buscar{
       width: 43%;
       float: right;
