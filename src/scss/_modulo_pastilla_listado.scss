@@ -62,6 +62,22 @@
     }
 
 }
+
+.spannegro {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  color:#fff;
+  background-color:rgba(0,0,0,.85);
+  padding:.5em 1em;
+  text-align: left;
+  margin: 0;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+
+  }
+
+}
     .spanlila {
       position:absolute;
       bottom:0;
@@ -118,6 +134,14 @@
 .box-button-rojo{
   border: none;
   background-color: #FF1832;
+  color: #fff;
+  padding: 13px;
+  width: 100%;
+}
+
+.box-button-negro{
+  border: none;
+  background-color: #000000;
   color: #fff;
   padding: 13px;
   width: 100%;
