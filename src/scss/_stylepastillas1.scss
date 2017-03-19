@@ -71,6 +71,29 @@
   }
 }
 
+.fotoWidth100-exposfuturas {
+  height: 400px;
+  background:url('../img/Exposiciones/EFA_HR.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 183px;
+  @media(max-width:991px){
+    margin-top: 169px;
+  }
+  .fotoWidth100-text-azulfuturas {
+    width:100%;
+    height: 240px;
+    color:#fff;
+    background-color:rgba(36,152,172,.85);
+    padding:.5em 1em;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    float: left;
+  }
+}
+
 .fotoWidth100-alquiler {
   height: 400px;
   background:url('../img/Alquiler/Alquiler Tamaño.jpg');
