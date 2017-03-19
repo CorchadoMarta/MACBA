@@ -119,4 +119,8 @@
   }
   .mas-listado{
     height: 446px;
+    /* Small */
+    @media(max-width:991px){
+      height: auto;
+    }
   }
