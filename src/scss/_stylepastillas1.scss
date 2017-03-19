@@ -238,12 +238,14 @@
     margin-top: 169px;
   }
 <<<<<<< HEAD
+
   }
-  .fotoWidth100-text-negro {
+  .fotoWidth100-text-rojo {
+    width:100%;
 =======
   .fotoWidth100-text-rojo {
->>>>>>> 9d5ea5d69af55abf0cb9a9775c2ff66ec59bca69
-    width:100%;
+        width:100%;
+>>>>>>> e5af8c8c97069ed36a9e7da1e4085bd45d400a05
     height: 150px;
     color:white;
     background-color:rgba(255,24,50,.85);
@@ -254,3 +256,4 @@
     align-content: center;
     flex-direction: column;
     }
+  }  
