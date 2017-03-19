@@ -17,15 +17,11 @@
   width: 30%;
   padding: 30px 20px;
   float: left;
-  /* Medium */
-@media(min-width:768px) and (max-width:991px){
-  width: 100%;
 
-}
   /* Small */
   @media(max-width:767px){
   width: 100%;
-
+float: none;
   }
 
 }
@@ -61,7 +57,17 @@ display: block;
   height:405px;
   display: inline-flex;
   flex-direction: row;
+  /* Medium */
+@media(min-width:768px) and (max-width:991px){
+  width: 292px;
+  display: block;
   }
+  /* Small */
+  @media(max-width:767px){
+    width: 292px;
+    display: block;
+  }
+}
 
 .middle-img{
     /* Medium */
@@ -69,11 +75,8 @@ display: block;
     width: 292px;
     display: block;
   }
-  /* Small */
-  @media(max-width:767px){
-    width: 292px;
-    display: block;
-  }
+
+
 }
 
 .middle-img1{
