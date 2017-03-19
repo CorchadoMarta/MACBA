@@ -1,4 +1,4 @@
-.container-adapt{
+.container-adapt {
   display: inline-block;
   .content-box-listado{
     width: 30%;
@@ -31,7 +31,7 @@
     width:100%;
     height: 275px;
     object-fit: cover;
-   }
+  }
   .spanamarillo {
     position:absolute;
     bottom:0;
@@ -45,6 +45,22 @@
     @media(min-width:768px) and (max-width:991px){
 
     }
+
+  }
+  .spanamarojo {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    color:#fff;
+    background-color:rgba(255,24,50,.85);
+    padding:.5em 1em;
+    text-align: left;
+    margin: 0;
+    /* Medium */
+    @media(min-width:768px) and (max-width:991px){
+
+    }
+
 }
     .spanlila {
       position:absolute;
@@ -59,12 +75,14 @@
       @media(min-width:768px) and (max-width:991px){
 
       }
+
     img{
       width: auto;
     }
   }
 
 }
+
 
 .box-text {
   position: relative;
@@ -77,16 +95,14 @@
   }
   .box-edad {
     position: absolute;
-    top: 0;
-    right: 0;
-    padding: 20px;
-    background-color: #AFAFAF;
-    color: #fff;
-    border-radius: 0 0 10px 10px;
-    margin: 0 20px;
+    display: inline-block;
+    color: #343232;
+    padding-left: 1.5em;
+    bottom: 0;
   }
   .box-info{
     margin: 0;
+    padding: 1em;
     padding: 30px;
     width: 100%;
   }
@@ -95,20 +111,24 @@
   border: none;
   background-color: #D5AB55;
   color: #fff;
-  padding: 13px;
   width: 100%;
 }
+
+.box-button-rojo{
+  border: none;
+  background-color: #FF1832;
+  color: #fff;
+  padding: 13px;
+.box-button-lila{
+  border: none;
+  background-color: #7F1786;
+  color: #fff;
+  width: 100%;
+}
+
 /* Medium */
 @media(min-width:768px) and (max-width:991px){
   .foto-sobre-el-macba {
     height: 600px
   }
-}
-
-.box-button-lila{
-  border: none;
-  background-color: #7F1786;
-  color: #fff;
-  padding: 13px;
-  width: 100%;
 }
