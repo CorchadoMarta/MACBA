@@ -63,6 +63,8 @@
 
 }
 
+
+
 .spannegro {
   position:absolute;
   bottom:0;
@@ -76,8 +78,38 @@
   @media(min-width:768px) and (max-width:991px){
 
   }
-
 }
+  .spannegro2 {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    color:#fff;
+    background-color:rgba(0,0,0,.85);
+    padding:.5em 1em;
+    text-align: left;
+    margin: 0;
+    /* Medium */
+    @media(min-width:768px) and (max-width:991px){
+
+    }
+  }
+
+  .spannegro2:hover {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    color:#fff;
+    background-color:rgba(36,152,172,.85);
+    padding:.5em 1em;
+    text-align: left;
+    margin: 0;
+    /* Medium */
+    @media(min-width:768px) and (max-width:991px){
+
+    }
+  }
+
+
     .spanlila {
       position:absolute;
       bottom:0;
@@ -123,6 +155,7 @@
     width: 100%;
   }
 }
+
 .box-button{
   border: none;
   background-color: #D5AB55;
