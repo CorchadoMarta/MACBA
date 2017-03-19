@@ -45,10 +45,25 @@
     @media(min-width:768px) and (max-width:991px){
 
     }
+}
+    .spanlila {
+      position:absolute;
+      bottom:0;
+      width:100%;
+      color:#fff;
+      background-color:rgba(127,23,134,.85);
+      padding:.5em 1em;
+      text-align: left;
+      margin: 0;
+      /* Medium */
+      @media(min-width:768px) and (max-width:991px){
+
+      }
     img{
       width: auto;
     }
   }
+
 }
 
 .box-text {
@@ -73,7 +88,7 @@
   .box-info{
     margin: 0;
     padding: 30px;
-    width: 75%;
+    width: 100%;
   }
 }
 .box-button{
@@ -88,4 +103,12 @@
   .foto-sobre-el-macba {
     height: 600px
   }
+}
+
+.box-button-lila{
+  border: none;
+  background-color: #7F1786;
+  color: #fff;
+  padding: 13px;
+  width: 100%;
 }
