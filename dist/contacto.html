@@ -2,117 +2,139 @@
 
 <html>
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
 
-    <title>MACBA</title>
-    <meta name="description" content="Museo de Arte Contemporaneo de Barcelona">
-    <meta name="keywords" content="Museo,arte,contemporaneo,Barcelona">
+  <title>MACBA</title>
+  <meta name="description" content="Museo de Arte Contemporaneo de Barcelona">
+  <meta name="keywords" content="Museo,arte,contemporaneo,Barcelona">
 
-    <link rel="stylesheet" href="css/main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:500,700|Roboto:300,500" rel="stylesheet">
-    <link rel="icon" type="image/jpg" href="img/favicon.jpg" >
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:500,700|Roboto:300,500" rel="stylesheet">
+  <link rel="icon" type="image/jpg" href="img/favicon.jpg" >
 </head>
 
 <body>
-    <!-- Menu -->
-    <nav class="navbar">
-        <a href="index.html">
-            <img src="img/logo-desktop.png" class="logo">
-            <img src="img/logo.png" class="logo-small">
-        </a>
-        <div>
-            <a href="" id="navToggle" class="hambur">&#9776;</a>
-            <ul>
-                <li><a href="tickets.html">Tickets</a></li>
-                <li><a href="exposiciones.html">Exposiciones</a></li>
-                <li><a href="actividades.html">Actividades</a></li>
-                <li><a href="alquiler_espacios.html">Alquiler de espacios</a></li>
-                <li><a href="sobre_el_macba.html">Sobre el Museo</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!-- Fin Menu -->
-    <!-- Header -->
-    <section class="fotoWidth100-contacto">
-      <div class="fotoWidth100-text-negro">
-           <span>
-               <h1>Contacto</h1>
-          </span>
+  <!-- Menu -->
+  <nav class="navbar">
+    <a href="index.html">
+      <img src="img/logo-desktop.png" class="logo">
+      <img src="img/logo.png" class="logo-small">
+    </a>
+    <div>
+      <a href="" id="navToggle" class="hambur">&#9776;</a>
+      <ul>
+        <li><a href="tickets.html">Tickets</a></li>
+        <li><a href="exposiciones.html">Exposiciones</a></li>
+        <li><a href="actividades.html">Actividades</a></li>
+        <li><a href="alquiler_espacios.html">Alquiler de espacios</a></li>
+        <li><a href="sobre_el_macba.html">Sobre el Museo</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Fin Menu -->
+  <!-- Header -->
+  <section class="fotoWidth100-contacto">
+    <div class="fotoWidth100-text-negro">
+      <span>
+        <h1>Contacto</h1>
+      </span>
+    </div>
+  </section>
+  <!-- Fin Header -->
+  <!-- Box Contenido contacto -->
+  <div class="container">
+    <div class="content-box col-12">
+      <!-- Columna izquierda -->
+      <div>
+        <div class="fleft col-6">
+          <!-- Box Texto Intro -->
+          <div class="col-12 fleft">
+            <div class="col-11 fright">
+              <p>Si necesitas mayor información no dudes en enviarnos un mensaje,
+                o llamarnos  y te contactaremos lo más pronto posible.</p>
+              </div>
+            </div>
+            <!-- FIN Box Texto Intro -->
+            <!-- Box Telefono -->
+            <div class="col-12 fleft">
+              <div class="col-icono fleft"><img src="img/ico_tel.png" class="img-icon"></div>
+              <div class="col-11 fright">
+                <h4>Teléfono</h4>
+                <p>+ 34 93 481 33 68 </p>
+              </div>
+            </div>
+            <!-- FIN Box Telefono -->
+            <!-- Box Email -->
+            <div class="col-12 fleft">
+              <div class="col-icono fleft"><img src="img/ico_mail.png" class="img-icon"></div>
+              <div class="col-11 fright">
+                <h4>E-Mail</h4>
+                <p>press@macba.cat</p>
+              </div>
+            </div>
+            <!-- FIN Box Email -->
+            <!-- Box Direccion -->
+            <div class="col-12 fleft">
+              <div class="col-icono fleft"><img src="img/ico_loc.png" class="img-icon"></div>
+              <div class="col-11 fright">
+                <h4>Dirección</h4>
+                <p>MACBA, Plaça dels Àngels, 1 <br>
+                  08001 Barcelona <br>
+                  Tel. info:+ 34 93 481 33 68 </p>
+                </div>
+              </div>
+              <!-- FIN Box Direccion -->
+            </div>
+          </div>
+          <!-- FIN Columna izquierda -->
+          <!-- Columna derecha -->
+          <div class="col-6 fright">
+            <div class="col-11c">
+              <div class="estiloform">
+              <form>
+                <div class="field">
+                  <input id="name" type="text" placeholder="Nombre">
+                </div>
+                <div class="field">
+                  <input  id='email' type="email" placeholder="Correo">
+                </div>
+                <div class="field">
+                <label for="Asunto">
+                  <span>Asunto:</span>
+                    <select id="dropdown" name="Asunto" tabindex="5">
+                    <option value="general">Alquiler de espacios</option>
+                    <option value="general">Tickets</option>
+                    <option value="general">Actividades </option>
+                    <option value="general">Visita a la carta </option>
+                    <option value="general">Otros </option>
+                  </select>
+                </label>
+              </div>
+              <textarea id='msg' placeholder="Mensaje"></textarea>
+              <button data-error="Oops!, tu mensaje no ha sido enviado. Intenta de nuevo." data-success='Tu mensaje ha sido enviado. Nos pondremos en contacto pronto.'>Enviar</button>
+            </form>
+          </div>
+              </div>
+          </div>
       </div>
-     </section>
-    <!-- Fin Header -->
-    <!-- Box Contenido contacto -->
-    <div class="container">
-        <div class="content-box col-12">
-            <!-- Columna izquierda -->
-            <div>
-                <div class="fleft col-6">
-                    <!-- Box Texto Intro -->
-                    <div class="col-12 fleft">
-                        <div class="col-11 fright">
-                            <p>Si necesitas mayor información no dudes en enviarnos un mensaje,
-                               o llamarnos  y te contactaremos lo más pronto posible.</p>
-                            </div>
-                        </div>
-                        <!-- FIN Box Texto Intro -->
-                        <!-- Box Telefono -->
-                        <div class="col-12 fleft">
-                            <div class="col-icono fleft"><img src="img/ico_tel.png" class="img-icon"></div>
-                            <div class="col-11 fright">
-                                <h4>Teléfono</h4>
-                                <p>+ 34 93 481 33 68 </p>
-                            </div>
-                        </div>
-                        <!-- FIN Box Telefono -->
-                        <!-- Box Email -->
-                        <div class="col-12 fleft">
-                          <div class="col-icono fleft"><img src="img/ico_mail.png" class="img-icon"></div>
-                            <div class="col-11 fright">
-                              <h4>E-Mail</h4>
-                              <p>press@macba.cat</p>
-                                </div>
-                            </div>
-                        <!-- FIN Box Email -->
-                        <!-- Box Direccion -->
-                        <div class="col-12 fleft">
-                            <div class="col-icono fleft"><img src="img/ico_loc.png" class="img-icon"></div>
-                            <div class="col-11 fright">
-                                <h4>Dirección</h4>
-                                <p>MACBA, Plaça dels Àngels, 1 <br>
-                                    08001 Barcelona <br>
-                                    Tel. info:+ 34 93 481 33 68 </p>
-                                </div>
-                            </div>
-                            <!-- FIN Box Direccion -->
-                    </div>
-                </div>
-                <!-- FIN Columna izquierda -->
-                <!-- Columna derecha -->
-                <div class="col-6 fright">
-                    <div class="col-11">
-                    </div>
+          <!-- FIN Columna derecha -->
+      <!-- Footer -->
+      <div class="footer col-12">
+        <ul>
+          <li class="col-4-footer fleft"><a href="contacto.html"> Contacto </a></li>
+          <li class="col-4-footer fleft txt-white">Síguenos:<a href="https://www.instagram.com/macba_barcelona/"><img src="img/Contacto/ico_instragrm-01.png"><a href="https://www.facebook.com/MACBA.Barcelona"><img src="img/Contacto/ico_facebook-01.png"><a href="https://twitter.com/MACBA_Barcelona"><img src="img/Contacto/ico_twitter-01.png"></a></li>
 
-                    <!-- FIN Columna derecha -->
-                </div>
-            </div>
+          <li class="col-4-footer fleft"><a href="aviso_legal.html">Política de Privacidad</a></li>
+        </ul>
+      </div>
 
-            <!-- Footer -->
-            <div class="footer col-12">
-                <ul>
-                    <li class="col-4-footer fleft"><a href="contacto.html"> Contacto </a></li>
-                    <li class="col-4-footer fleft txt-white">Síguenos:<a href="https://www.instagram.com/macba_barcelona/"><img src="img/Contacto/ico_instragrm-01.png"><a href="https://www.facebook.com/MACBA.Barcelona"><img src="img/Contacto/ico_facebook-01.png"><a href="https://twitter.com/MACBA_Barcelona"><img src="img/Contacto/ico_twitter-01.png"></a></li>
+      <div class="footer col-12">
+        <p class="fcenter">Copyright ® 2017 MACBA </p>
+        <div>
 
-                    <li class="col-4-footer fleft"><a href="aviso_legal.html">Política de Privacidad</a></li>
-                </ul>
-            </div>
-
-            <div class="footer col-12">
-                    <p class="fcenter">Copyright ® 2017 MACBA </p>
-            <div>
-
-            <!-- FIN Footer -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-            <script type="text/javascript" src="js/script.js"></script>
+          <!-- FIN Footer -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+          <script type="text/javascript" src="js/script.js"></script>
         </body>
         </html>
