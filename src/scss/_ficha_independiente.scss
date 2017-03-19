@@ -13,6 +13,21 @@
   }
 }
 
+.centerside {
+  width: 100%;
+  padding: 30px 20px;
+  float: left;
+  /* Medium */
+@media(min-width:768px) and (max-width:991px){
+  width: 50%;
+  padding-bottom: 0;
+  }
+  /* Small */
+  @media(max-width:767px){
+  width: 100%;
+  }
+}
+
 .rightside {
   width: 30%;
   padding: 30px 20px;
