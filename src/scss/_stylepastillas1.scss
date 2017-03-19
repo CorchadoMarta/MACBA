@@ -108,6 +108,18 @@
     margin-top: 169px;
   }
 
+  .fotoWidth100-actividades-cuerpos {
+    height: 400px;
+    background:url('../img/Actividades/099.Col__leccini_31_9340.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 183px;
+    @media(max-width:991px){
+      margin-top: 169px;
+    }
+
   .fotoWidth100-text-amarillo {
     width:100%;
     height: 150px;
@@ -119,6 +131,7 @@
     align-content: center;
     flex-direction: column;
   }
+}
 }
 
 
@@ -190,6 +203,7 @@
   @media(max-width:991px){
     margin-top: 169px;
   }
+  }
   .fotoWidth100-text-negro {
     width:100%;
     height: 150px;
@@ -202,7 +216,7 @@
     align-content: center;
     flex-direction: column;
     }
-}
+
 
 .container-aviso{
   height: 400px;
@@ -223,6 +237,7 @@
   @media(max-width:991px){
     margin-top: 169px;
   }
+  }
   .fotoWidth100-text-negro {
     width:100%;
     height: 150px;
@@ -235,4 +250,3 @@
     align-content: center;
     flex-direction: column;
     }
-}
