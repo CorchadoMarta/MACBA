@@ -99,10 +99,10 @@
                 <div class="field">
                   <input  id='email' type="email" placeholder="Correo">
                 </div>
-                <div class="field">
+                <div class="dropdown">
                 <label for="Asunto">
                   <span>Asunto:</span>
-                    <select class="dropdown" name="Asunto" tabindex="5">
+                    <select name="Asunto" tabindex="5">
                     <option value="general">Alquiler de espacios</option>
                     <option value="general">Tickets</option>
                     <option value="general">Actividades </option>
@@ -111,6 +111,7 @@
                   </select>
                 </label>
               </div>
+              <div>
               <textarea id='msg' placeholder="Mensaje"></textarea>
               <button class="buttoncontacto" data-error="Oops!, tu mensaje no ha sido enviado. Intenta de nuevo." data-success='Tu mensaje ha sido enviado. Nos pondremos en contacto pronto.'>Enviar</button>
             </form>
