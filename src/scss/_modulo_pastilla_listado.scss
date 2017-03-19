@@ -76,10 +76,11 @@
     height: 300px;
   }
   .box-edad {
-    position: relative;
+    position: absolute;
     display: inline-block;
     color: #343232;
-
+    padding-left: 1.5em;
+    bottom: 0;
   }
   .box-info{
     margin: 0;
@@ -91,20 +92,19 @@
   border: none;
   background-color: #D5AB55;
   color: #fff;
-  padding: 13px;
   width: 100%;
-}
-/* Medium */
-@media(min-width:768px) and (max-width:991px){
-  .foto-sobre-el-macba {
-    height: 600px
-  }
 }
 
 .box-button-lila{
   border: none;
   background-color: #7F1786;
   color: #fff;
-  padding: 13px;
   width: 100%;
+}
+
+/* Medium */
+@media(min-width:768px) and (max-width:991px){
+  .foto-sobre-el-macba {
+    height: 600px
+  }
 }
