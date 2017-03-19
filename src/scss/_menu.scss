@@ -35,6 +35,8 @@
     justify-content: space-between;
     align-items: flex-start;
     margin: 15px 0;
+    width: 100%;
+    background-color: #fff;
     a {
         color: #000;
         text-align: right;
@@ -68,27 +70,32 @@
     }
 }
 
-.btn-red {
-  margin: 5px;
-  color: #FA4949;
-  border: 1px solid #FA4949;
-  padding: 5px 10px;
-  text-decoration: none;
-  img {
-    width: 11px;
+.nav-btn{
+  margin: 20px 20px 0;
+  float: right;
+  .btn-red {
+    margin: 5px;
+    color: #FA4949;
+    border: 1px solid #FA4949;
+    padding: 5px 10px;
+    text-decoration: none;
+    img {
+      width: 11px;
+    }
+  }
+
+  .btn-blck{
+    margin: 5px;
+    color: #000;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    text-decoration: none;
+    img {
+      width: 11px;
+    }
   }
 }
 
-.btn-blck{
-  margin: 5px;
-  color: #000;
-  border: 1px solid #000;
-  padding: 5px 10px;
-  text-decoration: none;
-  img {
-    width: 11px;
-  }
-}
 
 #active-expos {
     border-bottom: 3px solid #0088A0;
