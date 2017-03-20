@@ -202,6 +202,21 @@ display:none;
       display:none;
     }
 
+    .botontop3:hover {
+      float: right;
+      width: 150px;
+      height: 60px;
+      color:black;
+      background-color: white;
+      border: none;
+      border-style: none;
+      margin-top: 20px;
+      }
+      /* Small */
+      @media(max-width:767px){
+        display:none;
+      }
+
     .botontop4{
       float: right;
       width: 150px;
@@ -235,7 +250,7 @@ display:none;
           background-color: red;
           border: none;
           border-style: none;
-          margin: 20px 5px 10px 0;
+          margin: 20px 5px 20px 0;
           }
 
           /* Small */
@@ -244,14 +259,33 @@ display:none;
           }
       }
 
-      .fecha{
-        padding:.5em 1em;
-        text-align: right;
-        display: flex;
-        justify-content: right;
-        align-content: right;
-        flex-direction: column;
+      .fecha-act{
+        float: right;
+        width: 150px;
+        height: 60px;
         color:white;
+        text-align: right;
+      }
+
+      .buttoncontainer-black2{
+      display:none;
+      align-items: flex-end;
+
+
+        .botontop-black2{
+          width: 240px;
+          height: 60px;
+          color:white;
+          background-color: red;
+          border: none;
+          border-style: none;
+          margin: 20px 5px 20px 0;
+          }
+
+          /* Small */
+          @media(max-width:767px){
+            display: flex;
+          }
       }
 
       .fecha_exp{
