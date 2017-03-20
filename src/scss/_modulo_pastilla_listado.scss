@@ -1,17 +1,20 @@
 .container-adapt {
-  display: inline-block;
-  .content-box-listado{
-    width: 30%;
+  display: flex;
     margin: 0 auto;
+    width: 80%;
+    flex-wrap: wrap;
+    align-content: stretch;
+  .content-box-listado{
     padding: 30px 20px;
-    float: left;
+    flex: 0 0 33%;
+    align-self: stretch;
     /* Medium */
     @media(min-width:768px) and (max-width:991px){
-      width: 50%;
+      flex: 0 0 50%;
     }
     /* Small */
     @media(max-width:767px){
-      width: 100%;
+      flex: 0 0 100%;
     }
   }
 }
