@@ -233,6 +233,10 @@ display:none;
         display: flex;
       }
 
+  .linkfa{
+    text-align: left;
+  }
+
 
       .buttoncontainer-black{
       display:flex;
@@ -261,4 +265,30 @@ display:none;
         height: 60px;
         color:white;
         text-align: right;
+      }
+
+      .buttoncontainer-black2{
+      display:none;
+      align-items: flex-end;
+
+
+        .botontop-black2{
+          width: 240px;
+          height: 60px;
+          color:white;
+          background-color: red;
+          border: none;
+          border-style: none;
+          margin: 20px 5px 20px 0;
+          }
+
+          /* Small */
+          @media(max-width:767px){
+            display: flex;
+          }
+      }
+
+      .fecha_exp{
+        justify-content: flex-end;
+        color: #fff;
       }
