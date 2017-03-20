@@ -77,6 +77,20 @@
     }
   }
 
+  .spanazul:hover {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    color:#fff;
+    background-color:black;
+    padding:.5em 1em;
+    text-align: left;
+    margin: 0;
+    /* Medium */
+    @media(min-width:768px) and (max-width:991px){
+    }
+  }
+
   .spannegro {
     position:absolute;
     bottom:0;
