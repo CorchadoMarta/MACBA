@@ -1,9 +1,13 @@
 .container-adapt {
-  display: flex;
+    display: flex;
     margin: 0 auto;
     width: 80%;
     flex-wrap: wrap;
     align-content: stretch;
+    /* Small */
+    @media(max-width:991px){
+      width: 100%;
+    }
   .content-box-listado{
     padding: 30px 20px;
     flex: 0 0 33%;
