@@ -218,6 +218,10 @@ display:none;
         display: flex;
       }
 
+  .linkfa{
+    text-align: left;
+  }
+
 
       .buttoncontainer-black{
       display:flex;
@@ -248,4 +252,9 @@ display:none;
         align-content: right;
         flex-direction: column;
         color:white;
+      }
+
+      .fecha_exp{
+        justify-content: flex-end;
+        color: #fff;
       }
