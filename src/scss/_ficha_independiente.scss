@@ -298,8 +298,17 @@ display:none;
         text-decoration: none;
         color: #ffffff;
         width: 80px;
-        height: 30px;
         padding-top: 10px;
         text-align: center;
-        
+        margin-left: 10px;
+        height: 38px;
+      }
+
+      .contentboxfiltro{
+      padding: 0;
+      display: -webkit-box;
+      display: flex;
+      width: 20%;
+      margin-right: 50px;
+      align-items: baseline;
       }
