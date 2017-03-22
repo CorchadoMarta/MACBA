@@ -116,7 +116,23 @@
       padding: 9px 15px;
     }
   }
-
+  #tickets-red{
+    color: #FA4949;
+  }
+  #tickets-red:hover {
+    margin: 5px;
+    color: white;
+    background-color: red;
+    border: 1px solid #FA4949;
+    padding: 5px 10px;
+    text-decoration: none;
+    img {
+      width: 11px;
+    }
+    @media(max-width:991px){
+      padding: 9px 15px;
+    }
+  }
   .btn-red:hover {
     margin: 5px;
     color: white;
