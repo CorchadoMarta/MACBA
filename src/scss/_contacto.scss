@@ -15,6 +15,7 @@
   padding: 12px 16px;
   width: 100%;
   color: #a9a9a9;
+
 }
 
 .buttoncontacto{
@@ -188,6 +189,14 @@ select{
   color: #a9a9a9;
   float:right;
   margin-right: 10px;
+  /* Medium */
+@media(min-width:768px) and (max-width:991px){
+  float: none;
+  }
+  /* Small */
+  @media(max-width:767px){
+  float: none;
+  }
 }
 
 .filtro{
