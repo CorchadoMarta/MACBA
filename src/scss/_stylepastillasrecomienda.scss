@@ -117,3 +117,63 @@
         color: #fff;
     }
 }
+
+
+.cajarecomendada-expo{
+  display: flex;
+  justify-content: space-between;
+      background: #0080a0;
+      height: 450px;
+      width: 100%;
+      align-items: stretch;
+      position: relative;
+      top: 350px;
+      margin-right: 20px;
+}
+
+.cajanormal{
+  display: flex;
+  justify-content: space-between;
+      background: #F5F3F3;
+      height: 450px;
+      width: 100%;
+      align-items: stretch;
+      position: relative;
+      top: 350px;
+      float: right;
+        margin-right: 20px;
+  }
+
+.cajitaslanding{
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    width: 100%;
+  }
+
+.texto_cajas{
+  color:#fff;
+  display: inline-block;
+}
+
+.categoria{
+  display: flex;
+  align-items:center;
+  padding-right: 10px;
+}
+
+.cajanormal_sola{
+  display: flex;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      background: #F5F3F3;
+      height: 450px;
+      width: 364px;
+      -webkit-box-align: stretch;
+      align-items: stretch;
+      position: relative;
+      top: 580px;
+      float: left;
+      left: 10%;
+      margin-right: 20px;
+    }

@@ -9,17 +9,17 @@
   @media(max-width:991px){
     margin-top: 169px;
   }
-    .fotoWidth100-text-rojo {
-      width:100%;
-      height: 150px;
-      color:#fff;
-      background-color:rgba(255,24,50,.85);
-      padding:.5em 1em;
-      text-align: left;
-      display: flex;
-      justify-content: center;
-      align-content: center;
-      flex-direction: column;
+  .fotoWidth100-text-rojo {
+    width:100%;
+    height: 150px;
+    color:#fff;
+    background-color:rgba(255,24,50,.85);
+    padding:.5em 1em;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
   }
 }
 
@@ -49,15 +49,30 @@
 }
 
 .fotoWidth100-expos {
-  height: 400px;
-  background:url('../img/Exposiciones/La_bestia_i_el_sobira.2.4.png');
-  background-size: cover;
+  width: 100%;
+  background-color: rgba(36,152,172,0.85);
+  padding: 10px 10px 20px 25px;
+  float: right;
+  height: 80px;
+  top: 169px;
+  position: absolute;
+  color: #fff;
   display: flex;
-  align-items: flex-end;
-  margin-top: 183px;
-  @media(max-width:991px){
-    margin-top: 169px;
-  }
+  align-items: center;
+}
+
+.fotoWidth100-expos-prox {
+  width: 100%;
+  background-color: rgba(36,152,172,0.85);
+  padding: 10px 10px 20px 25px;
+  float: right;
+  height: 80px;
+  top: 110%;
+  position: absolute;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
 
   .fotoWidth100-text-azul {
     width:100%;
@@ -67,9 +82,9 @@
     padding:.5em 1em;
     text-align: left;
     display: inline-block;
-    position: relative;
+    position: absolute;
     float: left;
-  }
+
 }
 
 .fotoWidth100-exposfuturas {
@@ -117,7 +132,7 @@
     justify-content: center;
     align-content: center;
     flex-direction: column;
-}
+  }
 }
 
 .fotoWidth100-actividades {
@@ -236,19 +251,19 @@
   @media(max-width:991px){
     margin-top: 169px;
   }
-  }
-  .fotoWidth100-text-negro {
-    width:100%;
-    height: 150px;
-    color:white;
-    background-color:rgba(40,40,40,.85);
-    padding:.5em 1em;
-    text-align: left;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    }
+}
+.fotoWidth100-text-negro {
+  width:100%;
+  height: 150px;
+  color:white;
+  background-color:rgba(40,40,40,.85);
+  padding:.5em 1em;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
 
 
 .container-aviso{
@@ -271,42 +286,42 @@
     margin-top: 169px;
   }
 
+}
+
+.fotoWidth100-text-rojo {
+  width:100%;
+  height: 150px;
+  color:white;
+  background-color:rgba(255,24,50,.85);
+  padding:.5em 1em;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.fotoWidth100-expos-forensic {
+  height: 400px;
+  background:url('../img/Exposiciones/forensic_architecture.3 copia.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 183px;
+  @media(max-width:991px){
+    margin-top: 169px;
   }
 
-  .fotoWidth100-text-rojo {
+  .fotoWidth100-text-azul {
     width:100%;
     height: 150px;
-    color:white;
-    background-color:rgba(255,24,50,.85);
+    color:#fff;
+    background-color:rgba(36,152,172,.85);
     padding:.5em 1em;
-    text-align: left;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    }
-
-    .fotoWidth100-expos-forensic {
-      height: 400px;
-      background:url('../img/Exposiciones/forensic_architecture.3 copia.png');
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      align-items: flex-end;
-      margin-top: 183px;
-      @media(max-width:991px){
-        margin-top: 169px;
-      }
-
-      .fotoWidth100-text-azul {
-        width:100%;
-        height: 150px;
-        color:#fff;
-        background-color:rgba(36,152,172,.85);
-        padding:.5em 1em;
-        display: inline-block;
-        justify-content: center;
-        align-content: center;
-        flex-direction: column;
-      }
-    }
+  }
+}
