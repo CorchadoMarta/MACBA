@@ -240,6 +240,12 @@
     text-align: left;
   }
 
+  .hr {
+  background-color: black;
+  height: 1px;
+  width: 90%;
+}
+
 
   .buttoncontainer-black{
     display:flex;
@@ -253,7 +259,7 @@
       background-color: red;
       border: none;
       border-style: none;
-      
+
     }
 
     /* Small */
