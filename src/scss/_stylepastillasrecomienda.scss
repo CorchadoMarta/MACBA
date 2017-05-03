@@ -151,6 +151,14 @@
     width: 100%;
   }
 
+  .cajitaslanding2{
+    position: relative;
+display: flex;
+width: 53.3%;
+left: 10%;
+top:210px;
+  }
+
 .texto_cajas{
   color:#fff;
   display: inline-block;
@@ -177,3 +185,17 @@
       left: 10%;
       margin-right: 20px;
     }
+
+.area{
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  right: -116%;
+}
+
+.area2{
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  right: -170%;
+}

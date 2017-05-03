@@ -253,7 +253,7 @@
       background-color: red;
       border: none;
       border-style: none;
-      
+
     }
 
     /* Small */
@@ -305,14 +305,15 @@
     position: relative;
     text-align: center;
     height: 38px;
-    top: 12px;
+    top: 27px;
+right: 40%;
   }
 
   .contentboxfiltro{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    position: absolute;
+    position: relative;
     top: 320px;
     left: 25px;
 
@@ -334,8 +335,15 @@
   padding-right:20px;
 }
 
-.explorarchivo{
+
+
+.archivoboton{
   display: flex;
-  align-items: flex-end;
+position: relative;
+right: 7%;
+top: 28px;
+a{
   color: #000;
+}
+
 }

@@ -7,6 +7,12 @@
     /* Small */
     @media(max-width:991px){
       width: 100%;
+      display: block;
+    }
+
+    /* Medium */
+    @media(min-width:768px) and (max-width:991px){
+      width: 50%;
     }
   .content-box-listado{
     padding: 30px 20px;
