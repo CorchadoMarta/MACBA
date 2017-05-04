@@ -318,6 +318,20 @@
 right: 40%;
   }
 
+
+    .btn-filtros2 {
+      background-color: #FF1833;
+      text-decoration: none;
+      color: #ffffff;
+      width: 80px;
+      padding-top: 10px;
+      position: relative;
+      text-align: center;
+      height: 38px;
+      top: 27px;
+  right: 64%;
+    }
+
   .contentboxfiltro{
     display: flex;
     justify-content: space-between;
@@ -354,7 +368,30 @@ top: 28px;
 a{
   color: #000;
 }
+}
 
+
+.infosem{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top:300px;
+  left:1.5%;
+  width: 30%;
+
+  p{
+    padding-left: 10px;
+  }
+}
+
+.mapa{
+  position: relative;
+  display: flex;
+  width:600px;
+  height:450px;
+border:0;
+top: -275px;
+right: 10%;
 }
 
 .icono-descargate{
