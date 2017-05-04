@@ -1,6 +1,20 @@
 // Mixins
 // --------------------------
 
+@mixin cabeceras-fichas($bg-image) {
+  height: 400px;
+  background:url($bg-image);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  @media(max-width:991px){
+    margin-top: 169px;
+  }
+
+}
+
+
 @mixin fa-icon() {
   display: inline-block;
   font: normal normal normal #{$fa-font-size-base}/#{$fa-line-height-base} FontAwesome; // shortening font declaration
