@@ -268,11 +268,15 @@
   }
 
   .fecha-act{
-    float: right;
     width: 150px;
-    height: 60px;
-    color:white;
-    text-align: right;
+      height: 60px;
+      color: white;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      left: 40%;
+      position: relative;
   }
 
   .buttoncontainer-black2{
@@ -351,4 +355,8 @@ a{
   color: #000;
 }
 
+}
+
+.icono-descargate{
+  padding: 20px 0 20px 0;
 }
