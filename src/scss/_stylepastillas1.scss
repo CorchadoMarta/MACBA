@@ -151,13 +151,16 @@
 
 
 .fotoWidth100-actividades {
-  height: 400px;
-  background:url('../img/Actividades/shutterstock_159444323.jpg');
-  background-size: cover;
-  background-position: center;
+  width: 100%;
+  background-color: rgba(213,171,85,.85);
+  padding: 10px 10px 20px 25px;
+  float: right;
+  height: 80px;
+  top: 169px;
+  position: absolute;
+  color: #fff;
   display: flex;
-  align-items: flex-end;
-  margin-top: 183px;
+  align-items: center;
   @media(max-width:991px){
     margin-top: 169px;
   }
