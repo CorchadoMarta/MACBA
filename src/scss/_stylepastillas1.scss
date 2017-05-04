@@ -69,10 +69,12 @@
   padding: 10px 10px 20px 25px;
   float: right;
   height: 80px;
-  top: 118%;
-  position: absolute;
+  top: 25em;
+  position: relative;
   color: #fff;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-align: center;
   align-items: center;
 }
 
@@ -335,4 +337,8 @@
     align-content: center;
     flex-direction: column;
   }
+}
+
+.container-full-width {
+  position: relative;
 }
