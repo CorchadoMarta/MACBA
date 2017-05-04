@@ -84,11 +84,6 @@
     color:#fff;
     background-color:rgba(36,152,172,.85);
     padding:.5em 1em;
-    text-align: left;
-    display: inline-block;
-    position: absolute;
-    float: left;
-
 }
 
 .fotoWidth100-exposfuturas {
@@ -107,10 +102,6 @@
     color:#fff;
     background-color:rgba(36,152,172,.85);
     padding:.5em 1em;
-    text-align: left;
-    display: inline-block;
-    position: relative;
-    float: left;
   }
 }
 
@@ -248,12 +239,6 @@
     color:#fff;
     background-color:rgba(36,152,172,.85);
     padding:.5em 1em;
-    text-align: left;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-
     .fecha{
       text-align: right;
       display: inline;
@@ -323,20 +308,22 @@
   flex-direction: column;
 }
 
-.fotoWidth100-expos-forensic {
+.fotoWidth100-expos-macba31 {
   @include cabeceras-fichas('../img/Exposiciones/Coleccion_MACBA.png');
+}
+
+  .fotoWidth100-expos-forensic {
+    @include cabeceras-fichas('../img/Exposiciones/forensic_architecture.png');
+  }
 
   .fotoWidth100-text-azul {
-    width:72.7%;
+    width:100%;
     height: 80px;
     color:#fff;
     background-color:rgba(36,152,172,.85);
     padding:.5em 1em;
-    display: inline-block;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
   }
+
 }
 
 .container-full-width {
