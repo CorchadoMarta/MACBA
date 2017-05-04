@@ -259,12 +259,22 @@
     border: none;
     border-style: none;
 
+  .fecha-act{
+    width: 150px;
+      height: 60px;
+      color: white;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      left: 40%;
+      position: relative;
+      /* Small */
+      @media(max-width:767px){
+        display: none;
+    }
   }
-
-  /* Small */
-  @media(max-width:767px){
-    display: none;
-  }
+}
 }
 
 .fecha-act{
@@ -433,4 +443,8 @@
   i{
     padding-left: 10px;
   }
+}
+
+.icono-descargate{
+  padding: 20px 0 20px 0;
 }
