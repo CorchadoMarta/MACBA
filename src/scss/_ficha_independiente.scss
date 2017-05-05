@@ -396,6 +396,10 @@
   @include cabeceras-fichas('../img/Exposiciones/labestia.png');
 }
 
+.fotoWidth100-expos-punk {
+  @include cabeceras-fichas('../img/Exposiciones/punk-arte.jpg');
+}
+
   .fotoWidth100-text-azul {
     width:100%;
     height: 80px;
