@@ -105,40 +105,30 @@
 
 
   .box-foto{
-    width:100%;
-    position:absolute;
-    top:10%;
-    left: 10%;
-    display:inline-block;
-    float: left;
+    position:relative;
     height: 275px;
     /* Small */
     @media(max-width:767px){
       margin: 0;
     }
   }
-    .img-pastilla {
-      width:100%;
-      height: 200px;
-      object-fit: cover;
-    }
+  .img-pastilla {
+    width:100%;
+    height: 200px;
+    object-fit: cover;
+  }
 
-    .categoria{
-      display: flex;
-      align-items:center;
-      padding-right: 10px;
-    }
+  .categoria{
+    display: flex;
+    align-items:center;
+    padding-right: 10px;
+  }
 
-    .box-text {
-      position: relative;
-          display: inline-block;
-          top: 240px;
-          left: 10%;
-          color: #fff;
-      /* Medium */
-      @media(min-width:768px) and (max-width:991px){
-        height: 300px;
-      }
+  .edad_cat{
+    display: flex;
+    align-items:center;
+    padding-right: 10px;
+  justify-content: space-between;
   }
 
   .column_landing {
@@ -152,14 +142,34 @@
   }
 
   .caja--destacada{
-    height: 450px;
     background: #0080a0;
+    height: 450px;
     margin: 20px;
   }
 }
 
 
+.box-text1 {
+  position: relative;
+  left: 10%;
+  color: #000;
+  width: 80%;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    height: 300px;
+  }
+}
 
+.box-text2 {
+  position: relative;
+  left: 10%;
+  color: #fff;
+  width: 80%;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    height: 300px;
+  }
+}
 
 
 @media screen and (min-width: 768px) {
