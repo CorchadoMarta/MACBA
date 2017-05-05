@@ -1,19 +1,20 @@
 .container-adapt {
     display: flex;
     margin: 0 auto;
-    width: 80%;
+    flex: 0 0 33%;
     flex-wrap: wrap;
+    width: 80%;
     align-content: stretch;
     /* Small */
-    @media(max-width:991px){
-      width: 100%;
-      display: block;
+    @media(max-width:776px){
+    flex: 0 0 100%;
     }
 
     /* Medium */
     @media(min-width:768px) and (max-width:991px){
-      width: 50%;
+        flex: 0 0 50%;
     }
+
 
   .content-box-listado{
     padding: 30px 20px;
