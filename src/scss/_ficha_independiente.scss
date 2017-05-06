@@ -319,6 +319,17 @@
   left:1.5%;
   width: 30%;
 
+  /* Small */
+  @media(max-width:767px){
+width:100%
+  }
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    width: 100%;
+  }
+
+
   p{
     padding-left: 10px;
   }
@@ -333,12 +344,27 @@
   top: -275px;
   right: 10%;
   float: right;
+  /* Small */
+  @media(max-width:767px){
+display: none;
+  }
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    display: block;
+    width: 600px;
+    height: 450px;
+    border: 0;
+    top: 0;
+    padding-top: 20em;
+
+  }
 }
 
 .filtrosres{
   display: flex;
   position: relative;
-  top: 260px;
+  top: 280px;
   left: 1.7%;
   a{
     color: #000;

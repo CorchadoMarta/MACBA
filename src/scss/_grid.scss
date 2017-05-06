@@ -109,6 +109,18 @@
   margin-top: 18em;
 }
 
+.margin5{
+  margin-top: 0em;
+  /* Small */
+  @media(max-width:767px){
+    margin-top: 20em;
+  }
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+      margin-top: 50em;
+  }
+}
+
 .container_landing {
   display: flex;
   flex-wrap: wrap;
@@ -122,6 +134,7 @@
     @media(max-width:767px){
       margin: 0;
     }
+
   }
   .img-pastilla {
     width:100%;
