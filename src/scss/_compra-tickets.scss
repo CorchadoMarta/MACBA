@@ -1,0 +1,55 @@
+.panel-main {
+  top: 169px;
+  position: relative;
+  .cap-box-bottom {
+    background-color:#ffffff;
+    position:relative;
+    min-height: 700px;
+    .multi-step-form {
+      position:relative;
+      width:100%;
+      .progressbar {
+	      overflow: hidden;
+        width: 100%;
+        height:130px;
+        li {
+          list-style-type: none;
+          width: 25%;
+          float:left;
+          position: relative;
+          height:78px;
+          z-index: 10;
+          text-align: right;
+          span {
+            width: 78px;
+            line-height: 78px;
+            display: block;
+            font-size: 50px;
+            color: #dfe0e1;
+            margin: 5px auto 5px auto;
+            text-align:center;
+            z-index:30;
+            &:before {
+              content: '';
+              width: 100%;
+              height: 6px;
+              background-color: #dfe0e1;
+              position: absolute;
+              left: 0px;
+              top: 40px;
+              z-index: -1; /*put it behind the numbers*/
+            }//&:before
+          }
+          &.active {
+            span {
+              color: #FA4949;
+              &:before {
+                background: #FA4949;
+              }
+            }
+          }
+        }//li
+      }//.progressbar
+    }//.thank-you
+  }//.cap-box-bottom
+}//.panel-main
