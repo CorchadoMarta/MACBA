@@ -224,3 +224,7 @@ ul li{
   }
 
 }
+
+.titulo-gris {
+  @include titulo(#9B9B9B);
+}

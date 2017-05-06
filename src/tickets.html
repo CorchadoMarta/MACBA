@@ -12,6 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Raleway:500,700|Roboto:300,500" rel="stylesheet">
   <link rel="icon" type="image/jpg" href="img/favicon.jpg" >
+  <script src="https://use.fontawesome.com/9be107ecea.js"></script>
 
 </head>
 
@@ -20,7 +21,7 @@
   <!-- Menu -->
   <div class="menu">
     <div class="nav-btn">
-      <a href="planea_tu_visita.html" class="btn-blck" > Planea tu visita <i class="fa fa-angle-right fa" aria-hidden="true"></i></a>
+      <a href="#" class="btn-blck" > Newsletter <i class="fa fa-angle-right fa" aria-hidden="true"></i></a>
       <a href="tickets.html" class="btn-red"> Tickets <i class="fa fa-ticket" aria-hidden="true"></i></a>
     </div>
     <nav class="navbar">
@@ -30,7 +31,7 @@
       </a>
       <div>
         <div class="nav-btn-mobile">
-          <a href="planea_tu_visita.html" id="planea-white" class="btn-blck" > Planea tu visita <i class="fa fa-angle-right fa" aria-hidden="true"></i></a>
+          <a href="#" id="planea-white" class="btn-blck" > Newsletter <i class="fa fa-angle-right fa" aria-hidden="true"></i></a>
           <a href="tickets.html" id="tickets-red" class="btn-red" > Tickets <i class="fa fa-ticket" aria-hidden="true"></i></a>
           <a href="#" id="navToggle" class="hambur">&#9776;</a>
         </div>
@@ -50,75 +51,59 @@
   <!-- Fin Menu -->
 
 
-  <!-- Header -->
-  <section class="fotoWidth100-tickets">
-    <div class="fotoWidth100-text-rojo">
-      <h1>Tickets</h1>
-    </div>
-  </section>
-  <!-- Fin Header -->
+  <!-- Progres Bar -->
+  <div class="panel-main">
+    <div class="cap-box-bottom">
+      <!-- progressbar -->
+      <section id="multi-step-form" class="multi-step-form">
+        <ul id="progressbar" class="progressbar">
+          <li class="active"><span><i class="fa fa-ticket" aria-hidden="true"></i></span><p>SELECCIÓN DE ENTRADAS</p></li>
+          <li><span><i class="fa fa-ticket" aria-hidden="true"></i></span><p>DATOS PERSONALES</p></li>
+          <li><span><i class="fa fa-ticket" aria-hidden="true"></i></span><p>PAGO</p></li>
+          <li><span><i class="fa fa-ticket" aria-hidden="true"></i></span><p>RESULTADO DE COMPRA</p></li>
+        </ul>
+      </section>
+      <div class="col-12">
+        <div class="col-7">
+          <section class="titulo-gris">
+            <h3>SELECCIÓN DE ENTRADAS</h3>
+          </section>
+          <!-- accordion -->
+          <div id="accordion">
+            <a class="accordion--link" href="#one">TARIFA GENERAL <i class="fright crossRotate fa fa-chevron-down" aria-hidden="true"></i> <p>Permite acceder a todas las exposiciones en curso y a las actividades del museo.</p></a>
+            <div id="one">
+              <p>Precio: <strong>10€</strong></p>
+              <p><strong>Numero de entradas:</strong>
+                <div class="qty">
+                  <div id="minus"><i class="fa fa-minus" aria-hidden="true"></i></div>
+                  <input id="quant" name="quant" type="text" value=0 size=1>
+                  <div id="plus"><i class="fa fa-plus" aria-hidden="true"></i></div>
+                </div>
+               </p>
+            </div>
+            <a class="accordion--link" href="#two">TARIFA REDUCIDA (Estudiantes, profesores, jubilados, menores de 18 y desempleados)<i class="fright crossRotate fa fa-chevron-down" aria-hidden="true"></i><p>Estas personas tienen tarifa reducida al museo y a todas las actividades.</p></a>
+            <div id="two">this is some more info.</div>
+            <a <a class="accordion--link" href="#three">ENTRADA GRATUITA (Menores de 9 años)<i class="fright fa crossRotate fa-chevron-down" aria-hidden="true"></i><p>Totalmente gratis para los menores hasta dicha edad.</p></a>
+            <div id="three">this is even more info.</div>
+            <a class="accordion--link" href="#four">ENTRADA A GRUPOS<i class="fright crossRotate fa fa-chevron-down" aria-hidden="true"></i><p>Obten entradas para ti y tu grupo reservando tus visitas en horarios convenidos llamando al teléfono 934121413 o enviando un correo electrónico a educacio@macba.cat.</p></a>
+            <div id="four">this is even more info.</div>
+          </div>
+        </div>
+        <div class="col-5">
 
-  <!-- Listado primera fila -->
-  <section class="container-adapt">
-    <div class="content-box-listado">
-      <div class="box-foto">
-        <img class="img-pastilla" src="img/Tickets/shutterstock_332587841 (1).jpg" alt="Entrada general">
-        <p class="spanamarojo">Entrada General
-        </p>
-
-      </div>
-      <div class="box-text">
-          <p class="box-info">Permite acceder a todas las exposiciones en curso y a las actividades del programa MACBA se vive. La entrada tiene validez durante un mes.</p>
-          <p class="box-edad"><strong>10€ - Disponible en taquilla</strong></p>
-      </div>
-    </div>
-    <div class="content-box-listado">
-      <div class="box-foto">
-        <img class="img-pastilla" src="img/Tickets/shutterstock_432822619.jpg" alt="Amigos del MACBA">
-        <p class="spanamarojo">Amigos del MACBA
-        </p>
-
-      </div>
-      <div class="box-text">
-          <p class="box-info">Los Amigos del MACBA tienen entrada gratuita al Museo y a todas las actividades. En las taquillas pueden adquirirse otras modalidades de Amigos, como la tarifa Estudiante.</p>
-          <p class="box-edad"><strong>35€ - Disponible en taquilla</strong></p>
-      </div>
-    </div>
-    <div class="content-box-listado">
-      <a href="planea_tu_visita.html" alt="planea tu visita">
-      <div class="box-foto">
-        <img class="img-pastilla" src="img/Tickets/shutterstock_330521684 (2).jpg" alt="Entrada Grupos">
-        <p class="spanamarojo">Entrada Grupos
-        </p>
-
-      </div></a>
-      <div class="box-text">
-          <p class="box-info">Obten entradas para ti y tu grupo reservando tus visitas en horarios convenidos llamando al teléfono <strong>934121413</strong> o enviando un correo electrónico a <strong><a href="mailto:educacio@macba.cat?Subject=Contacto_tickets" style="color:#000; text-decoration:underline" target="_top" title="Dirección de email para solicitar más información">educacio@macba.cat</a></strong></p>
+        </div>
       </div>
     </div>
-  </section>
-  <!-- Fin Listado fila -->
-
-
-  <!-- Footer -->
-  <div class="footer col-12">
-    <ul>
-      <li class="col-4-footer fleft"><a href="contacto.html"> Contacto:
-      <ul>
-        <li><i class="fa fa-phone" aria-hidden="true"></i> + 34 93 481 33 68 </li>
-        <li><i class="fa fa-envelope" aria-hidden="true"></i> press@macba.cat</li>
-      </ul> </a></li>
-      <li class="col-4-footer fleft txt-white">Síguenos:<a href="https://www.instagram.com/macba_barcelona/"><img src="img/Contacto/ico_instragrm-01.png"><a href="https://www.facebook.com/MACBA.Barcelona"><img src="img/Contacto/ico_facebook-01.png"><a href="https://twitter.com/MACBA_Barcelona"><img src="img/Contacto/ico_twitter-01.png"></a></li>
-
-      <li class="col-4-footer fleft"><a href="aviso_legal.html">Política de Privacidad</a></li>
-    </ul>
   </div>
 
-  <div class="footer col-12">
-    <p class="fcenter">Copyright ® 2017 MACBA </p>
-    <div>
- <!-- FIN Footer -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <script src="js/button.js"></script>
+  <script src="js/scrolldown.js"></script>
 </body>
 </html>

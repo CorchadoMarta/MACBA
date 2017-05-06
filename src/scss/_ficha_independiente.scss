@@ -319,6 +319,17 @@
   left:1.5%;
   width: 30%;
 
+  /* Small */
+  @media(max-width:767px){
+width:100%
+  }
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    width: 100%;
+  }
+
+
   p{
     padding-left: 10px;
   }
@@ -332,12 +343,28 @@
   border:0;
   top: -275px;
   right: 10%;
+  float: right;
+  /* Small */
+  @media(max-width:767px){
+display: none;
+  }
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    display: block;
+    width: 600px;
+    height: 450px;
+    border: 0;
+    top: 0;
+    padding-top: 20em;
+
+  }
 }
 
 .filtrosres{
   display: flex;
   position: relative;
-  top: 260px;
+  top: 280px;
   left: 1.7%;
   a{
     color: #000;
@@ -400,6 +427,42 @@
   @include cabeceras-fichas('../img/Exposiciones/punk-arte.jpg');
 }
 
+.fotoWidth100-acti-transformacion {
+  @include cabeceras-fichas('../img/Actividades/en-transformacion.png');
+}
+
+.fotoWidth100-acti-conlacomida{
+  @include cabeceras-fichas('../img/Actividades/con-la-comida.png');
+}
+
+.fotoWidth100-acti-signando{
+  @include cabeceras-fichas('../img/Actividades/signando.png');
+}
+.fotoWidth100-alq-atrio{
+  height: 400px;
+  background:#000;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  @media(max-width:991px){
+    margin-top: 169px;
+  }
+  }
+
+.fotoWidth100-acti-cuerpos{
+  @include cabeceras-fichas('../img/Actividades/099.Col__leccini_31_9340.jpg');
+}
+
+.fotoWidth100-acti-casorio{
+  @include cabeceras-fichas('../img/Actividades/elcasorio.jpg');
+}
+
+.fotoWidth100-acti-habitacion{
+  @include cabeceras-fichas('../img/Actividades/habitacion_1418.jpg');
+}
+
+
   .fotoWidth100-text-azul {
     width:100%;
     height: 80px;
@@ -407,3 +470,92 @@
     background-color:rgba(36,152,172,.85);
     padding:.5em 1em;
   }
+
+  .fotoWidth100-text-amarillo {
+    width:100%;
+    height: 80px;
+    color:#fff;
+    background-color:rgba(213,171,85,.85);
+    padding:.5em 1em;
+  }
+
+
+  .fotoWidth100-acti-prox {
+    width: 100%;
+    background-color: rgba(213,171,85,0.85);
+    padding: 10px 10px 20px 25px;
+    float: right;
+    height: 80px;
+    top: 3em;
+    position: relative;
+    color: #fff;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none;
+
+  img{
+    height: 100%;
+  }
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
