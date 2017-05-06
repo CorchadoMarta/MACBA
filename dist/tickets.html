@@ -74,12 +74,23 @@
             <div id="one">
               <p>Precio: <strong>10€</strong></p>
               <p><strong>Numero de entradas:</strong>
-                <div class="qty">
-                  <div id="minus"><i class="fa fa-minus" aria-hidden="true"></i></div>
-                  <input id="quant" name="quant" type="text" value=0 size=1>
-                  <div id="plus"><i class="fa fa-plus" aria-hidden="true"></i></div>
+
+                <div class="input-group top-group">
+                  <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number" data-type="minus" data-field="quant[1]">
+                          <span class="glyphicon glyphicon-minus"></span>
+                      </button>
+                  </span>
+                  <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="100">
+                  <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                          <span class="glyphicon glyphicon-plus"></span>
+                      </button>
+                  </span>
                 </div>
+
                </p>
+
             </div>
             <a class="accordion--link" href="#two">TARIFA REDUCIDA (Estudiantes, profesores, jubilados, menores de 18 y desempleados)<i class="fright crossRotate fa fa-chevron-down" aria-hidden="true"></i><p>Estas personas tienen tarifa reducida al museo y a todas las actividades.</p></a>
             <div id="two">this is some more info.</div>
