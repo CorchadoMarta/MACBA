@@ -73,6 +73,24 @@
             <a class="accordion--link" href="#one">TARIFA GENERAL <i class="fright crossRotate fa fa-chevron-down" aria-hidden="true"></i> <p>Permite acceder a todas las exposiciones en curso y a las actividades del museo.</p></a>
             <div id="one">
               <p>Precio: <strong>10€</strong></p>
+              <p><strong>Numero de entradas:</strong>
+
+                <div class="input-group top-group">
+                  <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number" data-type="minus" data-field="quant[1]">
+                          <span class="glyphicon glyphicon-minus"></span>
+                      </button>
+                  </span>
+                  <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="100">
+                  <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                          <span class="glyphicon glyphicon-plus"></span>
+                      </button>
+                  </span>
+                </div>
+
+               </p>
+
             </div>
             <a class="accordion--link" href="#two">TARIFA REDUCIDA (Estudiantes, profesores, jubilados, menores de 18 y desempleados)<i class="fright crossRotate fa fa-chevron-down" aria-hidden="true"></i><p>Estas personas tienen tarifa reducida al museo y a todas las actividades.</p></a>
             <div id="two">this is some more info.</div>

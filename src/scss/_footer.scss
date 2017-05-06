@@ -1,3 +1,79 @@
+*{
+    transition: all 0.6s;
+}
+
+#contentnews{
+    position: relative;
+    width: auto;
+    border-radius: 5px;
+    top: 20%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0px 0px 35px rgba(0,0,0,0.6);
+
+    p{
+      color:white;
+    }
+}
+
+input[type='email']{
+    outline: none;
+    display: inline-block;
+    width: 65%;
+    padding: 10px;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+input[type='email']:focus{
+    border: 2px solid #aaa;
+}
+
+#buttonnews{
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+    width: 27%;
+    display: inline-block;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+#buttonnews:hover{
+    border: 2px solid #aaa;
+}
+
+@media screen and (max-width: 736px){
+    input[type='email']{
+        display: block;
+        width: 100%;
+    }
+    #buttonnews{
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        width: 100%;
+        display: block;
+        margin-top: 5px;
+    }
+}
+
+
+.textocaja {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+}
 
 .footer {
   background-color: #000;
@@ -5,10 +81,12 @@
   float: left;
   p{
       font-size: 14px;
+      line-height: normal;
   }
   ul {
     width: 100%;
-    text-align: center;
+    color: #fff;
+    text-align: left;
     margin:0;
     padding:0;
     list-style-type:none;
@@ -20,8 +98,8 @@
     li {
       list-style-type: none;
       line-height: 18px;
-      padding-top: 10px;
-        font-size: 15px;
+      padding-left: 50px;
+      padding-top: 50px;
       a {
         color: #fff;
         text-decoration: none;
@@ -39,11 +117,34 @@
   }
 }
 
-
-.col-4-footer{
-  width: 33.33333333%;
-  /* Small */
-  @media(max-width:767px){
+.col-right{
+  float: right;
+  li {
     width: 100%;
+    color: #fff;
+    text-align: right;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    /* Small */
+    @media(max-width:767px){
+      text-align: left;
+      padding-left: 10px;
+    }
   }
+}
+
+.rrss {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.fa {
+  padding-right: 10px;
+}
+
+.f-right {
+  text-align: right;
 }
