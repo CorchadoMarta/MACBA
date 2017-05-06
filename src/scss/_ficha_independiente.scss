@@ -439,6 +439,19 @@ display: none;
   @include cabeceras-fichas('../img/Actividades/signando.png');
 }
 
+.fotoWidth100-acti-cuerpos{
+  @include cabeceras-fichas('../img/Actividades/099.Col__leccini_31_9340.jpg');
+}
+
+.fotoWidth100-acti-casorio{
+  @include cabeceras-fichas('../img/Actividades/elcasorio.jpg');
+}
+
+.fotoWidth100-acti-habitacion{
+  @include cabeceras-fichas('../img/Actividades/habitacion_1418.jpg');
+}
+
+
   .fotoWidth100-text-azul {
     width:100%;
     height: 80px;
