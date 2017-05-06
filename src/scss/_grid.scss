@@ -99,16 +99,14 @@
 
 .margin1{
   margin-top: 10em;
-  /* Medium */
-  @media(min-width:768px) and (max-width:991px){
-  }
-  /* Small */
-  @media(max-width:767px){
-  }
 }
 
 .margin2{
   margin-top: 23em;
+}
+
+.margin3{
+  margin-top: 18em;
 }
 
 .container_landing {
@@ -215,7 +213,7 @@
   text-align: center;
   height: 38px;
   top: 27px;
-  right: 40%;
+  right: 38%;
   /* Small */
   @media(max-width:767px){
 right:0%
@@ -223,7 +221,7 @@ right:0%
 
   /* Medium */
   @media(min-width:768px) and (max-width:991px){
-right:15%;
+right:20%;
   }
 }
 
@@ -238,16 +236,30 @@ right:15%;
   text-align: center;
   height: 38px;
   top: 27px;
-  right: 64%;
+  right: 70%;
+
+  /* Small */
+  @media(max-width:767px){
+right:0%;
+width:88%;
+top:0;
+  }
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+right:53%;
+  }
 }
 
 .contentboxfiltro{
+  display: -webkit-box;
   display: flex;
   justify-content: space-between;
   width: 100%;
   position: relative;
   top: 320px;
-  left: 25px;
+  margin: 0;
+  padding-left: 25px;
 
   /* Small */
   @media(max-width:767px){

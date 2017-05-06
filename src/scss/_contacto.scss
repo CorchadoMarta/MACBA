@@ -180,7 +180,7 @@ select{
   margin-bottom: 10px;
 }
 
-.dropdown2{
+.dropdown0{
   border-color: #777;
   position: relative;
   background-color: #fff;
@@ -201,6 +201,50 @@ select{
   }
 }
 
+.dropdown1{
+  border-color: #777;
+  position: relative;
+  background-color: #fff;
+  padding: 20px 0 5px;
+  width: 150px;
+  color: #a9a9a9;
+  float: right;
+  top: 15px;
+  right: 19%;
+  /* Medium */
+@media(min-width:768px) and (max-width:991px){
+  float: none;
+    right:10%;
+  }
+  /* Small */
+  @media(max-width:767px){
+  float: none;
+    display: none;
+  }
+}
+
+.dropdown2{
+  border-color: #777;
+  position: relative;
+  background-color: #fff;
+  padding: 20px 0 5px;
+  width: 150px;
+  color: #a9a9a9;
+  float: right;
+  top: 15px;
+  right: 0%;
+  /* Medium */
+@media(min-width:768px) and (max-width:991px){
+  float: none;
+
+  }
+  /* Small */
+  @media(max-width:767px){
+  float: none;
+    display: none;
+  }
+}
+
 .dropdown3{
   border-color: #777;
   position: relative;
@@ -210,11 +254,11 @@ select{
   color: #a9a9a9;
   float: right;
   top: 15px;
-  right: 20%;
+  right: 35%;
   /* Medium */
 @media(min-width:768px) and (max-width:991px){
   float: none;
-  right:8%;
+  right:26%;
   }
   /* Small */
   @media(max-width:767px){
