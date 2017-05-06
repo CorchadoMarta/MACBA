@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <title>MACBA</title>
+  <meta name="description" content="Museo de Arte Contemporaneo de Barcelona">
+  <meta name="keywords" content="Museo,arte,contemporaneo,Barcelona">
+<script src="https://use.fontawesome.com/9be107ecea.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:500,700|Roboto:300,500" rel="stylesheet">
+  <link rel="icon" type="image/jpg" href="img/favicon.jpg" >
+</head>
+
+<body>
+  <!-- Menu -->
+  <div class="menu">
+    <div class="nav-btn">
+      <a href="planea_tu_visita.html" class="btn-blck" > Planea tu visita <i class="fa fa-angle-right fa" aria-hidden="true"></i></a>
+      <a href="tickets.html" class="btn-red"> Tickets <i class="fa fa-ticket" aria-hidden="true"></i></a>
+    </div>
+    <nav class="navbar">
+      <a href="index.html">
+        <img src="img/logo-desktop.png" class="logo">
+        <img src="img/logo.png" class="logo-small">
+      </a>
+      <div>
+        <div class="nav-btn-mobile">
+          <a href="planea_tu_visita.html" id="planea-white" class="btn-blck" > Planea tu visita <i class="fa fa-angle-right fa" aria-hidden="true"></i></a>
+          <a href="tickets.html" id="tickets-red" class="btn-red" > Tickets <i class="fa fa-ticket" aria-hidden="true"></i></a>
+          <a href="#" id="navToggle" class="hambur">&#9776;</a>
+        </div>
+        <ul>
+          <li><a href="exposiciones.html">Exposiciones</a></li>
+          <li><a href="actividades.html">Actividades</a></li>
+          <li><a href="alquiler_espacios.html">Alquiler de espacios</a></li>
+          <li><a href="sobre_el_macba.html">Sobre el Museo</a></li>
+        </ul>
+      </div>
+    </nav>
+    <form id="buscador" action="buscador.html">
+      <button type="submit" class="btn-buscar"></button>
+      <input id="buscar" type="text" name="Buscar" placeholder="Busca">
+    </form>
+  </div>
+  <!-- Fin Menu -->
+  <!-- Header -->
+  <section class="fotoWidth100-expos">
+    <h3>Actuales</h3>
+  </section>
+  <!-- Fin Header -->
+  <!-- Migas -->
+  <div class="breadcrumb">
+    <a class="breadcrumb-text" href="index.html">MACBA</a>/ <b>Exposiciones</b></a></div>
+    <!-- Fin Migas -->
+
+
+    <!-- Filtro -->
+    <div class="contentboxfiltro">
+      <div class="dropdown0">
+        <label>
+          <select class="filtro" tabindex="5">
+            <option value="general">Mes</option>
+            <option value="general">Enero</option>
+            <option value="general">Febrero</option>
+            <option value="general">Marzo</option>
+            <option value="general">Abril</option>
+            <option value="general">Mayo</option>
+            <option value="general">Junio</option>
+            <option value="general">Julio</option>
+            <option value="general">Agosto</option>
+            <option value="general">Septiembre</option>
+            <option value="general">Octubre</option>
+            <option value="general">Noviembre</option>
+              <option value="general">Diciembre</option>
+          </select>
+        </label>
+      </div>
+      <div class="dropdown1">
+        <label>
+          <select class="filtro" tabindex="5">
+            <option value="general">Categoría</option>
+            <option value="general">Fotografía</option>
+            <option value="general">Escultura</option>
+            <option value="general">Pintura</option>
+            <option value="general">Performance</option>
+            <option value="general">Varios</option>
+          </select>
+        </label>
+      </div>
+      <a class="btn-filtros" href="filtros.html">Filtrar</a>
+    </div>
+    <!-- Fin filtro -->
+
+  <!--Inicio Cards-->
+  <div class="container_landing margin2">
+  <div class="column_landing">
+    <div class="caja--destacada" href="#">
+        <div class="box-foto">
+          <img class="img-pastilla" src="img/Exposiciones/reina.jpg" alt="la bestia y el soberano">
+        </div>
+        <div href="#" class="box-text2">
+          <h5>13 Mayo - 25 Septiembre 2016</h5>
+          <h3>Punk en el arte contemporáneo</h3>
+          <div class="categoria">
+            <i class="fa fa-camera" aria-hidden="true"></i>
+            <p>Fotografía<p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="column_landing">
+    <div class="cajita">
+        <div class="box-foto" href="#">
+          <img href="#" class="img-pastilla" src="img/Exposiciones/coleccion.png" alt="gelatina dura">
+        </div>
+        <div href="#" class="box-text1">
+          <h5>Permanente</h5>
+          <h3>Colección MACBA 31'</h3>
+          <div class="categoria">
+            <i class="fa fa-eye" aria-hidden="true"></i>
+            <p>Varios<p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-- Fin Cards-->
+
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script type="text/javascript" src="js/script.js"></script>
+
+          </body>
+          </html>
