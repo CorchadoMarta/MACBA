@@ -264,6 +264,31 @@ right:53%;
   }
 }
 
+.btn-filtros3 {
+  background-color: #FF1833;
+  text-decoration: none;
+  color: #ffffff;
+  width: 80px;
+  padding-top: 10px;
+  position: relative;
+  text-align: center;
+  height: 38px;
+  top: 27px;
+  right: 57%;
+
+  /* Small */
+  @media(max-width:767px){
+right:0%;
+width:88%;
+top:0;
+  }
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+right:53%;
+  }
+}
+
 .contentboxfiltro{
   display: -webkit-box;
   display: flex;
