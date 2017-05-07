@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <title>MACBA</title>
+  <meta name="description" content="Museo de Arte Contemporaneo de Barcelona">
+  <meta name="keywords" content="Museo,arte,contemporaneo,Barcelona">
+
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:500,700|Roboto:300,500" rel="stylesheet">
+  <link rel="icon" type="image/jpg" href="img/favicon.jpg" >
+  <script src="https://use.fontawesome.com/9be107ecea.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Menu -->
+  <div class="menu">
+    <div class="nav-btn">
+      <a href="#" class="btn-blck" > Newsletter <i class="fa fa-angle-right fa" aria-hidden="true"></i></a>
+      <a href="tickets.html" class="btn-red"> Tickets <i class="fa fa-ticket" aria-hidden="true"></i></a>
+    </div>
+    <nav class="navbar">
+      <a href="index.html">
+        <img src="img/logo-desktop.png" class="logo">
+        <img src="img/logo.png" class="logo-small">
+      </a>
+      <div>
+        <div class="nav-btn-mobile">
+          <a href="#" id="planea-white" class="btn-blck" > Newsletter <i class="fa fa-angle-right fa" aria-hidden="true"></i></a>
+          <a href="tickets.html" id="tickets-red" class="btn-red" > Tickets <i class="fa fa-ticket" aria-hidden="true"></i></a>
+          <a href="#" id="navToggle" class="hambur">&#9776;</a>
+        </div>
+        <ul>
+          <li><a href="exposiciones.html">Exposiciones</a></li>
+          <li><a href="actividades.html">Actividades</a></li>
+          <li><a href="alquiler_espacios.html">Alquiler de espacios</a></li>
+          <li><a href="sobre_el_macba.html">Sobre el Museo</a></li>
+        </ul>
+      </div>
+    </nav>
+    <form id="buscador" action="buscador.html">
+      <button type="submit" class="btn-buscar"></button>
+      <input id="buscar" type="text" name="Buscar" placeholder="Busca">
+    </form>
+  </div>
+  <!-- Fin Menu -->
+
+
+  <!-- Progres Bar -->
+  <div class="panel-main">
+    <div class="cap-box-bottom">
+      <!-- progressbar -->
+      <section id="multi-step-form" class="multi-step-form">
+        <ul id="progressbar" class="progressbar">
+          <li><span><i class="fa fa-ticket" aria-hidden="true"></i></span><p>SELECCIÓN DE ENTRADAS</p></li>
+          <li class="active"><span><i class="fa fa-ticket" aria-hidden="true"></i></span><p>DATOS PERSONALES</p></li>
+          <li><span><i class="fa fa-ticket" aria-hidden="true"></i></span><p>PAGO</p></li>
+          <li><span><i class="fa fa-ticket" aria-hidden="true"></i></span><p>RESULTADO DE COMPRA</p></li>
+        </ul>
+      </section>
+      <div class="col-12 container_landing">
+        <div class="col-7 fleft">
+          <section class="titulo-gris">
+            <h3>SELECCIÓN DE ENTRADAS</h3>
+          </section>
+          <form action="#" class="form-datos">
+            Nombre<br>
+            <input type="text" name="firstname" placeholder="Nombre">
+            <br>
+            Apellido<br>
+            <input type="text" name="lastname"placeholder="Apellido">
+            <br>
+            Email de confirmación<br>
+            <input type="text" name="lastname"placeholder="Email">
+            <br>
+            Repetir email<br>
+            <input type="text" name="lastname"placeholder="Repetir email">
+            <br>
+            Número de teléfono<br>
+            <input type="text" name="lastname"placeholder="Número de teléfono">
+            <br>
+            Codigo Postar<br>
+            <input type="text" name="lastname"placeholder="Codigo Postal">
+          </form>
+          <a class="btn-red fright" href="tickets-paso3.html">Continuar <i class="fa fa-angle-right fa" aria-hidden="true"></i></a>
+        </div>
+        <!-- Resumen compra-->
+        <div class="col-5 fleft padding-left10">
+          <section class="titulo-gris">
+            <h3>RESUMEN</h3>
+          </section>
+          <section class="cajaprecio--descrip">
+            <p>Evento</p>
+            <p><strong>Museo MACBA</strong></p>
+            <p>Lugar</p>
+            <p><strong>Plaça dels Àngels, 1</strong> </p>
+            <p>Fecha y Hora</p>
+            <p><strong>15/04/2017 - 10:00h </strong></p>
+            <p>Audioguía</p>
+            <p>&nbsp;<strong class="fleft">Si</strong><strong class="fright">1€</strong></p>
+            <p>Entradas</p>
+            <p>&nbsp;<strong class="fleft">1 x General</strong><strong class="fright">10€</strong></p>
+          </section>
+          <section class="cajaprecio">
+            <div class="col-12">
+              <p>Gastos de gestión<strong class="fright">0,50€</strong></p>
+              <p>&nbsp;<strong class="fleft">TOTAL </strong><strong class="fright"> 11,50€</strong></p>
+              <p>Impuestos incluidos</p>
+            </div>
+          </section>
+          <a class="btn-red fright" href="tickets-paso3.html">Continuar <i class="fa fa-angle-right fa" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Footer -->
+
+  <div class="container_landing_footer">
+    <div class="column_landing_footer">
+      <ul>
+        <li class="col-4-footer">
+          <a href="contacto.html"><p class="titulos_footer">MACBA</p></a>
+          <p>Abierto hoy de 11:00 am a 7:30 pm</p>
+          <p>Plaça dels Àngels, 1 </p>
+          <p>08001 Barcelona </p>
+          <a href="https://twitter.com/MACBA_Barcelona"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/MACBA.Barcelona"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/macba_barcelona"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="column_landing_footer">
+      <div id="contentnews">
+        <p class="textocaja">Subscribete a nuestra newsletter</p>
+        <input type="email" placeholder="Email"></input>
+        <a href="#" id="buttonnews"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      </div>
+    </div>
+
+    <div class="column_landing_footer">
+      <ul>
+        <li id="news" class="col-right">
+          <a href="contacto.html"><p class="titulos_footer">Contacto</p></a>
+          <p>+34 93 481 33 68 </p>
+          <a href="mailto:name@email.com"><p>info@macba.cat</p></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container_landing_footer_legal">
+    <div class="column_landing_footer">
+      <p>Copyright ® 2017 MACBA</p>
+    </div>
+
+    <div class="column_landing_footer">
+      <a href="aviso_legal.html"><p>Política de Privacidad</p></a>
+    </div>
+
+    <div class="column_landing_footer">
+      <p>Terminos de Uso</p>
+    </div>
+  </div>
+
+  <!-- FIN Footer -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <script src="js/button.js"></script>
+  <script src="js/scrolldown.js"></script>
+  <script src="js/calendar.js"></script>
+</body>
+</html>

@@ -125,7 +125,12 @@
   }
 }
 
-
+.padding-left10 {
+  padding-left: 10px;
+    @media(max-width:991px){
+      padding-left: 0px;
+    }
+}
 
 .container_landing {
   display: flex;
@@ -372,7 +377,7 @@ right:53%;
   background-color: #000;
   padding: 5px;
   color: white;
-
+  position: relative;
 }
 
 .container_landing_footer_legal {
@@ -383,4 +388,26 @@ right:53%;
   padding: 5px;
   color: grey;
   text-align: center;
+}
+
+.cajaprecio {
+  width: 100%;
+  background-color:#9B9B9B;
+  padding: 10px 10px 20px 25px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.cajaprecio--descrip {
+  width: 100%;
+  padding: 10px 10px 20px 25px;
+}
+
+
+.form-datos{
+  padding: 5px 30px;
+    @media(max-width:991px){
+      padding: 5px 10px;
+    }
 }
