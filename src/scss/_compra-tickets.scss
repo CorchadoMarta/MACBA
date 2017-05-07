@@ -122,84 +122,32 @@
 }
 
 
+.input-group {
+  width:100px;
+  margin: 0 auto;
+  .btn {
+    border-radius: 0;
+  }
+}
 
+.top-group {
+  margin-top: 70px;
+}
+.bottom-group {
+  margin-top: -1px;
+}
 
-.qty input[type=text] {
-  display: inline-block;
-  text-align: center;
-  font-size: 24px;
-  position: relative;
-  padding: 0 10px;
-  height: 32px;
-  top: 1px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background: linear-gradient(to bottom, rgba(230, 230, 230, 1) 0%, rgba(246, 246, 246, 1) 28%, rgba(255, 255, 255, 1) 100%);
-  border: 1px solid #3e7482;
-  border-left: none;
+/*[data-type="minus"] {
+  border: 1px solid #ccc;
   border-right: none;
-  margin: 0;
-  margin-left: -4px;
+}*/
+
+[data-type="save"] {
+  min-width: 70px;
 }
 
-
-
-#plus,
-#minus {
-  display: inline-block;
-  height: 32px;
-  width: 32px;
-  background: #3079ed;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #327BEF), color-stop(100%, #2E77EB));
-  background: -moz-linear-gradient(center top, #327BEF 0%, #2E77EB 100%);
-  -webkit-transition: border-color .218s 0;
-  -moz-transition: border-color .218s 0;
-  -o-transition: border-color .218s 0;
-  transition: border-color .218s 0;
-  text-shadow: 1px 0px 0px #1a378e;
-  border-color: #0066cc;
-  border-width: 1px;
-  border-style: solid;
-  color: #ffffff;
-}
-
-#plus:hover,
-#minus:hover {
-  background: #2D71EE;
-  -webkit-box-shadow: 1px 1px #d8d8d8;
-  -moz-box-shadow: 1px 1px #d8d8d8;
-  box-shadow: 1px 1px #d8d8d8;
-  text-shadow: 1px 1px 0px #001AA6;
-  border-color: #291f93;
-}
-
-#plus:active,
-#minus:active {
-  border: 1px solid #2d5a66;
-}
-
-#plus i,
-#minus i {
-  line-height: 33px;
-  padding-left: 8px;
-}
-
-#plus {
-  -webkit-border-top-right-radius: 5px;
-  -webkit-border-bottom-right-radius: 5px;
-  -moz-border-radius-topright: 5px;
-  -moz-border-radius-bottomright: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  margin-left: -4px;
-}
-
-#minus {
-  margin-left: 15px;
-  -webkit-border-top-left-radius: 5px;
-  -webkit-border-bottom-left-radius: 5px;
-  -moz-border-radius-topleft: 5px;
-  -moz-border-radius-bottomleft: 5px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
+.input-number {
+  min-width: 70px;
+  text-align: center;
+  text-shadow: none;
+} 
