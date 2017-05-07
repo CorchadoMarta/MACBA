@@ -236,3 +236,20 @@ ul li{
 .leyenda {
   font-size: 10px;
 }
+
+.terminos{
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+  :hover {
+    color: #FC9BA6;
+  }
+}
+
+.fa-exclamation-triangle {
+  color: #FA4949;
+}
+
+.fa-check-circle {
+  color:#7ED321;
+}
