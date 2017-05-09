@@ -63,8 +63,8 @@
           <li><span><i class="fa fa-ticket" aria-hidden="true"></i></span><p>RESULTADO DE COMPRA</p></li>
         </ul>
       </section>
-      <div class="col-12">
-        <div class="col-7">
+      <div class="col-12 container_landing">
+        <div class="col-7 fleft">
           <section class="titulo-gris">
             <h3>SELECCIÓN DE ENTRADAS</h3>
           </section>
@@ -164,61 +164,138 @@
             <div class="col-12">
               <p><strong>SELECCIÓN DE DÍAS</strong></p>
               <div style="display:flex; justify-content:center;">
-            <div is="date-picker" data-widget-id="native">
-              <div class="calendar-header" role="heading">
-                <div class="month-picker">
-                  <button id="month-trigger" class="month-trigger" aria-describedby="native-month-year" aria-haspopup="true" aria-expanded="false"><span>Choose Month</span></button>
+                <div is="date-picker" data-widget-id="native">
+                  <div class="calendar-header" role="heading">
+                    <div class="month-picker">
+                      <button id="month-trigger" class="month-trigger" aria-describedby="native-month-year" aria-haspopup="true" aria-expanded="false"><span>Choose Month</span></button>
 
-                  <label id="native-month-year" class="current-month-label" aria-live="polite" aria-atomic="false">
-                    <span class="current-month"></span>
-                    <span class="current-year"></span>
-                  </label>
+                      <label id="native-month-year" class="current-month-label" aria-live="polite" aria-atomic="false">
+                        <span class="current-month"></span>
+                        <span class="current-year"></span>
+                      </label>
 
-                  <!-- Month/Year dropdown -->
-                  <div class="month-popup hidden" role="dialog" aria-labelledby="month-trigger" aria-hidden="true">
-                    <div class="year-control">
-                      <label for="native-year-spinner" class="visually-hidden">Choose Year</label>
-                      <span role="button" class="spinner-button spinner-prev"></span>
-                      <div id="native-year-spinner" class="year-spinner" role="spinbutton" aria-valuemin="1" aria-valuenow="" tabindex="-1"></div>
-                      <span role="button" class="spinner-button spinner-next"></span>
-                    </div>
-                    <fieldset class="month-control">
-                      <legend class="visually-hidden">Choose Month</legend>
-                    </fieldset>
-                  </div><!-- /.month-popup -->
-                </div><!-- /month-picker -->
+                      <!-- Month/Year dropdown -->
+                      <div class="month-popup hidden" role="dialog" aria-labelledby="month-trigger" aria-hidden="true">
+                        <div class="year-control">
+                          <label for="native-year-spinner" class="visually-hidden">Choose Year</label>
+                          <span role="button" class="spinner-button spinner-prev"></span>
+                          <div id="native-year-spinner" class="year-spinner" role="spinbutton" aria-valuemin="1" aria-valuenow="" tabindex="-1"></div>
+                          <span role="button" class="spinner-button spinner-next"></span>
+                        </div>
+                        <fieldset class="month-control">
+                          <legend class="visually-hidden">Choose Month</legend>
+                        </fieldset>
+                      </div><!-- /.month-popup -->
+                    </div><!-- /month-picker -->
 
-                <button class="previous-month"><span>Mes anterior</span></button>
-                <button class="next-month"><span>Siguiente mes</span></button>
-              </div><!-- /.calendar-header -->
-              <table cellspacing="0" cellpadding="10%" role="grid" aria-labelledby="native-month-year">
-                <thead>
-                  <tr>
-                    <th role="columnheader"><abbr title="Domingo">Dom</abbr></th>
-                    <th role="columnheader"><abbr title="Lunes">Lun</abbr></th>
-                    <th role="columnheader"><abbr title="Martes">Mar</abbr></th>
-                    <th role="columnheader"><abbr title="Miercoles">Mie</abbr></th>
-                    <th role="columnheader"><abbr title="Jueves">Jue</abbr></th>
-                    <th role="columnheader"><abbr title="Viernes">Vie</abbr></th>
-                    <th role="columnheader"><abbr title="Sabado">Sab</abbr></th>
-                  </tr>
-                </thead>
-                <tbody class="date-grid">
-                </tbody>
-              </table>
+                    <button class="previous-month"><span>Mes anterior</span></button>
+                    <button class="next-month"><span>Siguiente mes</span></button>
+                  </div><!-- /.calendar-header -->
+                  <table cellspacing="0" cellpadding="10%" role="grid" aria-labelledby="native-month-year">
+                    <thead>
+                      <tr>
+                        <th role="columnheader"><abbr title="Domingo">Dom</abbr></th>
+                        <th role="columnheader"><abbr title="Lunes">Lun</abbr></th>
+                        <th role="columnheader"><abbr title="Martes">Mar</abbr></th>
+                        <th role="columnheader"><abbr title="Miercoles">Mie</abbr></th>
+                        <th role="columnheader"><abbr title="Jueves">Jue</abbr></th>
+                        <th role="columnheader"><abbr title="Viernes">Vie</abbr></th>
+                        <th role="columnheader"><abbr title="Sabado">Sab</abbr></th>
+                      </tr>
+                    </thead>
+                    <tbody class="date-grid">
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!--<date-picker data-widget-id="custom">Widget Mock</date-picker>-->
             </div>
           </div>
-            <!--<date-picker data-widget-id="custom">Widget Mock</date-picker>-->
-            </div>
-          </div>
+          <a class="btn-red fright" href="tickets-paso2.html">Continuar <i class="fa fa-angle-right fa" aria-hidden="true"></i></a>
         </div>
         <!-- Resumen compra-->
-        <div class="col-5">
-
+        <div class="col-5 fleft padding-left10">
+          <section class="titulo-gris">
+            <h3>RESUMEN</h3>
+          </section>
+          <section class="cajaprecio--descrip">
+            <p>Evento</p>
+            <p><strong>Museo MACBA</strong></p>
+            <p>Lugar</p>
+            <p><strong>Plaça dels Àngels, 1</strong> </p>
+            <p>Fecha y Hora</p>
+            <p><strong>15/04/2017 - 10:00h </strong></p>
+            <p>Audioguía</p>
+            <p>&nbsp;<strong class="fleft">Si</strong><strong class="fright">1€</strong></p>
+            <p>Entradas</p>
+            <p>&nbsp;<strong class="fleft">1 x General</strong><strong class="fright">10€</strong></p>
+          </section>
+          <section class="cajaprecio">
+            <div class="col-12">
+              <p>Gastos de gestión<strong class="fright">0,50€</strong></p>
+              <p>&nbsp;<strong class="fleft">TOTAL </strong><strong class="fright"> 11,50€</strong></p>
+              <p>Impuestos incluidos</p>
+            </div>
+          </section>
+          <a class="btn-red fright" href="tickets-paso2.html">Continuar <i class="fa fa-angle-right fa" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
   </div>
+
+
+
+  <!-- Footer -->
+
+  <div class="container_landing_footer">
+    <div class="column_landing_footer">
+      <ul>
+        <li class="col-4-footer">
+          <a href="contacto.html"><p class="titulos_footer">MACBA</p></a>
+          <p>Abierto hoy de 11:00 am a 7:30 pm</p>
+          <p>Plaça dels Àngels, 1 </p>
+          <p>08001 Barcelona </p>
+          <a href="https://twitter.com/MACBA_Barcelona"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/MACBA.Barcelona"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/macba_barcelona"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="column_landing_footer">
+      <div id="contentnews">
+        <p class="textocaja">Subscribete a nuestra newsletter</p>
+        <input type="email" placeholder="Email"></input>
+        <a href="#" id="buttonnews"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      </div>
+    </div>
+
+    <div class="column_landing_footer">
+      <ul>
+        <li id="news" class="col-right">
+          <a href="contacto.html"><p class="titulos_footer">Contacto</p></a>
+          <p>+34 93 481 33 68 </p>
+          <a href="mailto:name@email.com"><p>info@macba.cat</p></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container_landing_footer_legal">
+    <div class="column_landing_footer">
+      <p>Copyright ® 2017 MACBA</p>
+    </div>
+
+    <div class="column_landing_footer">
+      <a href="aviso_legal.html"><p>Política de Privacidad</p></a>
+    </div>
+
+    <div class="column_landing_footer">
+      <p>Terminos de Uso</p>
+    </div>
+  </div>
+
+  <!-- FIN Footer -->
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
