@@ -3,18 +3,15 @@
 }
 
 #contentnews{
-    position: relative;
-    width: auto;
-    border-radius: 5px;
-    top: 20%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    box-shadow: 0px 0px 35px rgba(0,0,0,0.6);
 
     p{
       color:white;
+    }
+
+    /* Small */
+    @media(max-width:767px){
+      text-align: left;
+      padding-left: 2em;
     }
 }
 
@@ -38,7 +35,7 @@ input[type='email']:focus{
 #buttonnews{
     color: rgba(0,0,0,0.6);
     text-decoration: none;
-    width: 27%;
+    width: 20%;
     display: inline-block;
     padding: 8px;
     background: rgba(255, 255, 255, 0.5);
@@ -67,9 +64,11 @@ input[type='email']:focus{
 }
 
 
+
+
 .textocaja {
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 18px;
   line-height: 24px;
   color: white;
@@ -118,7 +117,21 @@ input[type='email']:focus{
 }
 
 .col-right{
-  float: right;
+  color: white;
+  text-align: right;
+  padding-right: 40px;
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    text-align: left;
+  }
+
+  /* Small */
+  @media(max-width:767px){
+    text-align: left;
+  }
+
+
   li {
     width: 100%;
     color: #fff;
@@ -141,8 +154,16 @@ input[type='email']:focus{
   width: 120px;
 }
 
-.fa {
+.fa-2x {
   padding-right: 10px;
+  color: white;
+}
+
+.titulos_footer {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+
 }
 
 .f-right {

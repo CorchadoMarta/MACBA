@@ -125,6 +125,13 @@
   }
 }
 
+.padding-left10 {
+  padding-left: 10px;
+    @media(max-width:991px){
+      padding-left: 0px;
+    }
+}
+
 .container_landing {
   display: flex;
   flex-wrap: wrap;
@@ -163,6 +170,20 @@
 
   .column_landing {
     box-sizing: border-box;
+  }
+
+  .column_landing_footer{
+    width: 100%;
+    /* Medium */
+    @media(min-width:768px) and (max-width:991px){
+      display: flex;
+      flex-direction: row;
+    }
+    /* Small */
+    @media(max-width:767px){
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   .cajita{
@@ -205,9 +226,13 @@
 @media screen and (min-width: 768px) {
   .container_landing {
     flex-direction: row;
-
   }
   .column_landing {
+    flex-basis: 50%;
+  }
+
+  .column_landing_footer{
+    box-sizing: border-box;
     flex-basis: 50%;
   }
 }
@@ -218,6 +243,9 @@
   }
   .column_landing {
     flex-basis: 33.3333%;
+  }
+  .column_landing_footer{
+    flex-basis: 50%;
   }
 }
 
@@ -354,9 +382,62 @@ right:53%;
 
 .container_landing_footer {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
   background-color: #000;
   padding: 5px;
+  color: white;
+  position: relative;
+  padding-bottom: 50px;
 
+  /* Media */
+  @media(min-width:768px) and (max-width:991px){
+    flex-wrap: wrap;
+  }
+
+  /* Small */
+  @media(max-width:767px){
+      flex-wrap: wrap;}
+}
+
+.container_landing_footer_legal {
+  display: flex;
+  flex-direction: row;
+  background-color: #000;
+  padding: 5px;
+  color: grey;
+  text-align: center;
+
+
+  /* Media */
+  @media(min-width:768px) and (max-width:991px){
+    flex-wrap: nowrap;
+  }
+
+  /* Small */
+  @media(max-width:767px){
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.cajaprecio {
+  width: 100%;
+  background-color:#9B9B9B;
+  padding: 10px 10px 20px 25px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.cajaprecio--descrip {
+  width: 100%;
+  padding: 10px 10px 20px 25px;
+}
+
+
+.form-datos{
+  padding: 15px 30px;
+    @media(max-width:991px){
+      padding: 5px 10px;
+    }
 }
