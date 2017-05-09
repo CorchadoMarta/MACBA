@@ -69,6 +69,7 @@
   display: inline;
   align-items: baseline;
   float: left;
+  padding: 0 20px;
 
   /* Small */
   @media(max-width:767px){
@@ -398,6 +399,7 @@ display: none;
   align-content: center;
   flex-direction: column;
   color: black;
+  padding-left: 20px;
 }
 
 
