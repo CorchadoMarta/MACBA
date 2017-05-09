@@ -111,6 +111,7 @@
 
 .margin4{
   padding: 3em 0 0;
+
 }
 
 .margin5{
@@ -137,6 +138,8 @@
   flex-wrap: wrap;
   flex-direction: column;
   width:100%;
+
+
 
   .box-foto{
     position:relative;
@@ -394,6 +397,7 @@ right:53%;
     flex-wrap: wrap;
   }
 
+
   /* Small */
   @media(max-width:767px){
       flex-wrap: wrap;}
@@ -420,6 +424,31 @@ right:53%;
   }
 }
 
+<<<<<<< HEAD
+=======
+
+.container_landing_footer_legal {
+  display: flex;
+  flex-direction: row;
+  background-color: #000;
+  padding: 5px;
+  color: grey;
+  text-align: center;
+
+
+  /* Media */
+  @media(min-width:768px) and (max-width:991px){
+    flex-wrap: nowrap;
+  }
+
+  /* Small */
+  @media(max-width:767px){
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+>>>>>>> 407660eacca8ffb546ae97dad6e58e25a70ecdca
 .cajaprecio {
   width: 100%;
   background-color:#9B9B9B;
@@ -436,7 +465,11 @@ right:53%;
 
 
 .form-datos{
+<<<<<<< HEAD
   padding: 5px 30px;
+=======
+  padding: 15px 30px;
+>>>>>>> 407660eacca8ffb546ae97dad6e58e25a70ecdca
     @media(max-width:991px){
       padding: 5px 10px;
     }
