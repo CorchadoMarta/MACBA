@@ -152,6 +152,7 @@
             flex-direction: column;
             &.nav-menu-visible {
               display: inline-block;
+              float: right;
             }
             li {
                 padding: 25px 10px;
@@ -173,6 +174,8 @@
     display: none;
   }
 }
+
+
   .nav-btn-mobile {
     display: none;
     /* Small */
@@ -198,6 +201,10 @@
     }
     @media(max-width:991px){
       padding: 9px 15px;
+    }
+    /* Small */
+    @media(max-width:767px){
+      display: none;
     }
   }
   #tickets-red{
