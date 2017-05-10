@@ -16,6 +16,7 @@
 .breadcrumb{
   padding: 20px 20px 10px;
   position: absolute;
+  top:250px;
   /* Small */
   @media(max-width:767px){
     display:none;
@@ -437,7 +438,7 @@ display: none;
 }
 
 .fotoWidth100-acti-signando{
-  @include cabeceras-fichas('../img/Actividades/signando.png');
+  @include cabeceras-fichas('../img/Actividades/MACBA_Visita_Performativa_300dpi_077.1.png');
 }
 .fotoWidth100-alq-atrio{
   height: 400px;
