@@ -9,6 +9,9 @@
   position: fixed;
   z-index: 1000;
   box-shadow: 0 0 20px #000;
+  @media(max-width:991px){
+    left: 50%;
+  }
   @media(max-width:767px){
     left: 90%;
   }
@@ -31,8 +34,10 @@
   cursor:pointer;
 }
 .pop-up-text {
-  box-sizing:border-box;
-  padding:20px;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #46C646;
+  text-align: center;
 }
 .pop-up-text h1{
   font-size:2em;
