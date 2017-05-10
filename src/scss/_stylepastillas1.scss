@@ -49,6 +49,20 @@
     flex-direction: column;
   }
 
+.fotoWidth100-sem-rel {
+  width: 100%;
+  background-color: rgba(127,23,134,.85);
+  padding: 10px 10px 20px 25px;
+  float: right;
+  height: 80px;
+  top: 3em;
+  position: relative;
+  color: #fff;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
 
 .fotoWidth100-expos {
   width: 100%;
