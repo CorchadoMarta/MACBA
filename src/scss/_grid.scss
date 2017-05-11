@@ -103,10 +103,16 @@
 
 .margin2{
   margin-top: 23em;
+  @media(max-width:991px){
+    margin-top: 15em;
+  }
 }
 
 .margin3{
   margin-top: 18em;
+  @media(max-width:991px){
+    margin-top: 13em;
+  }
 }
 
 .margin4{
@@ -337,12 +343,9 @@ right:53%;
   padding-left: 25px;
 
   /* Small */
-  @media(max-width:767px){
+  @media(max-width:991px){
     display: flex;
-  }
-
-  /* Medium */
-  @media(min-width:768px) and (max-width:991px){
+    top: 220px;
   }
 }
 

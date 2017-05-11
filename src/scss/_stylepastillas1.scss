@@ -34,6 +34,9 @@
   color: #fff;
   display: flex;
   align-items: center;
+  @media(max-width:991px){
+    top: 141px;
+  }
   }
 
   .fotoWidth100-text-lila {
@@ -75,6 +78,9 @@
   color: #fff;
   display: flex;
   align-items: center;
+  @media(max-width:991px){
+    top: 141px;
+  }
 }
 
 .fotoWidth100-expos-prox {
@@ -130,6 +136,9 @@
   color: #fff;
   display: flex;
   align-items: center;
+  @media(max-width:991px){
+    top: 141px;
+  }
   }
 
   .fotoWidth100-alquilercda {
@@ -174,6 +183,7 @@
   align-items: center;
   @media(max-width:991px){
     margin-top:0;
+      top: 141px;
   }
 
   .fotoWidth100-text-amarillo {

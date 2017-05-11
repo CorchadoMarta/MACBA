@@ -112,7 +112,7 @@
     @media(max-width:991px){
         display: block;
         z-index: 1;
-        width: 75px;
+        width: 60px;
     }
 }
 
@@ -186,7 +186,6 @@
       width: 100%;
       position: relative;
       text-align: right;
-      margin: 15px 0;
     }
   }
   .btn-red {
@@ -204,11 +203,16 @@
     }
     /* Small */
     @media(max-width:767px){
-      display: none;
+      margin-right: 15px;
+      font-size: 25px;
+      span{
+        display: none;
+      }
     }
   }
   #tickets-red{
     color: #fff;
+    margin-right: 20px
   }
   #tickets-red:hover {
     margin: 5px;
