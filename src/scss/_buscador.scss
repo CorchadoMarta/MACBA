@@ -10,7 +10,7 @@
     }
     #buscar{
       width: 43%;
-      float: right;
+      float: left;
       border: none;
       height: 100%;
       padding-left: 5px;
@@ -20,11 +20,10 @@
       }
     }
     .btn-buscar{
-      float: right;
-      border: none;
+          border: none;
       height: 100%;
       margin-right: 20px;
-      background: red url(../img/lupa_white.png) no-repeat center left;
+      background: gray url(../img/lupa_white.png) no-repeat center left;
       height: 100%;
       background-size: contain;
       background-origin: padding-box;
