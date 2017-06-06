@@ -96,8 +96,8 @@ $(document).ready(function(){
     }
   });
 
-  $('.pop-up').hide(0);
-  $('.pop-up-container').hide(0);
+  $('.pop-up').hide();
+  $('.pop-up-container').hide();
 
   $('.pop-up-button').click(function(){
     $('.pop-up-container').show(0);
