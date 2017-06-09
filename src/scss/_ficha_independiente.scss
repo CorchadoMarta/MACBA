@@ -429,6 +429,18 @@ display: none;
   @include cabeceras-fichas('../img/Exposiciones/punk-arte.jpg');
 }
 
+.fotoWidth100-expos-miralda {
+  @include cabeceras-fichas('../img/Exposiciones/miraldamadeinusa.png');
+}
+
+.fotoWidth100-expos-teatroproletario {
+  @include cabeceras-fichas('../img/Exposiciones/teatroproletario.jpg');
+}
+
+.fotoWidth100-expos-poesiabrossa {
+  @include cabeceras-fichas('../img/Exposiciones/poesiabrossa.png');
+}
+
 .fotoWidth100-acti-transformacion {
   @include cabeceras-fichas('../img/Actividades/en-transformacion.png');
 }
