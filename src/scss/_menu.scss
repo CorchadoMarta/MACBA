@@ -11,8 +11,8 @@
     display: none;
     /* Small */
     @media(max-width:991px){
-      width: 56px;
-      height: 40px;
+      width: 40px;
+      height: 30px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -21,7 +21,7 @@
 }
 
 .menu-line {
-  height: 6px;
+  height: 5px;
   background-color: #000;
   border-radius: 3px;
   transition: all 250ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
@@ -190,44 +190,29 @@
   }
   .btn-red {
     margin: 5px;
-    color: white;
-    border: 1px solid red;
+    color: #fff;
+    border: 1px solid #FA4949;
     padding: 5px 10px;
     text-decoration: none;
-    background-color: red;
+    background-color: #FA4949;
     img {
       width: 11px;
     }
     @media(max-width:991px){
-      padding: 9px 15px;
+      padding: 5px 15px;
     }
     /* Small */
     @media(max-width:767px){
+      background-color: #fff;
+      border: none;
       margin-right: 15px;
-      font-size: 25px;
+      font-size: 35px;
       span{
         display: none;
       }
     }
   }
-  #tickets-red{
-    color: #fff;
-    margin-right: 20px
-  }
-  #tickets-red:hover {
-    margin: 5px;
-    color: red;
-    background-color: white;
-    border: 1px solid #FA4949;
-    padding: 5px 10px;
-    text-decoration: none;
-    img {
-      width: 11px;
-    }
-    @media(max-width:991px){
-      padding: 9px 15px;
-    }
-  }
+
   .btn-red:hover {
     margin: 5px;
     color: red;
@@ -239,10 +224,20 @@
       width: 11px;
     }
     @media(max-width:991px){
-      padding: 9px 15px;
+      padding: 5px 15px;
     }
   }
 
+  #tickets-red{
+    color: #fff;
+    @media(max-width:767px){
+      color: #FA4949;
+    }
+  }
+
+  #tickets-red:hover{
+    color:  #FA4949;
+  }
 
   .btn-blck{
     margin: 5px;
@@ -265,6 +260,9 @@
 
   #planea-white{
     color: white;
+    @media(max-width:767px){
+      color: gray;
+    }
   }
 
   #planea-white:hover{
@@ -327,12 +325,14 @@
     width: 11px;
   }
   @media(max-width:991px){
-    padding: 9px 15px;
+    padding: 5px 15px;
   }
   /* Small */
   @media(max-width:767px){
-    margin-right: 15px;
-    font-size: 25px;
+    color: gray;
+    background-color: #fff;
+    border: none;
+    font-size: 35px;
     span{
       display: none;
     }
@@ -350,6 +350,6 @@
     width: 11px;
   }
   @media(max-width:991px){
-    padding: 9px 15px;
+    padding: 5px 15px;
   }
 }
