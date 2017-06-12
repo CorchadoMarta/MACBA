@@ -79,6 +79,19 @@
 }
 
 
+.containerbox-idiomas{
+  display: inline;
+  align-items: baseline;
+  float: left;
+  padding: 50px 20px;
+
+  /* Small */
+  @media(max-width:767px){
+    display: block;
+  }
+}
+
+
 .imagenL {
   width: 100%;
   height: auto;
@@ -343,7 +356,7 @@ width:100%
   flex-direction: column;
   top:60px;
   left:1.5%;
-  width: 30%;
+  width: 34%;
   float: left;
 
   /* Small */
@@ -390,6 +403,8 @@ display: none;
 
 .mapa-it{
   float: right;
+  padding-top: 80px;
+  padding-right: 50px;
   /* Small */
   @media(max-width:767px){
 display: none;
