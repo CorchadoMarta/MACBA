@@ -344,6 +344,7 @@ width:100%
   top:60px;
   left:1.5%;
   width: 30%;
+  float: left;
 
   /* Small */
   @media(max-width:767px){
@@ -388,13 +389,6 @@ display: none;
 }
 
 .mapa-it{
-  position: relative;
-  display: flex;
-  width:600px;
-  height:450px;
-  border:0;
-  top: -708px;
-  right: 10%;
   float: right;
   /* Small */
   @media(max-width:767px){
