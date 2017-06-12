@@ -62,101 +62,57 @@
   <div class="pop-up-container">
   </div>
   <!-- Header -->
-  <section class="fotoWidth100-expos">
-    <h3>Exhibitions</h3>
+  <section class="fotoWidth100-alquiler">
+    <h3>Check availability and registration</h3>
   </section>
   <!-- Fin Header -->
+
   <!-- Migas -->
   <div class="breadcrumb">
-    <p><a class="breadcrumb-text" href="en_index.html">MACBA</a>/<a class="breadcrumb-text" href="en_exposiciones.html">Exhibitions</b></a>/<b>MACBA 31 Collection</b></p>
-    </div>
-
-    <!-- Titulo-->
-    <div class="titulo-cabecera margin2">
-    <h1>MACBA 31 Collection</h1>
+    <p><a class="breadcrumb-text" href="index.html">MACBA</a>/<a class="breadcrumb-text" href="alquiler_espacios.html">Rent a venue</b></a>/<b>Register</b></p>
   </div>
+  <!-- Fin Migas -->
 
-  <!-- Fin Titulo-->
 
-  <!-- Contenido -->
-        <div class="col-12 containerbox">
-          <div class="col-9 fleft">
-            <div class="col-12 fotoWidth100-expos-macba31">
-              <div class="fotoWidth100-text-azul">
-                        <div class="fecha-act">
-                    <h2>Permanent</h2>
-                  </div>
-                </div>
-            </div>
-            <div class="col-12">
-              <div class="col-3 fleft">
+  <div class="formplanea">
+    <form>
+      <label for="fname"><h6 class="sinsalto">Name and Last name*</h6></label>
+      <input type="text" id="fname" name="firstname" placeholder="Write here your full name">
 
-                      <p>Artists</p>
-            <p><b>MACBA Collection</b></p>
-            <div class="hr"></div>
-            <p>Curators</p>
-            <p><b>Ferran Barenblit y</b></p>
-            <p><b>Antònia Maria Perelló</b></p><br>
+      <label for="lname"><h6 class="sinsalto">Company*</h6></label>
+      <input type="text" id="lname" name="lastname" placeholder="Write here your company name">
 
-              </div>
-              <div class="col-9 fright">
-                <p class="texto">The exhibition MACBA Collection 31 offers a series of artistic itineraries built around three main subjects: <b>experience, time and conflict.</b> A museum collection is not only one of its main working areas, but also what configures its identity and determines its capacity to interact with the present. <br>
+      <label for="lname"><h6 class="sinsalto">E-mail*</h6></label>
+      <input type="text" id="mail" name="lastname" placeholder="E-mail">
 
-The works in the exhibition question the various forms of conflict in today’s world, while reflecting on the relation of art with itself and its potential for interrogating reality. Moreover, they reclaim sensory experimentation, corporeality and the experience of time as fundamental conditions for artistic practice.<br>
+      <label for="lname"><h6 class="sinsalto">Phone*</h6></label>
+      <input type="text" id="tel" name="lastname" placeholder="Contact number">
 
-The exhibition includes <b>85 works by 50 artists of various generations from around the world</b>, representing a chronological period of over five decades, from 1959 to 2014.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-3 fright">
-            <!-- Botón -->
-            <div class="buttoncontainer-black">
-                <a href="en_tickets.html" alt="Ficha expo">
-                  <button type="button" class="botontop-black"><h4>BUY TICKET<h4></button>
-                  </a>
-              </div>
-              <!-- Fin Botón -->
-                <p>General Admission</p>
-      <p><b>10€</b></p>
-      <div class="hr"></div>
-      <p>Museum Hours</p>
-      <p><b>Monday to Friday 11:00 to 19.30h</b></p>
-      <p><b>Saturdays 10:00 to 21:00h</b></p>
-      <p><b>Sundays and Holidays 10:00 a 15:00h</b></p>
-      <div class="hr"></div>
-      <p>Category</p>
-      <p><b>Others</b></p>
-      <div class="hr"></div>
-      <p>Audioguide</p>
-      <p><b>Available for mobile devices</b></p>
-      <div class="hr"></div>
-      <p>Languages</p>
-      <p><b>Catalán, Spanish, English and French</b></p>
-      <div class="hr"></div>
-      <p>Audioguide Price</p>
-      <p><b>1€ (Includes earhpones)</b></p>
-      <p>Wednesday, free audioguide</p>
+      <label><h6 class="sinsalto">Venue</h6></label>
 
-      <div class="hr"></div>
-      <div class="icono-descargate">
-      <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-      <a class="breadcrumb-text"href="img/Alquiler/Programa Forensic Architecture.jpg" dowland="documentoplano"<h4>Download the program</h4></a><br>
+      <div class="dropdown sinsalto">
+        <label for="Asunto">
+          <select name="Asunto" tabindex="5">
+            <option value="Meier">Meier/Ático</option>
+            <option value="Meier">Meier/Terraza</option>
+            <option value="Meier">Meier/Auditorio</option>
+            <option value="convent">Convent/Capella</option>
+            <option value="convent">Convent/Fòrum</option>
+          </select>
+        </label>
       </div>
 
+            <label for="lname"><h6 class="sinsalto">Date</h6></label>
+              <input type="date" class="form-control" id="date" name="date">
 
-      <div class="hr"></div>
 
-      <div class="share">
-        <p>Share</p>
-        <a href="https://twitter.com/MACBA_Barcelona"> <img src="img/logos rrss-01.png">
-        <a href="https://www.facebook.com/MACBA.Barcelona"> <img src="img/facebook-02.png"> </a>
-        <a href="mailto:macbabau@gmail.com"> <img src="img/email.png"> </a>
-      </div>
-          </div>
-        </div>
-</div>
-  <!-- Fin Contenido -->
+      <h6 class="sinsalto">Additional comments</h6>
+      <textarea id='msg' placeholder="Let us know if there's anything else you need"></textarea>
 
+
+      <button class="buttoncontacto">Send</button>
+    </form>
+  </div>
   <!-- Footer -->
       <div class="container_landing_footer">
         <div class="column_landing_footer">
@@ -206,13 +162,11 @@ The exhibition includes <b>85 works by 50 artists of various generations from ar
                 </div>
       </div>
 
-
-
  <!-- FIN Footer -->
- <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
-    <script src="js/button.js"></script>
 
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+<script src="js/button.js"></script>
 
-        </body>
-        </html>
+</body>
+</html>
