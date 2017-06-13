@@ -135,11 +135,11 @@
 
   /* Medium */
   @media(min-width:768px) and (max-width:991px){
-    height: 0;
+
   }
   /* Small */
   @media(max-width:991px){
-    height: 0;
+
   }
 }
 
@@ -151,7 +151,7 @@
   display: block;
   color: #fff;
   float: right;
-
+padding: 0;
 
 
   ul{
