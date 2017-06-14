@@ -168,10 +168,9 @@
 
   .categoria{
     display: flex;
-    align-items:center;
+    align-items: baseline;
     padding-right: 10px;
   }
-
 
 
   .edad_cat{
@@ -474,4 +473,17 @@ right:53%;
     @media(max-width:991px){
       padding: 5px 10px;
     }
+}
+
+.flexcont {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 20px;
+  @media(max-width:991px){
+    flex-direction: column;
+  }
+}
+.flexitem {
+  display: flex;
+  justify-content: flex-end;
 }
