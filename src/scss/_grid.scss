@@ -168,7 +168,7 @@
 
   .categoria{
     display: flex;
-    align-items: baseline;
+    align-items:center;
     padding-right: 10px;
   }
 
@@ -466,6 +466,11 @@ right:53%;
   padding: 10px 10px 20px 25px;
 }
 
+.precioidiomas {
+  padding: 10px 10px 20px 0px;
+}
+
+
 
 .form-datos{
   padding: 5px 30px;
@@ -486,4 +491,7 @@ right:53%;
 .flexitem {
   display: flex;
   justify-content: flex-end;
+  @media(max-width:991px){
+    justify-content: flex-start;
+  }
 }

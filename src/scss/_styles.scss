@@ -41,8 +41,14 @@ body{
 }
 
 .fright{
-  float: right;
+  float: none;
   padding-left: 12px;
+}
+
+.mobileitfr{
+  float: none;
+  padding-bottom: 20px;
+  margin-left: -12px;
 }
 
 .color-blue{
