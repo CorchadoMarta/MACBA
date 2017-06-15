@@ -173,6 +173,7 @@
   }
 
 
+
   .edad_cat{
     display: flex;
     align-items:center;
@@ -202,12 +203,24 @@
     background: #F5F3F3;
     height: 450px;
     margin: 20px;
+    i { margin-right: 10px;
+      @media(max-width:767px){
+        margin-bottom:18px;
+      }
+
+     }
   }
+
 
   .caja--destacada{
     background: #0080a0;
     height: 450px;
     margin: 20px;
+    i { margin-right: 10px;
+      @media(max-width:767px){
+        margin-bottom:18px;
+      }
+    }
   }
 }
 
@@ -466,11 +479,6 @@ right:53%;
   padding: 10px 10px 20px 25px;
 }
 
-.precioidiomas {
-  padding: 10px 10px 20px 0px;
-}
-
-
 
 .form-datos{
   padding: 5px 30px;
@@ -478,20 +486,4 @@ right:53%;
     @media(max-width:991px){
       padding: 5px 10px;
     }
-}
-
-.flexcont {
-  display: flex;
-  align-items: flex-end;
-  padding: 0 20px;
-  @media(max-width:991px){
-    flex-direction: column;
-  }
-}
-.flexitem {
-  display: flex;
-  justify-content: flex-end;
-  @media(max-width:991px){
-    justify-content: flex-start;
-  }
 }
