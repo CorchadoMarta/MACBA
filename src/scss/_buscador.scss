@@ -132,6 +132,7 @@
   float: right;
   height: 37px;
   padding: 0px;
+  z-index: 1;
 
   /* Medium */
   @media(min-width:768px) and (max-width:991px){
@@ -151,7 +152,46 @@
   display: block;
   color: #fff;
   float: right;
-padding: 0;
+  padding: 0;
+
+
+  ul{
+    list-style: none;
+    padding: 0;
+  }
+
+  li{
+    display: none;
+    list-style-type: none;
+    margin-bottom: 1px;
+  }
+
+  a{
+    background: none repeat scroll 0 0 gray;
+    color: #fff;
+    display: block;
+    font-size: 0.85em;
+    padding: 0px;
+    text-align: center;
+    width: 60px;
+    height: 29px;
+  }
+  li a:hover {
+    background: none repeat scroll 0 0 #333;
+    border: medium none;
+    color: #a7a5a5;
+  }
+  li.active {
+    display: block;
+  }
+}
+
+
+.languages {
+  display: block;
+  color: #fff;
+  float: right;
+  padding: 0;
 
 
   ul{
