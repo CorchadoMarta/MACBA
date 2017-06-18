@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <title>MACBA</title>
+  <meta name="description" content="Museum of Contemporary art of Barcelona">
+  <meta name="keywords" content="museum,art,contemporary,Barcelona">
+  <script src="https://use.fontawesome.com/9be107ecea.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:500,700|Roboto:300,500" rel="stylesheet">
+  <link rel="icon" type="image/jpg" href="img/favicon.jpg" >
+
+</head>
+
+<body>
+  <!-- Menu -->
+  <div class="menu">
+    <div class="nav-btn">
+      <a href="#news" class="btn-gr"> Newsletter <i class="fa fa-newspaper-o" aria-hidden="true"></i></a>
+      <a href="en_tickets.html" class="btn-red"> Tickets <i class="fa fa-ticket" aria-hidden="true"></i></a>
+    </div>
+    <nav class="navbar">
+      <a href="en_index.html">
+        <img src="img/logo-desktop.png" class="logo">
+        <img src="img/logo.png" class="logo-small">
+      </a>
+      <div>
+        <div class="nav-btn-mobile">
+          <a href="#news" id="planea-white" class="btn-gr" > <span>Newsletter</span><i class="fa fa-newspaper-o" aria-hidden="true"></i></a>
+          <a href="en_tickets.html" id="tickets-red" class="btn-red" > <span>Tickets</span> <i class="fa fa-ticket" aria-hidden="true"></i></a>
+          <div href="#" id="button"  class="menu-burguer2">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="en_exposiciones.html">Exhibitions</a></li>
+          <li><a href="en_actividades.html">Activities</a></li>
+          <li><a href="en_alquiler_espacios.html">Rent a venue</a></li>
+          <li><a href="en_sobre_el_macba.html">Plan your visit</a></li>
+        </ul>
+      </div>
+    </nav>
+    <form id="buscador" action="en_buscador.html">
+      <button type="submit" class="btn-buscar"></button>
+      <input id="buscar" type="text" name="Buscador" placeholder="Search">
+    </form>
+  </div>
+  <!-- Fin Menu -->
+  <div class="pop-up">
+    <span class="x">x</span>
+    <div class="pop-up-text">
+      <i class="fa fa-check fa-5x" aria-hidden="true"></i>
+      <h1>Congratulations!</h1>
+      <p>You are now subscribed to our newsletter!</p>
+    </div>
+  </div>
+  <div class="pop-up-container">
+  </div>
+
+
+  <!-- Progres Bar -->
+  <div class="panel-main">
+    <div class="cap-box-bottom">
+      <!-- progressbar -->
+      <section id="multi-step-form" class="multi-step-form">
+        <ul id="progressbar" class="progressbar">
+          <li class="active"><span><i class="fa fa-ticket" aria-hidden="true"></i></span><p>CHOOSE YOUR TICKET</p></li>
+          <li><span><i class="fa fa-ticket" aria-hidden="true"></i></span><p>PERSONAL INFORMATION</p></li>
+          <li><span><i class="fa fa-ticket" aria-hidden="true"></i></span><p>PAYMENT</p></li>
+          <li><span><i class="fa fa-ticket" aria-hidden="true"></i></span><p>RESULT</p></li>
+        </ul>
+      </section>
+      <div class="col-12 container_landing">
+        <div class="col-7 fleft">
+          <section class="titulo-gris">
+            <h3>CHOOSE YOUR TICKET</h3>
+          </section>
+          <!-- Tickets accordion -->
+          <div id="accordion">
+            <a class="accordion--link first" href="#one">GENERAL ADMISSION<i class="fright crossRotate fa fa-chevron-down" aria-hidden="true"></i> <p>Allows you to access all the exhibitions and activities in the museum.</p></a>
+            <div id="one">
+              <p>Price: <strong>10€</strong></p>
+              <section class="container_landing">
+                <section class="column_landing">
+                  <p><strong>Amount:</strong></p>
+                </section>
+                <section class="column_landing">
+                  <form id='myform' method='POST' action='#'>
+                    <input type='button' value='-' class='qtyminus' field='quantity' />
+                    <input type='text' name='quantity' value='0' class='qty' />
+                    <input type='button' value='+' class='qtyplus' field='quantity' />
+                  </form>
+                </section>
+                <section class="column_landing">
+                  <p>Min.1 -  Max. 15</p>
+                  <p class="leyenda">From 15 onwards, please check our group entries</p>
+                </section>
+              </section>
+            </div>
+            <a class="accordion--link" href="#two">DISCOUNT ENTRANCE (Students, teachers, under 18 and unemployed)<i class="fright crossRotate fa fa-chevron-down" aria-hidden="true"></i><p>This group has a discount fee on the entrance, therefore all exhibitions and activities in the museum</p></a>
+            <div id="two">
+              <p>Price: <strong>6€</strong></p>
+              <section class="container_landing">
+                <section class="column_landing">
+                  <p><strong>Amount:</strong></p>
+                </section>
+                <section class="column_landing">
+                  <form id='myform' method='POST' action='#'>
+                    <input type='button' value='-' class='qtyminus' field='quantity' />
+                    <input type='text' name='quantity' value='0' class='qty' />
+                    <input type='button' value='+' class='qtyplus' field='quantity' />
+                  </form>
+                </section>
+                <section class="column_landing">
+                  <p></p>
+                </section>
+              </section>
+            </div>
+            <a <a class="accordion--link" href="#three">FREE ENTRANCE (Kids under 9 years old)<i class="fright fa crossRotate fa-chevron-down" aria-hidden="true"></i><p>Completely free for kids until 9 years old</p></a>
+            <div id="three">
+              <section class="container_landing">
+                <section class="column_landing">
+                  <p><strong>Amount:</strong></p>
+                </section>
+                <section class="column_landing">
+                  <form id='myform' method='POST' action='#'>
+                    <input type='button' value='-' class='qtyminus' field='quantity' />
+                    <input type='text' name='quantity' value='0' class='qty' />
+                    <input type='button' value='+' class='qtyplus' field='quantity' />
+                  </form>
+                </section>
+                <section class="column_landing">
+                  <p></p>
+                </section>
+              </section>
+            </div>
+            <a class="accordion--link" href="#four">GROUP ENTRANCE<i class="fright crossRotate fa fa-chevron-down" aria-hidden="true"></i><p>Get tickets for you and your group by making a reservation during the agreed hours or calling 934121413. You can also send us an email at educacio@macba.cat.</p></a>
+            <div id="four">
+              <p>Price: <strong>8€</strong></p>
+              <section class="container_landing">
+                <section class="column_landing">
+                  <p><strong>Amount:</strong></p>
+                </section>
+                <section class="column_landing">
+                  <form id='myform' method='POST' action='#'>
+                    <input type='button' value='-' class='qtyminus' field='quantity' />
+                    <input type='text' name='quantity' value='0' class='qty' />
+                    <input type='button' value='+' class='qtyplus' field='quantity' />
+                  </form>
+                </section>
+                <section class="column_landing">
+                  <p>Min.16</p>
+                </section>
+              </section>
+            </div>
+          </div>
+          <!-- Audioguia-->
+          <div class="container_landing audioguia-box">
+            <div class="column_landing">
+              <p><strong>AUDIOGUIDE <br>(Pick it up at the entrance)</strong></p>
+            </div>
+            <div class="column_landing">
+              <p>Price: <strong>1€</strong></p>
+            </div>
+            <div class="column_landing">
+              <input class="fright" type="radio" name="audioguide" value="yes">
+            </div>
+          </div>
+          <!-- Calendar-->
+          <div  class="container_landing audioguia-box">
+            <div class="col-12">
+              <p><strong>CHOOSE A DAY</strong></p>
+              <div style="display:flex; justify-content:center;">
+                <div is="date-picker" data-widget-id="native">
+                  <div class="calendar-header" role="heading">
+                    <div class="month-picker">
+                      <button id="month-trigger" class="month-trigger" aria-describedby="native-month-year" aria-haspopup="true" aria-expanded="false"><span>Choose Month</span></button>
+
+                      <label id="native-month-year" class="current-month-label" aria-live="polite" aria-atomic="false">
+                        <span class="current-month"></span>
+                        <span class="current-year"></span>
+                      </label>
+
+                      <!-- Month/Year dropdown -->
+                      <div class="month-popup hidden" role="dialog" aria-labelledby="month-trigger" aria-hidden="true">
+                        <div class="year-control">
+                          <label for="native-year-spinner" class="visually-hidden">Choose Year</label>
+                          <span role="button" class="spinner-button spinner-prev"></span>
+                          <div id="native-year-spinner" class="year-spinner" role="spinbutton" aria-valuemin="1" aria-valuenow="" tabindex="-1"></div>
+                          <span role="button" class="spinner-button spinner-next"></span>
+                        </div>
+                        <fieldset class="month-control">
+                          <legend class="visually-hidden">Choose Month</legend>
+                        </fieldset>
+                      </div><!-- /.month-popup -->
+                    </div><!-- /month-picker -->
+
+                    <button class="previous-month"><span>Previous Month</span></button>
+                    <button class="next-month"><span>Next Month</span></button>
+                  </div><!-- /.calendar-header -->
+                  <table cellspacing="0" cellpadding="10%" role="grid" aria-labelledby="native-month-year">
+                    <thead>
+                      <tr>
+                        <th role="columnheader"><abbr title="Domingo">Sun</abbr></th>
+                        <th role="columnheader"><abbr title="Lunes">Mon</abbr></th>
+                        <th role="columnheader"><abbr title="Martes">Tue</abbr></th>
+                        <th role="columnheader"><abbr title="Miercoles">Wed</abbr></th>
+                        <th role="columnheader"><abbr title="Jueves">Thu</abbr></th>
+                        <th role="columnheader"><abbr title="Viernes">Fri</abbr></th>
+                        <th role="columnheader"><abbr title="Sabado">Sat</abbr></th>
+                      </tr>
+                    </thead>
+                    <tbody class="date-grid">
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!--<date-picker data-widget-id="custom">Widget Mock</date-picker>-->
+            </div>
+          </div>
+          <a class="btn-red fright" href="en_tickets-paso2.html">Continue <i class="fa fa-angle-right fa" aria-hidden="true"></i></a>
+        </div>
+        <!-- Resumen compra-->
+        <div class="col-5 fleft padding-left10">
+          <section class="titulo-gris">
+            <h3>SUMMARY</h3>
+          </section>
+          <section class="cajaprecio--descrip">
+            <p>Event</p>
+            <p><strong>MACBA Museum</strong></p>
+            <p>Location:</p>
+            <p><strong>Plaça dels Àngels, 1</strong> </p>
+            <p>Date and time:</p>
+            <p><strong>15/04/2017 - 10:00h </strong></p>
+            <p>Audioguide</p>
+            <p>&nbsp;<strong class="fleft">Yes</strong><strong class="fright">1€</strong></p>
+            <p>General Admission</p>
+            <p>&nbsp;<strong class="fleft">1 x General</strong><strong class="fright">10€</strong></p>
+          </section>
+          <section class="cajaprecio">
+            <div class="col-12">
+              <p>Administration Fee<strong class="fright">0,50€</strong></p>
+              <p>&nbsp;<strong class="fleft">TOTAL </strong><strong class="fright"> 11,50€</strong></p>
+              <p>Taxes Included</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Return to Top-->
+  <div><a href="javascript:" id="top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></div>
+  <!-- Fin Return to Top-->
+
+  <!-- Footer -->
+      <div class="container_landing_footer">
+        <div class="column_landing_footer">
+          <ul>
+            <li class="col-4-footer">
+              <a href="en_contacto.html"><p class="titulos_footer">MACBA</p></a>
+                <p>Open today from 11:00 am to 7:30 pm</p>
+                <p>Plaça dels Àngels, 1 </p>
+                <p>08001 Barcelona </p>
+                <a href="https://twitter.com/MACBA_Barcelona"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/MACBA.Barcelona"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/macba_barcelona"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="column_landing_footer">
+            <div id="contentnews">
+                <p class="textocaja">Subscribe to our newsletter</p>
+                <input type="email" placeholder="Email"></input>
+                <a href="#" id="buttonnews" class="pop-up-button"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+            <div class="column_landing_footer">
+              <ul>
+                <li id="news" class="col-right">
+                  <a href="en_contacto.html"><p class="titulos_footer">Contact</p></a>
+                  <p>+34 93 481 33 68 </p>
+                  <a href="mailto:name@email.com"><p>info@macba.cat</p></a>
+                </li>
+                </ul>
+              </div>
+      </div>
+
+      <div class="container_landing_footer_legal">
+            <div class="column_landing_footer">
+                    <p>Copyright ® 2017 MACBA</p>
+            </div>
+
+            <div class="column_landing_footer">
+                    <a href="aviso_legal.html"><p>Privacy Policy</p></a>
+              </div>
+
+              <div class="column_landing_footer">
+                      <a href="termino_uso.html"><p>Terms of use</p></a>
+                </div>
+      </div>
+
+ <!-- FIN Footer -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <script src="js/button.js"></script>
+  <script src="js/calendar.js"></script>
+  <script src="js/returntotop.js"></script>
+  <script src="js/tickets-top.js"></script>
+</body>
+</html>
