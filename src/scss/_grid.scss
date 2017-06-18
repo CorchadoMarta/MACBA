@@ -38,7 +38,7 @@
   .salto-col-1{
     padding-left: 5%;
   }
-  .col-5-home, .col-7-home{
+  .col-5-home, .col-7-home, .col-6-objetivos{
     width: 100%;
   }
 
@@ -69,6 +69,9 @@
     width: 58.33333333%;
   }
   .col-6{
+    width: 50%;
+  }
+  .col-6-objetivos{
     width: 50%;
   }
   .col-5{
@@ -105,6 +108,12 @@
   margin-top: 23em;
   @media(max-width:991px){
     margin-top: 15em;
+  }
+}
+.margin21{
+  margin-top: 23em;
+  @media(max-width:991px){
+    margin-top: 0;
   }
 }
 
@@ -532,4 +541,8 @@ right:53%;
   @media(max-width:991px){
     justify-content: flex-start;
   }
+}
+
+.img-item{
+  width: 100%;
 }
