@@ -334,15 +334,10 @@
   width: 30%;
 
   /* Small */
-  @media(max-width:767px){
-width:100%
+  @media(max-width:991px){
+    top:260px;
+    width:100%
   }
-
-  /* Medium */
-  @media(min-width:768px) and (max-width:991px){
-    width: 100%;
-  }
-
 
   p{
     padding-left: 10px;
@@ -386,7 +381,7 @@ width:100%
   float: right;
   /* Small */
   @media(max-width:767px){
-display: none;
+    display: none;
   }
 
   /* Medium */
@@ -407,18 +402,17 @@ display: none;
   padding-right: 23px;
   /* Small */
   @media(max-width:767px){
-display: none;
+    display: none;
   }
 
   /* Medium */
   @media(min-width:768px) and (max-width:991px){
     display: block;
-    width: 600px;
+    width: 685px;
     height: 450px;
     border: 0;
     top: 0;
-    padding-top: 20em;
-
+    padding-top: 3em;
   }
 }
 
