@@ -44,9 +44,6 @@ form{
 
 input, textarea, .dropdown{
   position: relative;
-  -webkit-apprearance:none;
-  -moz-apprearance:none;
-  appearance:none;
   margin: 0;
   padding:10px;
   font-size: 14px;
@@ -210,8 +207,13 @@ select{
   width: 180px;
   color: #a9a9a9;
   top: 15px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    top: 35px;
+    padding: 0px 20px 5px;
+  }
   /* Small */
-  @media(max-width:991px){
+  @media(max-width:767px){
     padding: 0;
   }
 }
@@ -226,15 +228,13 @@ select{
   color: #a9a9a9;
   top: 15px;
   /* Medium */
-@media(min-width:768px) and (max-width:991px){
-  float: none;
-  padding: 0;
+  @media(min-width:768px) and (max-width:991px){
+    top: 35px;
+    padding: 0px 20px 5px;
   }
   /* Small */
   @media(max-width:767px){
-  float: none;
-    display: none;
-    padding: 0;
+    padding: 3px 0 0 0;
   }
 }
 
@@ -263,21 +263,21 @@ select{
 .dropdown4{
   border-color: #777;
   position: relative;
+  display: flex;
   background-color: #fff;
-  padding: 20px 0 5px;
-  width: 150px;
+  padding: 20px 0 5px 20px;
+  width: 80px;
   color: #a9a9a9;
-  float: right;
   top: 15px;
-  right: 22%;
   /* Medium */
-@media(min-width:768px) and (max-width:991px){
-  float: none;
+  @media(min-width:768px) and (max-width:991px){
+    top: 35px;
+    padding: 0px 20px 5px;
+    width: 100px;
   }
   /* Small */
   @media(max-width:767px){
-  float: none;
-
+    padding: 0;
   }
 }
 

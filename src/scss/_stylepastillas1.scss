@@ -293,7 +293,9 @@
 
 
 .container-aviso{
-  height: 400px;
+  position: relative;
+  display: block;
+  height: 100%;
   margin-top: 183px;
   @media(max-width:991px){
     margin-top: 169px;
